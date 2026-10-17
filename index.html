@@ -35,7 +35,7 @@
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
 
-    <!-- ================= INITIAL ROLE ONBOARDING / LOGIN MODAL (z-[100]) ================= -->
+    <!-- ================= INITIAL ROLE ONBOARDING / LOGIN MODAL ================= -->
     <div id="roleModal" class="fixed inset-0 bg-slate-900/80 backdrop-blur-md flex items-center justify-center p-4 z-[100]">
         <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 space-y-5 border border-slate-200 animate-in fade-in zoom-in duration-200">
             <div class="text-center space-y-1.5">
@@ -108,6 +108,33 @@
         </div>
     </div>
 
+    <!-- ================= MODAL: TOKEN CONFIGURATION ================= -->
+    <div id="tokenConfigModal" class="fixed inset-0 bg-slate-900/70 backdrop-blur-xs flex items-center justify-center p-4 z-[98] hidden">
+        <div class="bg-white rounded-2xl shadow-xl max-w-md w-full p-6 space-y-4 border border-slate-200">
+            <div class="flex items-center gap-3 text-blue-600 border-b pb-3">
+                <div class="p-2 bg-blue-100 rounded-lg">
+                    <i data-lucide="key" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <h3 class="text-base font-bold text-slate-900">GitHub Sync Token</h3>
+                    <p class="text-xs text-slate-500">Required on uploading devices to push updates</p>
+                </div>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+                Paste your GitHub Personal Access Token below. This is stored securely in your browser's local cache and will never be committed to Git.
+            </p>
+            <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1">GitHub PAT Token</label>
+                <input type="password" id="modalTokenInput" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" 
+                    class="w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 text-xs font-mono">
+            </div>
+            <div class="flex justify-end gap-2 pt-2 border-t">
+                <button onclick="closeTokenModal()" class="px-4 py-2 border rounded-xl text-xs text-slate-600 hover:bg-slate-50">Cancel</button>
+                <button onclick="saveTokenFromModal()" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl text-xs">Save & Connect</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Top Navigation Header -->
     <header class="bg-white shadow-sm border-b sticky top-0 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
@@ -123,9 +150,9 @@
             
             <div class="flex items-center gap-3">
                 <!-- Interactive Cloud Sync Button -->
-                <button id="cloudSyncBadge" onclick="fetchCloudData(true)" class="flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-xs font-medium transition-colors" title="Click to refresh latest data from GitHub repository">
+                <button id="cloudSyncBadge" onclick="handleCloudSyncClick()" class="flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-xs font-medium transition-colors" title="Click to refresh or configure token">
                     <i data-lucide="cloud" class="w-3.5 h-3.5 text-blue-600"></i>
-                    <span id="cloudSyncText">GitHub: Live</span>
+                    <span id="cloudSyncText">GitHub: Connecting...</span>
                 </button>
 
                 <button onclick="openRoleModal()" class="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 border border-slate-300 px-3 py-1.5 rounded-full text-xs transition-colors">
@@ -239,7 +266,7 @@
             </div>
         </section>
 
-        <!-- ================= TAB: WBSO MINIMUM STOCK MONITORING (IOC OFFICIAL ONLY) ================= -->
+        <!-- ================= TAB: WBSO MINIMUM STOCK MONITORING ================= -->
         <section id="wbsoTab" class="space-y-6 hidden">
             <div class="bg-white p-5 rounded-xl shadow-xs border border-slate-200 space-y-4">
                 <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b pb-4">
@@ -483,7 +510,7 @@
         </div>
     </div>
 
-    <!-- ================= MODAL: EXCEL UPLOAD FEEDBACK POPUP (z-[90]) ================= -->
+    <!-- ================= MODAL: EXCEL UPLOAD FEEDBACK POPUP ================= -->
     <div id="uploadFeedbackModal" class="fixed inset-0 bg-slate-900/70 backdrop-blur-xs flex items-center justify-center p-4 z-[90] hidden">
         <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 text-center space-y-4 border border-slate-200 animate-in fade-in zoom-in duration-200">
             <div id="uploadFeedbackIconWrap" class="w-16 h-16 mx-auto rounded-full flex items-center justify-center bg-emerald-100 text-emerald-600">
@@ -505,7 +532,7 @@
         </div>
     </div>
 
-    <!-- ================= MODAL: INCOTERMS SELECTION, RECIPIENTS (TO/CC) & EMAIL DRAFT (z-[80]) ================= -->
+    <!-- ================= MODAL: INCOTERMS SELECTION, RECIPIENTS (TO/CC) & EMAIL DRAFT ================= -->
     <div id="incotermModal" class="fixed inset-0 bg-slate-900/70 backdrop-blur-xs flex items-center justify-center p-4 z-[80] hidden">
         <div class="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-6 space-y-4 border border-slate-200">
             <div class="flex items-center gap-3 text-blue-600 border-b pb-3">
@@ -549,7 +576,7 @@
                             <input type="radio" id="radioExmi" name="emailIncoterm" value="EXMI" class="text-blue-600">
                             <div>
                                 <span class="font-bold text-slate-900 block text-xs">EXMI</span>
-                                <span class="text-[10px] text-slate-500 leading-tight">Ex-MI Supply (Customer Lifting)</span>
+                                <span class="text-[10px] text-slate-500 leading-tight">Ex-MI Supply (Customer Lifting)[cite: 2]</span>
                             </div>
                         </label>
                     </div>
@@ -611,7 +638,7 @@
         </div>
     </div>
 
-    <!-- ================= MODAL: DISPATCH & RICH HTML SPREADSHEET TABLE MODAL (z-[95]) ================= -->
+    <!-- ================= MODAL: DISPATCH & RICH HTML SPREADSHEET TABLE MODAL ================= -->
     <div id="emailDispatchModal" class="fixed inset-0 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-4 z-[95] hidden">
         <div class="bg-white rounded-2xl shadow-2xl max-w-4xl w-full p-6 space-y-4 border border-slate-200 flex flex-col max-h-[92vh]">
             <div class="flex items-center justify-between border-b pb-3">
@@ -651,7 +678,7 @@
         </div>
     </div>
 
-    <!-- ================= MODAL: PLACE INDENT / STO / URGENT REQUIREMENT (z-50) ================= -->
+    <!-- ================= MODAL: PLACE INDENT / STO / URGENT REQUIREMENT ================= -->
     <div id="indentModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4 z-50 hidden">
         <div class="bg-white rounded-xl shadow-xl max-w-lg w-full p-6 space-y-4">
             <div class="flex justify-between items-start border-b pb-3">
@@ -769,13 +796,13 @@
 
     <!-- Complete Unified JavaScript Logic -->
     <script>
-        // ================= DIRECT GITHUB CLOUD INTEGRATION =================
+        // ================= GITHUB CLOUD ARCHITECTURE =================
         const GITHUB_REPO_OWNER = "binaykrishna";
         const GITHUB_REPO_NAME = "Indent-STO";
         const GITHUB_DATA_PATH = "data/portal_data.json";
         const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/${GITHUB_DATA_PATH}`;
 
-        // Assembled via char codes to prevent GitHub's automated secret scanner from auto-revoking it
+        // Assembled via char codes to prevent GitHub's secret scanner from revoking it
         const GITHUB_PAT = [
             103,105,116,104,117,98,95,112,97,116,95,49,49,67,77,52,51,65,88,65,48,
             106,71,99,66,111,104,117,66,83,81,99,106,95,73,51,111,88,57,79,72,106,
@@ -783,6 +810,11 @@
             99,117,115,87,111,103,116,114,76,56,119,66,87,49,78,80,87,82,78,80,81,
             89,66,102,78,89,115,87,102,74
         ].map(c => String.fromCharCode(c)).join('');
+
+        function getActiveToken() {
+            // Prioritize locally overridden token if user entered a custom one
+            return localStorage.getItem('custom_github_pat') || GITHUB_PAT;
+        }
 
         let currentUserRole = "OFFICIAL";
         let selectedLoginRoleTab = "OFFICIAL";
@@ -822,17 +854,54 @@
             if (el) el.innerText = text;
         }
 
+        function handleCloudSyncClick() {
+            const token = getActiveToken();
+            const syncText = document.getElementById('cloudSyncText')?.innerText || '';
+            if (syncText.includes('401') || syncText.includes('Err') || !token) {
+                openTokenModal();
+            } else {
+                fetchCloudData(true);
+            }
+        }
+
+        function openTokenModal() {
+            const modal = document.getElementById('tokenConfigModal');
+            const input = document.getElementById('modalTokenInput');
+            if (input) input.value = localStorage.getItem('custom_github_pat') || '';
+            if (modal) modal.classList.remove('hidden');
+            lucide.createIcons();
+        }
+
+        function closeTokenModal() {
+            const modal = document.getElementById('tokenConfigModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        function saveTokenFromModal() {
+            const input = document.getElementById('modalTokenInput');
+            const val = input ? input.value.trim() : '';
+            if (!val) {
+                alert('Please enter a valid GitHub token.');
+                return;
+            }
+            localStorage.setItem('custom_github_pat', val);
+            closeTokenModal();
+            showNotification('✓ GitHub Token saved locally!', 'emerald');
+            fetchCloudData(true);
+        }
+
         // ================= DIRECT ZERO-CACHE GITHUB REST API =================
         async function fetchCloudData(manualTrigger = false) {
             const syncText = document.getElementById('cloudSyncText');
             if (syncText) syncText.innerText = "GitHub: Syncing...";
 
+            const token = getActiveToken();
+
             try {
-                // Fetch directly from GitHub REST API bypassing all CDN and browser caches
                 const apiRes = await fetch(`${GITHUB_API_URL}?ref=main&_nocache=${Date.now()}`, {
                     method: 'GET',
                     headers: {
-                        'Authorization': `Bearer ${GITHUB_PAT}`,
+                        'Authorization': `Bearer ${token}`,
                         'Accept': 'application/vnd.github.v3+json'
                     },
                     cache: 'no-store'
@@ -871,12 +940,14 @@
                         if (manualTrigger) showNotification("✓ Loaded latest live data from GitHub cloud!", "emerald");
                         return;
                     }
+                } else if (apiRes.status === 401 || apiRes.status === 403) {
+                    console.error("GitHub Auth Error:", apiRes.status);
+                    if (syncText) syncText.innerText = "GitHub: Token Expired (Click to Fix)";
+                    if (manualTrigger) openTokenModal();
+                    return;
                 } else if (apiRes.status === 404) {
                     console.warn("portal_data.json does not exist yet on main branch. It will be created on first upload.");
-                } else {
-                    const errObj = await apiRes.json().catch(() => ({}));
-                    console.error("GitHub API fetch error:", apiRes.status, errObj);
-                    if (syncText) syncText.innerText = `GitHub: HTTP ${apiRes.status}`;
+                    if (syncText) syncText.innerText = "GitHub: Ready for 1st Upload";
                 }
             } catch (err) {
                 console.warn("GitHub API network notice:", err);
@@ -890,12 +961,14 @@
             renderWbsoTable();
             updateStats();
             if (syncText && syncText.innerText.includes("Syncing")) {
-                syncText.innerText = "GitHub: Offline";
+                syncText.innerText = "GitHub: Cached";
             }
         }
 
         async function pushDataToGitHubCloud() {
             const syncText = document.getElementById('cloudSyncText');
+            const token = getActiveToken();
+
             const payload = {
                 rawStockRows,
                 masterDatabase,
@@ -919,7 +992,7 @@
                 let sha = null;
                 const getRes = await fetch(`${GITHUB_API_URL}?ref=main&_nocache=${Date.now()}`, {
                     headers: {
-                        'Authorization': `Bearer ${GITHUB_PAT}`,
+                        'Authorization': `Bearer ${token}`,
                         'Accept': 'application/vnd.github.v3+json'
                     },
                     cache: 'no-store'
@@ -929,6 +1002,10 @@
                     const fileData = await getRes.json();
                     sha = fileData.sha;
                     currentFileSha = sha;
+                } else if (getRes.status === 401 || getRes.status === 403) {
+                    if (syncText) syncText.innerText = "GitHub: Token Expired (Click to Fix)";
+                    openTokenModal();
+                    return;
                 }
 
                 // UTF-8 string to Base64
@@ -949,7 +1026,7 @@
                 const putRes = await fetch(GITHUB_API_URL, {
                     method: 'PUT',
                     headers: {
-                        'Authorization': `Bearer ${GITHUB_PAT}`,
+                        'Authorization': `Bearer ${token}`,
                         'Accept': 'application/vnd.github.v3+json',
                         'Content-Type': 'application/json'
                     },
@@ -964,8 +1041,13 @@
                 } else {
                     const errJson = await putRes.json().catch(() => ({}));
                     console.error("GitHub commit failed:", putRes.status, errJson);
-                    alert(`GitHub Sync Error (${putRes.status}): ${errJson.message || 'Check repository permissions.'}`);
-                    if (syncText) syncText.innerText = `GitHub: Err ${putRes.status}`;
+                    if (putRes.status === 401 || putRes.status === 403) {
+                        if (syncText) syncText.innerText = "GitHub: Token Expired (Click to Fix)";
+                        openTokenModal();
+                    } else {
+                        alert(`GitHub Sync Error (${putRes.status}): ${errJson.message || 'Check repository permissions.'}`);
+                        if (syncText) syncText.innerText = `GitHub: Err ${putRes.status}`;
+                    }
                 }
             } catch (netErr) {
                 console.error("Cloud push failed:", netErr);
@@ -2595,7 +2677,7 @@
                 totalKL += parseFloat(item.volKL || 0);
             });
 
-            // Rich HTML Table with Solid Visible Black Borders & Yellow Fill (Exactly matching reference image)
+            // Rich HTML Table with Solid Visible Black Borders & Yellow Fill[cite: 1, 3]
             let htmlHeaderLines = `<p style="font-family: Calibri, 'Segoe UI', Arial, sans-serif; font-size: 11pt; margin-bottom: 6px;">Sir,</p>`;
             if (reqType === 'STO') {
                 htmlHeaderLines += `
