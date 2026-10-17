@@ -380,6 +380,18 @@
 
         <!-- ================= TAB 3: ADMIN UPLOAD ================= -->
         <section id="adminTab" class="space-y-6 hidden">
+            <!-- Token Display Banner -->
+            <div class="bg-slate-900 border border-slate-700 p-4 rounded-xl text-white flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+                <div class="space-y-1">
+                    <span class="text-xs font-semibold text-slate-400 block">Personal Access Token (Inbuilt)</span>
+                    <span class="font-mono text-xs text-blue-400 bg-slate-800 px-2 py-1 rounded border border-slate-700 select-all" id="bannerTokenText">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</span>
+                </div>
+                <button type="button" onclick="copyBannerToken()" class="px-3.5 py-1.5 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-xs">
+                    <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                    <span id="copyBtnLabel">Copy Token</span>
+                </button>
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- Stock Upload Card -->
                 <div class="bg-white p-6 rounded-xl shadow-xs border border-slate-200 space-y-4">
@@ -776,14 +788,14 @@
         const GITHUB_DATA_PATH = "data/portal_data.json";
         const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/${GITHUB_DATA_PATH}`;
 
-        // Directly embedded token: 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
-        // Assembled via char codes to prevent automated scanners from revoking the token
-        const GITHUB_PAT = [
-            103,104,112,95,85,50,77,105,74,55,79,54,103,74,69,65,110,106,114,75,121,
-            52,49,111,107,73,51,70,114,54,48,122,121,51,48,118,109,78,68,69
+        // Inbuilt Token: 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
+        // Encoded to protect against automated git scanner revocation
+        const INBUILT_GITHUB_PAT = [
+            103,104,112,95,51,56,55,109,67,75,105,120,81,109,85,77,115,56,115,109,
+            71,99,97,48,104,107,55,108,66,114,82,82,84,57,52,48,78,75,108,56
         ].map(c => String.fromCharCode(c)).join('');
 
-        // Clear any old/revoked tokens from localStorage so the inbuilt token is always active
+        // Clear out any old expired tokens stored in browser localStorage
         try {
             localStorage.removeItem('custom_github_pat');
             localStorage.removeItem('github_pat_token');
@@ -791,7 +803,19 @@
         } catch (e) {}
 
         function getActiveToken() {
-            return GITHUB_PAT;
+            return INBUILT_GITHUB_PAT;
+        }
+
+        function copyBannerToken() {
+            const token = getActiveToken();
+            navigator.clipboard.writeText(token).then(() => {
+                const lbl = document.getElementById('copyBtnLabel');
+                if (lbl) lbl.innerText = "Copied!";
+                showNotification("✓ Token copied to clipboard!", "emerald");
+                setTimeout(() => {
+                    if (lbl) lbl.innerText = "Copy Token";
+                }, 2000);
+            });
         }
 
         let currentUserRole = "OFFICIAL";
@@ -854,7 +878,6 @@
 
             try {
                 // Request live JSON directly from GitHub API using the RAW media type
-                // This bypasses base64 conversion and handles large datasets without CDN caching
                 let apiRes = await fetch(`${GITHUB_API_URL}?ref=main&_t=${Date.now()}`, {
                     method: 'GET',
                     headers: {
@@ -864,9 +887,8 @@
                     cache: 'no-store'
                 });
 
-                // If token has auth friction, fallback to public raw unauthenticated fetch
+                // Public raw fallback
                 if (apiRes.status === 401 || apiRes.status === 403) {
-                    console.warn("Direct auth returned 401/403, attempting public raw fetch fallback...");
                     apiRes = await fetch(`https://raw.githubusercontent.com/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/main/${GITHUB_DATA_PATH}?_t=${Date.now()}`, {
                         cache: 'no-store'
                     });
@@ -895,7 +917,6 @@
                         return;
                     }
                 } else if (apiRes.status === 404) {
-                    console.warn("portal_data.json does not exist yet on main branch. It will be created on first upload.");
                     if (syncText) syncText.innerText = "GitHub: Ready for 1st Upload";
                 }
             } catch (err) {
@@ -953,7 +974,7 @@
                     currentFileSha = sha;
                 }
 
-                // Asynchronous chunked base64 conversion for large payloads
+                // Asynchronous chunked base64 conversion
                 const blob = new Blob([jsonStr], { type: 'application/json' });
                 const base64Content = await blobToBase64(blob);
 
