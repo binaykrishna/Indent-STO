@@ -819,6 +819,14 @@
             return localStorage.getItem(STORAGE_TOKEN_KEY) || "";
         }
 
+        // Helper to check if a product name or SKU starts with disallowed prefixes
+        function isExcludedProduct(skuCode, description) {
+            const excludedPrefixes = ['HERO', 'TRU4', 'TMGO'];
+            const desc = String(description || '').trim().toUpperCase();
+            const code = String(skuCode || '').trim().toUpperCase();
+            return excludedPrefixes.some(prefix => desc.startsWith(prefix) || code.startsWith(prefix));
+        }
+
         function updateTokenBannerStatus() {
             const lbl = document.getElementById("tokenConfigStatusLabel");
             const token = getActiveToken();
@@ -991,7 +999,7 @@
 
             if (!token) {
                 openTokenModal();
-                alert("Please paste your GitHub Personal Access Token once on this device to commit uploads.");
+                alert("Please set your GitHub Personal Access Token once on this device to commit uploads.");
                 return;
             }
 
@@ -1574,6 +1582,10 @@
                 if (!skuCode || isNaN(Number(skuCode))) continue;
 
                 const skuDesc = colMap.desc !== -1 && row[colMap.desc] ? String(row[colMap.desc]).trim() : '';
+                
+                // Exclude products starting with HERO, TRU4, and TMGO
+                if (isExcludedProduct(skuCode, skuDesc)) continue;
+
                 const plantMinMap = {};
 
                 for (const [plantName, colIdx] of Object.entries(colMap.plantCols)) {
@@ -1643,6 +1655,9 @@
                 const wbsoItem = wbsoMinDatabase[skuCode];
                 const master = masterDatabase[skuCode] || {};
                 const skuDesc = wbsoItem.name || master.name || 'SKU ' + skuCode;
+
+                // Ensure excluded products are never shown in WBSO
+                if (isExcludedProduct(skuCode, skuDesc)) return;
 
                 for (const [targetPlant, minQty] of Object.entries(wbsoItem.plants)) {
                     if (selectedFilterPlant !== 'ALL' && targetPlant !== selectedFilterPlant) {
@@ -1863,6 +1878,9 @@
 
                 const desc = colMap.desc !== -1 && row[colMap.desc] ? String(row[colMap.desc]).trim() : '';
                 
+                // Exclude products starting with HERO, TRU4, and TMGO
+                if (isExcludedProduct(code, desc)) continue;
+
                 let rawQty = colMap.qty !== -1 ? row[colMap.qty] : 0;
                 if (typeof rawQty === 'string') {
                     rawQty = parseFloat(rawQty.replace(/,/g, '')) || 0;
@@ -2016,9 +2034,14 @@
 
                                 if (code) {
                                     const cleanCode = String(code).trim();
+                                    const cleanDesc = String(desc || '').trim();
+                                    
+                                    // Exclude products starting with HERO, TRU4, and TMGO
+                                    if (isExcludedProduct(cleanCode, cleanDesc)) return;
+
                                     if (!masterDatabase[cleanCode] || !masterDatabase[cleanCode].name) {
                                         masterDatabase[cleanCode] = {
-                                            name: String(desc || '').trim(),
+                                            name: cleanDesc,
                                             category: String(category || '').trim()
                                         };
                                     }
@@ -2141,6 +2164,9 @@
                 const name = master.name || item.description || '';
                 const code = item.code;
 
+                // Never display excluded items in search suggestions
+                if (isExcludedProduct(code, name)) continue;
+
                 if (!seen.has(code)) {
                     if (code.toLowerCase().includes(val) || name.toLowerCase().includes(val)) {
                         seen.add(code);
@@ -2229,14 +2255,20 @@
 
             const filtered = stockDatabase.filter(item => {
                 const master = masterDatabase[item.code] || {};
-                const itemDesc = (master.name || item.description || '').toLowerCase();
-                const itemCode = (item.code || '').toLowerCase();
+                const itemDesc = (master.name || item.description || '');
+                const itemCode = (item.code || '');
+
+                // Exclude products starting with HERO, TRU4, and TMGO
+                if (isExcludedProduct(itemCode, itemDesc)) return false;
+
+                const itemDescLower = itemDesc.toLowerCase();
+                const itemCodeLower = itemCode.toLowerCase();
 
                 let match = false;
                 if (targetCode) {
-                    match = (itemCode === targetCode);
+                    match = (itemCodeLower === targetCode);
                 } else {
-                    match = itemDesc.includes(queryLower) || itemCode.includes(queryLower);
+                    match = itemDescLower.includes(queryLower) || itemCodeLower.includes(queryLower);
                 }
 
                 if (!match) return false;
@@ -2328,13 +2360,21 @@
             if (!item) return;
 
             const master = masterDatabase[item.code] || {};
+            const description = master.name || item.description || '';
+
+            // Guard against placing requisition for excluded products
+            if (isExcludedProduct(skuCode, description)) {
+                alert('Products starting with HERO, TRU4, and TMGO are restricted from requisitions.');
+                return;
+            }
+
             const totalEffective = (item.qty || 0) + (item.transitQty || 0);
 
             document.getElementById('formSkuCode').value = item.code;
             document.getElementById('formSkuPlant').value = item.plant || '';
 
             safeSetText('mSkuCode', item.code);
-            safeSetText('mSkuDesc', master.name || item.description || '-');
+            safeSetText('mSkuDesc', description || '-');
             safeSetText('mSkuUom', item.uom || 'NOS');
             safeSetText('mSkuPlant', item.plant || 'Not Specified');
             
@@ -2486,6 +2526,12 @@
             const master = masterDatabase[skuCode] || {};
             const description = master.name || (item ? item.description : 'SKU');
             
+            // Double-check exclusion before writing requisition
+            if (isExcludedProduct(skuCode, description)) {
+                alert('Cannot submit requisition for excluded products (HERO, TRU4, TMGO).');
+                return;
+            }
+
             const volKL = calculateVolumeKL(skuCode, description, qty);
 
             let entityName = indentor;
