@@ -123,13 +123,19 @@
             </div>
             
             <div class="flex items-center gap-3">
+                <!-- Real-time GitHub Cloud Status Pill -->
+                <div id="cloudSyncBadge" class="hidden sm:flex items-center gap-1.5 bg-blue-50 text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-xs font-medium cursor-pointer" onclick="fetchCloudData(true)" title="Click to refresh latest data from GitHub repository">
+                    <i data-lucide="cloud" class="w-3.5 h-3.5 text-blue-600"></i>
+                    <span id="cloudSyncText">GitHub: Live</span>
+                </div>
+
                 <button onclick="openRoleModal()" class="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 border border-slate-300 px-3 py-1.5 rounded-full text-xs transition-colors">
                     <span id="userProfileIcon" class="w-2 h-2 rounded-full bg-blue-600"></span>
                     <span id="userProfileLabel" class="font-bold text-slate-800">IOC Official</span>
                     <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-slate-500"></i>
                 </button>
 
-                <!-- Stock Status Pill (Shows Date and System Upload Time) -->
+                <!-- Stock Status Pill -->
                 <div id="stockDateBadge" class="hidden sm:flex items-center gap-2 bg-emerald-50 text-emerald-700 border border-emerald-200 px-3 py-1.5 rounded-full text-xs font-medium">
                     <i data-lucide="calendar-check" class="w-4 h-4 text-emerald-600"></i>
                     <span>Stock As On: <strong id="currentStockDate">Not Loaded</strong> <span id="currentUploadTimeWrap" class="hidden text-slate-500 font-normal">| Uploaded At: <strong id="currentUploadTime" class="text-emerald-800 font-medium">-</strong></span></span>
@@ -225,7 +231,7 @@
                             <tr>
                                 <td colspan="7" class="text-center py-10 text-slate-400">
                                     <i data-lucide="package-search" class="w-8 h-8 mx-auto mb-2 opacity-50"></i>
-                                    No data loaded. Please upload the Daily Stock report in the Upload tab.
+                                    Connecting to repository data...
                                 </td>
                             </tr>
                         </tbody>
@@ -766,17 +772,14 @@
 
     <!-- Complete Unified JavaScript Logic -->
     <script>
-        // ================= GITHUB INBUILT CONFIGURATION =================
+        // ================= INBUILT GITHUB CLOUD ARCHITECTURE =================
         const GITHUB_REPO_OWNER = "binaykrishna";
         const GITHUB_REPO_NAME = "Indent-STO";
         const GITHUB_DATA_PATH = "data/portal_data.json";
-        const GITHUB_RAW_URL = `https://raw.githubusercontent.com/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/main/${GITHUB_DATA_PATH}`;
         const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/${GITHUB_DATA_PATH}`;
 
-        // PASTE YOUR GITHUB TOKEN HERE (Split into two parts so GitHub does not flag/revoke it)
-        const GITHUB_PAT_PART1 = "github_pat_";
-        const GITHUB_PAT_PART2 = "11CM43AXA0jGcBohuBSQcj_I3oX9OHjcipLOnvAf0MOfXWkNWPidcusWogtrL8wBW1NPWRNPQYBfNYsWfJ"; // Replace with your token body (without ghp_)
-        const GITHUB_PAT = GITHUB_PAT_PART1 + GITHUB_PAT_PART2;
+        // Embedded fine-grained Personal Access Token
+        const GITHUB_PAT = "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";
 
         let currentUserRole = "OFFICIAL";
         let selectedLoginRoleTab = "OFFICIAL";
@@ -816,17 +819,37 @@
             if (el) el.innerText = text;
         }
 
-        // ================= INBUILT GITHUB CLOUD SYNC =================
-        async function fetchCloudData() {
-            try {
-                let response = await fetch(`./${GITHUB_DATA_PATH}?t=${Date.now()}`);
-                if (!response.ok) {
-                    response = await fetch(`${GITHUB_RAW_URL}?t=${Date.now()}`);
-                }
+        // ================= DIRECT REAL-TIME GITHUB API CLOUD SYNC =================
+        async function fetchCloudData(manualTrigger = false) {
+            const syncText = document.getElementById('cloudSyncText');
+            if (syncText) syncText.innerText = "GitHub: Syncing...";
 
-                if (response.ok) {
-                    const cloudJson = await response.json();
-                    if (cloudJson && (cloudJson.rawStockRows || cloudJson.masterDatabase || cloudJson.wbsoMinDatabase)) {
+            try {
+                // Read directly from GitHub API with Authorization to bypass all CDN and caching layers
+                const apiRes = await fetch(GITHUB_API_URL, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${GITHUB_PAT}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    },
+                    cache: 'no-store'
+                });
+
+                if (apiRes.ok) {
+                    const fileObj = await apiRes.json();
+                    currentFileSha = fileObj.sha;
+
+                    // Decode base64 UTF-8 content directly from API
+                    const cleanBase64 = fileObj.content.replace(/\s/g, '');
+                    const binaryStr = atob(cleanBase64);
+                    const bytes = new Uint8Array(binaryStr.length);
+                    for (let i = 0; i < binaryStr.length; i++) {
+                        bytes[i] = binaryStr.charCodeAt(i);
+                    }
+                    const jsonStr = new TextDecoder().decode(bytes);
+                    const cloudJson = JSON.parse(jsonStr);
+
+                    if (cloudJson) {
                         rawStockRows = cloudJson.rawStockRows || [];
                         masterDatabase = cloudJson.masterDatabase || {};
                         packMasterVolumeMap = cloudJson.packMasterVolumeMap || {};
@@ -840,24 +863,28 @@
                         renderTable();
                         renderWbsoTable();
                         updateStats();
+
+                        if (syncText) syncText.innerText = "GitHub: Live";
+                        if (manualTrigger) showNotification("✓ Loaded latest live data from GitHub cloud!", "emerald");
                         return;
                     }
                 }
             } catch (err) {
-                console.warn("Could not fetch remote GitHub JSON, loading cached local data:", err);
+                console.warn("Real-time GitHub API fetch notice:", err);
             }
 
-            // Fallback to local storage if offline or during initial repo setup
+            // Fallback to local storage if offline
             loadFromStorage();
             rebuildConsolidatedDatabase();
             populatePlantDropdown();
             renderTable();
             renderWbsoTable();
             updateStats();
+            if (syncText) syncText.innerText = "GitHub: Cached";
         }
 
         async function pushDataToGitHubCloud() {
-            const token = GITHUB_PAT;
+            const syncText = document.getElementById('cloudSyncText');
             const payload = {
                 rawStockRows,
                 masterDatabase,
@@ -870,23 +897,21 @@
 
             const jsonStr = JSON.stringify(payload, null, 2);
 
-            // Save to browser cache immediately
+            // Always save to browser cache immediately
             saveToLocalStorageOnly();
 
-            if (!token || token.includes("YOUR_TOKEN")) {
-                console.info("GitHub PAT not configured. Changes saved locally on this machine.");
-                return;
-            }
-
             try {
+                if (syncText) syncText.innerText = "GitHub: Uploading...";
                 showNotification("Syncing uploads to GitHub repository...", "blue");
 
+                // Get current SHA if not cached
                 let sha = currentFileSha;
                 const getRes = await fetch(GITHUB_API_URL, {
                     headers: {
-                        'Authorization': `Bearer ${token}`,
+                        'Authorization': `Bearer ${GITHUB_PAT}`,
                         'Accept': 'application/vnd.github.v3+json'
-                    }
+                    },
+                    cache: 'no-store'
                 });
 
                 if (getRes.ok) {
@@ -913,7 +938,7 @@
                 const putRes = await fetch(GITHUB_API_URL, {
                     method: 'PUT',
                     headers: {
-                        'Authorization': `Bearer ${token}`,
+                        'Authorization': `Bearer ${GITHUB_PAT}`,
                         'Accept': 'application/vnd.github.v3+json',
                         'Content-Type': 'application/json'
                     },
@@ -923,13 +948,16 @@
                 if (putRes.ok) {
                     const putJson = await putRes.json();
                     currentFileSha = putJson.content.sha;
+                    if (syncText) syncText.innerText = "GitHub: Live";
                     showNotification("✓ Committed to GitHub! All users across all devices now have this data.", "emerald");
                 } else {
                     const errJson = await putRes.json();
                     console.error("GitHub commit notice:", errJson);
+                    if (syncText) syncText.innerText = "GitHub: Offline";
                 }
             } catch (netErr) {
                 console.error("Cloud push failed:", netErr);
+                if (syncText) syncText.innerText = "GitHub: Offline";
             }
         }
 
@@ -1155,8 +1183,18 @@
         window.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons();
 
-            // Fetch live cloud database from GitHub
+            // Fetch live cloud database directly from GitHub API
             fetchCloudData();
+
+            // Background polling every 30 seconds to fetch new uploads automatically across all devices
+            setInterval(() => {
+                fetchCloudData(false);
+            }, 30000);
+
+            // Fetch latest data when switching back to this browser tab
+            window.addEventListener('focus', () => {
+                fetchCloudData(false);
+            });
 
             refreshEmailDatalists();
             toggleToClearBtn();
@@ -2545,7 +2583,7 @@
                 totalKL += parseFloat(item.volKL || 0);
             });
 
-            // Rich HTML Table with Solid Visible Black Borders & Yellow Fill (Exact match to reference image)
+            // Rich HTML Table with Solid Visible Black Borders & Yellow Fill (Exactly matching reference image)
             let htmlHeaderLines = `<p style="font-family: Calibri, 'Segoe UI', Arial, sans-serif; font-size: 11pt; margin-bottom: 6px;">Sir,</p>`;
             if (reqType === 'STO') {
                 htmlHeaderLines += `
