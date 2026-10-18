@@ -31,20 +31,6 @@
             color: #92400e;
             border: 1px solid #fcd34d;
         }
-        /* Excel Table Grid Style */
-        .excel-table {
-            border-collapse: collapse;
-            font-family: Calibri, 'Segoe UI', Arial, sans-serif;
-            font-size: 11pt;
-            width: 100%;
-        }
-        .excel-table th, .excel-table td {
-            border: 1.5px solid #000000;
-            padding: 5px 8px;
-        }
-        .excel-gray-cell {
-            background-color: #bfbfbf !important;
-        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
@@ -193,10 +179,6 @@
             <button onclick="switchTab('wbsoTab')" id="btn-wbsoTab" class="text-slate-500 hover:text-slate-700 py-4 px-1 flex items-center gap-2">
                 <i data-lucide="alert-triangle" class="w-4 h-4 text-amber-600"></i> Min Stock & Sourcing (WBSO)
                 <span id="wbsoAlertBadge" class="bg-rose-600 text-white rounded-full px-2 py-0.5 text-xs font-bold inline-block leading-tight shadow-xs">0</span>
-            </button>
-            <button onclick="switchTab('discountTab')" id="btn-discountTab" class="text-slate-500 hover:text-slate-700 py-4 px-1 flex items-center gap-2">
-                <i data-lucide="percent" class="w-4 h-4 text-emerald-600"></i> Discount Format
-                <span id="discountCountBadge" class="bg-emerald-600 text-white rounded-full px-2 py-0.5 text-xs font-bold inline-block leading-tight shadow-xs">0</span>
             </button>
             <button onclick="switchTab('ordersTab')" id="btn-ordersTab" class="text-slate-500 hover:text-slate-700 py-4 px-1 flex items-center gap-2">
                 <i data-lucide="clipboard-list" class="w-4 h-4"></i> Requisitions & STO 
@@ -370,68 +352,6 @@
             </div>
         </section>
 
-        <!-- ================= TAB: DISCOUNT FORMAT (IOC OFFICIAL ONLY) ================= -->
-        <section id="discountTab" class="space-y-6 hidden">
-            <div class="bg-white p-5 rounded-xl shadow-xs border border-slate-200 space-y-4">
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b pb-4">
-                    <div>
-                        <h2 class="text-base font-bold text-slate-900 flex items-center gap-2">
-                            <i data-lucide="percent" class="w-5 h-5 text-emerald-600"></i>
-                            Discount Format Generator (EXMI Direct Plant Lifting)
-                        </h2>
-                        <p class="text-xs text-slate-500">
-                            Populated automatically from both Stockist and IOC Official EXMI Non-CFA supply orders.
-                        </p>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <button onclick="copyDiscountFormatTable()" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-xs">
-                            <i data-lucide="copy" class="w-4 h-4"></i>
-                            <span id="copyDiscountBtnText">Copy Spreadsheet Table</span>
-                        </button>
-                        <button onclick="clearDiscountRows()" class="px-3.5 py-2 border border-rose-300 hover:bg-rose-50 text-rose-700 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-xs">
-                            <i data-lucide="trash-2" class="w-4 h-4"></i>
-                            <span>Clear Discount Sheet</span>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Active Discount Format Display -->
-                <div class="overflow-x-auto p-2 bg-white rounded-xl" id="discountSheetContainer">
-                    <table class="excel-table shadow-xs" id="discountTableEl">
-                        <thead>
-                            <tr>
-                                <th colspan="13" class="text-center font-bold italic py-2 bg-slate-50 text-base border-2 border-black">
-                                    Discount Format
-                                </th>
-                            </tr>
-                            <tr class="font-bold text-center bg-white">
-                                <th style="width: 110px;">Contract</th>
-                                <th style="width: 120px;">Material</th>
-                                <th style="width: 45px;">S</th>
-                                <th>Description</th>
-                                <th style="width: 45px;">P</th>
-                                <th style="width: 80px;">Amount</th>
-                                <th style="width: 60px;">Unit</th>
-                                <th style="width: 50px;">Per</th>
-                                <th style="width: 70px;">UOM</th>
-                                <th style="width: 45px;">C</th>
-                                <th style="width: 45px;">S</th>
-                                <th style="width: 110px;">Valid from</th>
-                                <th style="width: 110px;">Valid to</th>
-                            </tr>
-                        </thead>
-                        <tbody id="discountTableBody">
-                            <tr>
-                                <td colspan="13" class="text-center py-10 text-slate-400 border border-slate-300">
-                                    No discount format generated yet. Dispatch an EXMI order from a Non-CFA plant to view discount lines.
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-
         <!-- ================= TAB 2: INDENTS, STO & URGENT REQUIREMENTS ================= -->
         <section id="ordersTab" class="space-y-6 hidden">
             <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 bg-white p-4 rounded-xl shadow-xs border border-slate-200">
@@ -450,6 +370,9 @@
                         <i data-lucide="mail" class="w-3.5 h-3.5"></i> Email Urgent
                     </button>
 
+                    <button onclick="exportOrdersToCSV()" class="border border-slate-300 hover:bg-slate-50 text-slate-700 px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-colors">
+                        <i data-lucide="download" class="w-3.5 h-3.5"></i> CSV
+                    </button>
                     <button onclick="clearAllOrders()" class="text-rose-600 hover:bg-rose-50 px-3 py-1.5 rounded-lg border border-rose-200 text-xs font-medium flex items-center gap-1">
                         <i data-lucide="trash-2" class="w-3.5 h-3.5"></i> Clear All
                     </button>
@@ -754,14 +677,13 @@
 
             <!-- Spreadsheet Table Container -->
             <div class="overflow-y-auto flex-1 p-4 bg-white border border-slate-200 rounded-xl" id="richTableContainer">
-                <!-- Injected Formatted HTML Table -->
             </div>
 
             <div class="pt-2 flex flex-col sm:flex-row gap-2 border-t justify-end">
                 <button type="button" onclick="copyTableAgain()" class="py-2.5 px-4 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-300 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-colors">
                     <i data-lucide="copy" class="w-4 h-4"></i> Copy Formatted Table
                 </button>
-                <button type="button" id="btnLaunchMailClient" onclick="handleLaunchMailClientClick()" class="py-2.5 px-5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-semibold flex items-center justify-center gap-2 shadow-xs transition-colors">
+                <button type="button" id="btnLaunchMailClient" class="py-2.5 px-5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-semibold flex items-center justify-center gap-2 shadow-xs transition-colors">
                     <i data-lucide="external-link" class="w-4 h-4"></i> Launch Mail Client
                 </button>
             </div>
@@ -897,6 +819,7 @@
             return localStorage.getItem(STORAGE_TOKEN_KEY) || "";
         }
 
+        // Helper to check if a product name or SKU starts with disallowed prefixes
         function isExcludedProduct(skuCode, description) {
             const excludedPrefixes = ['HERO', 'TRU4', 'TMGO'];
             const desc = String(description || '').trim().toUpperCase();
@@ -965,7 +888,6 @@
         let wbsoMinDatabase = {};
         let detectedPlants = [];
         let ordersList = [];
-        let discountRows = []; // Persistent shared discount entries
         let stockCaptureDate = '';
         let stockUploadTime = '';
         let pendingParsedRows = [];
@@ -973,7 +895,6 @@
         let latestSubmittedOrder = null;
         let pendingEmailItems = [];
         let pendingEmailType = 'INDENT';
-        let pendingEmailIncoterm = 'DDP';
         let cachedRenderedHtmlTable = '';
         let currentFileSha = null;
 
@@ -1024,6 +945,7 @@
                     cache: 'no-store'
                 });
 
+                // Public raw fallback if token is expired or unauthorized
                 if (apiRes.status === 401 || apiRes.status === 403) {
                     apiRes = await fetch(`https://raw.githubusercontent.com/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/main/${GITHUB_DATA_PATH}?_t=${Date.now()}`, {
                         cache: 'no-store'
@@ -1033,12 +955,11 @@
                 if (apiRes.ok) {
                     const cloudJson = await apiRes.json();
 
-                    if (cloudJson && (cloudJson.rawStockRows || cloudJson.masterDatabase || cloudJson.wbsoMinDatabase || cloudJson.discountRows)) {
+                    if (cloudJson && (cloudJson.rawStockRows || cloudJson.masterDatabase || cloudJson.wbsoMinDatabase)) {
                         rawStockRows = cloudJson.rawStockRows || [];
                         masterDatabase = cloudJson.masterDatabase || {};
                         packMasterVolumeMap = cloudJson.packMasterVolumeMap || {};
                         wbsoMinDatabase = cloudJson.wbsoMinDatabase || {};
-                        discountRows = cloudJson.discountRows || [];
                         stockCaptureDate = cloudJson.stockCaptureDate || '';
                         stockUploadTime = cloudJson.stockUploadTime || '';
 
@@ -1047,7 +968,6 @@
                         populatePlantDropdown();
                         renderTable();
                         renderWbsoTable();
-                        renderDiscountFormatTable();
                         updateStats();
 
                         if (syncText) syncText.innerText = "GitHub: Live";
@@ -1061,12 +981,12 @@
                 console.warn("GitHub API network notice:", err);
             }
 
+            // Fallback to local storage
             loadFromStorage();
             rebuildConsolidatedDatabase();
             populatePlantDropdown();
             renderTable();
             renderWbsoTable();
-            renderDiscountFormatTable();
             updateStats();
             if (syncText && syncText.innerText.includes("Syncing")) {
                 syncText.innerText = "GitHub: Cached";
@@ -1077,12 +997,17 @@
             const syncText = document.getElementById('cloudSyncText');
             let token = getActiveToken();
 
+            if (!token) {
+                openTokenModal();
+                alert("Please set your GitHub Personal Access Token once on this device to commit uploads.");
+                return;
+            }
+
             const payload = {
                 rawStockRows,
                 masterDatabase,
                 packMasterVolumeMap,
                 wbsoMinDatabase,
-                discountRows,
                 stockCaptureDate,
                 stockUploadTime,
                 lastUpdated: new Date().toISOString()
@@ -1091,11 +1016,11 @@
             const jsonStr = JSON.stringify(payload, null, 2);
             saveToLocalStorageOnly();
 
-            if (!token) return;
-
             try {
                 if (syncText) syncText.innerText = "GitHub: Uploading...";
+                showNotification("Syncing uploads to GitHub repository...", "blue");
 
+                // Retrieve latest SHA before writing to prevent 409 conflict
                 let sha = null;
                 const getRes = await fetch(`${GITHUB_API_URL}?ref=main&_t=${Date.now()}`, {
                     headers: {
@@ -1109,13 +1034,18 @@
                     const fileData = await getRes.json();
                     sha = fileData.sha;
                     currentFileSha = sha;
+                } else if (getRes.status === 401 || getRes.status === 403) {
+                    openTokenModal();
+                    alert("Authentication Error (401/403): The GitHub token on this device is invalid or expired. Please re-enter a valid token.");
+                    return;
                 }
 
+                // Chunked base64 conversion
                 const blob = new Blob([jsonStr], { type: 'application/json' });
                 const base64Content = await blobToBase64(blob);
 
                 const bodyData = {
-                    message: `Update Stock & Portal Data [${stockCaptureDate || 'Live'}] via Web Portal`,
+                    message: `Update Stock & Catalog Data [${stockCaptureDate || 'Live'}] via Web Portal`,
                     content: base64Content,
                     branch: "main"
                 };
@@ -1135,9 +1065,21 @@
                     const putJson = await putRes.json();
                     currentFileSha = putJson.content.sha;
                     if (syncText) syncText.innerText = "GitHub: Live";
+                    showNotification("✓ Committed to GitHub! All users across all devices now have this data.", "emerald");
+                } else {
+                    const errJson = await putRes.json().catch(() => ({}));
+                    console.error("GitHub commit failed:", putRes.status, errJson);
+                    if (putRes.status === 401 || putRes.status === 403) {
+                        openTokenModal();
+                        alert("GitHub Auth Error (401): Token rejected. Please enter a fresh token.");
+                    } else {
+                        alert(`GitHub Sync Notice (${putRes.status}): ${errJson.message || 'Error pushing to repository.'}`);
+                    }
+                    if (syncText) syncText.innerText = `GitHub: Err ${putRes.status}`;
                 }
             } catch (netErr) {
                 console.error("Cloud push failed:", netErr);
+                if (syncText) syncText.innerText = "GitHub: Err Network";
             }
         }
 
@@ -1474,7 +1416,6 @@
             const iconEl = document.getElementById('userProfileIcon');
             const labelEl = document.getElementById('userProfileLabel');
             const wbsoTabBtn = document.getElementById('btn-wbsoTab');
-            const discountTabBtn = document.getElementById('btn-discountTab');
 
             const masterDropzone = document.getElementById('masterDropzone');
             const masterFileInput = document.getElementById('masterFileInput');
@@ -1488,7 +1429,6 @@
                 if (labelEl) labelEl.innerText = selectedStockistProfile.split('(')[0].trim();
 
                 if (wbsoTabBtn) wbsoTabBtn.classList.add('hidden');
-                if (discountTabBtn) discountTabBtn.classList.add('hidden');
 
                 if (masterDropzone) {
                     masterDropzone.classList.add('bg-slate-100', 'cursor-not-allowed', 'border-slate-300', 'opacity-60');
@@ -1510,7 +1450,6 @@
                 if (labelEl) labelEl.innerText = "IOC Official";
 
                 if (wbsoTabBtn) wbsoTabBtn.classList.remove('hidden');
-                if (discountTabBtn) discountTabBtn.classList.remove('hidden');
 
                 if (masterDropzone) {
                     masterDropzone.classList.remove('bg-slate-100', 'cursor-not-allowed', 'opacity-60');
@@ -1532,7 +1471,7 @@
         }
 
         function switchTab(tabId) {
-            ['searchTab', 'wbsoTab', 'discountTab', 'ordersTab', 'adminTab'].forEach(id => {
+            ['searchTab', 'wbsoTab', 'ordersTab', 'adminTab'].forEach(id => {
                 const el = document.getElementById(id);
                 const btn = document.getElementById('btn-' + id);
                 if (el) el.classList.add('hidden');
@@ -1644,6 +1583,7 @@
 
                 const skuDesc = colMap.desc !== -1 && row[colMap.desc] ? String(row[colMap.desc]).trim() : '';
                 
+                // Exclude products starting with HERO, TRU4, and TMGO
                 if (isExcludedProduct(skuCode, skuDesc)) continue;
 
                 const plantMinMap = {};
@@ -1716,6 +1656,7 @@
                 const master = masterDatabase[skuCode] || {};
                 const skuDesc = wbsoItem.name || master.name || 'SKU ' + skuCode;
 
+                // Ensure excluded products are never shown in WBSO
                 if (isExcludedProduct(skuCode, skuDesc)) return;
 
                 for (const [targetPlant, minQty] of Object.entries(wbsoItem.plants)) {
@@ -1937,6 +1878,7 @@
 
                 const desc = colMap.desc !== -1 && row[colMap.desc] ? String(row[colMap.desc]).trim() : '';
                 
+                // Exclude products starting with HERO, TRU4, and TMGO
                 if (isExcludedProduct(code, desc)) continue;
 
                 let rawQty = colMap.qty !== -1 ? row[colMap.qty] : 0;
@@ -2004,6 +1946,7 @@
 
             rawStockRows = items;
             
+            // Push updated consolidated data to GitHub cloud automatically
             pushDataToGitHubCloud();
             rebuildConsolidatedDatabase();
             populatePlantDropdown();
@@ -2093,6 +2036,7 @@
                                     const cleanCode = String(code).trim();
                                     const cleanDesc = String(desc || '').trim();
                                     
+                                    // Exclude products starting with HERO, TRU4, and TMGO
                                     if (isExcludedProduct(cleanCode, cleanDesc)) return;
 
                                     if (!masterDatabase[cleanCode] || !masterDatabase[cleanCode].name) {
@@ -2105,6 +2049,7 @@
                             });
                         });
 
+                        // Push updated master data to GitHub cloud automatically
                         pushDataToGitHubCloud();
                         rebuildConsolidatedDatabase();
                         populatePlantDropdown();
@@ -2219,6 +2164,7 @@
                 const name = master.name || item.description || '';
                 const code = item.code;
 
+                // Never display excluded items in search suggestions
                 if (isExcludedProduct(code, name)) continue;
 
                 if (!seen.has(code)) {
@@ -2312,6 +2258,7 @@
                 const itemDesc = (master.name || item.description || '');
                 const itemCode = (item.code || '');
 
+                // Exclude products starting with HERO, TRU4, and TMGO
                 if (isExcludedProduct(itemCode, itemDesc)) return false;
 
                 const itemDescLower = itemDesc.toLowerCase();
@@ -2415,6 +2362,7 @@
             const master = masterDatabase[item.code] || {};
             const description = master.name || item.description || '';
 
+            // Guard against placing requisition for excluded products
             if (isExcludedProduct(skuCode, description)) {
                 alert('Products starting with HERO, TRU4, and TMGO are restricted from requisitions.');
                 return;
@@ -2578,6 +2526,7 @@
             const master = masterDatabase[skuCode] || {};
             const description = master.name || (item ? item.description : 'SKU');
             
+            // Double-check exclusion before writing requisition
             if (isExcludedProduct(skuCode, description)) {
                 alert('Cannot submit requisition for excluded products (HERO, TRU4, TMGO).');
                 return;
@@ -2760,7 +2709,6 @@
             }
 
             closeIncotermModal();
-            pendingEmailIncoterm = incoterm;
             formatAndSendEmail(pendingEmailItems, pendingEmailType, incoterm, docNo, toEmail, ccEmail, urgentDestPlant);
         }
 
@@ -2790,6 +2738,7 @@
                 totalKL += parseFloat(item.volKL || 0);
             });
 
+            // Rich HTML Table with Solid Visible Black Borders & Yellow Fill
             let htmlHeaderLines = `<p style="font-family: Calibri, 'Segoe UI', Arial, sans-serif; font-size: 11pt; margin-bottom: 6px;">Sir,</p>`;
             if (reqType === 'STO') {
                 htmlHeaderLines += `
@@ -2911,196 +2860,14 @@
                 if (ccEmail) {
                     mailtoUrl += `&cc=${encodeURIComponent(ccEmail)}`;
                 }
-                mailBtn.setAttribute('data-mailto', mailtoUrl);
+                mailBtn.onclick = function() {
+                    window.location.href = mailtoUrl;
+                };
             }
 
             const dispatchModal = document.getElementById('emailDispatchModal');
             if (dispatchModal) dispatchModal.classList.remove('hidden');
             lucide.createIcons();
-        }
-
-        // ================= ROBUST LAUNCH MAIL CLIENT & DISCOUNT GENERATOR =================
-        function handleLaunchMailClientClick() {
-            const mailBtn = document.getElementById('btnLaunchMailClient');
-            const mailtoUrl = mailBtn ? mailBtn.getAttribute('data-mailto') : '';
-
-            // Accurately capture incoterm from state or active radio element
-            const selectedIncoterm = pendingEmailIncoterm || 
-                document.querySelector('input[name="emailIncoterm"]:checked')?.value || 'DDP';
-
-            // Discount Format criteria: EXMI incoterms + Non-CFA supply plant
-            if (pendingEmailItems && pendingEmailItems.length > 0 && selectedIncoterm === 'EXMI') {
-                const eligibleItems = pendingEmailItems.filter(item => {
-                    const plantStr = String(item.plant || '').toUpperCase();
-                    return !plantStr.includes('CFA');
-                });
-
-                if (eligibleItems.length > 0) {
-                    const enteredContractNo = prompt(
-                        `EXMI supply detected (${eligibleItems.length} items from Non-CFA plant).\nEnter Contract No. for Discount Format Sheet:`,
-                        ""
-                    );
-
-                    if (enteredContractNo !== null && enteredContractNo.trim().length > 0) {
-                        appendDiscountFormatRows(eligibleItems, enteredContractNo.trim());
-                    }
-                }
-            }
-
-            // Launch mail client
-            if (mailtoUrl) {
-                window.location.href = mailtoUrl;
-            }
-        }
-
-        function getLastDateOfCurrentMonthFormatted() {
-            const now = new Date();
-            const lastDayDate = new Date(now.getFullYear(), now.getMonth() + 1, 0);
-            const day = String(lastDayDate.getDate()).padStart(2, '0');
-            const month = String(lastDayDate.getMonth() + 1).padStart(2, '0');
-            const year = String(lastDayDate.getFullYear()).slice(-2);
-            return `${day}.${month}.${year}`;
-        }
-
-        function getDiscountAmountForStockist(indentorStr) {
-            const ind = String(indentorStr || '').toUpperCase();
-            // Amount = 4 for Nalateswari Lubricants, Swastik Automobiles
-            if (ind.includes('NALATESWARI') || ind.includes('SWASTIK')) {
-                return 4;
-            }
-            // Amount = 3 for Takshvi Co, SMG Trades, Bihariji Auto Service Station
-            return 3;
-        }
-
-        function appendDiscountFormatRows(items, contractNo) {
-            const validToDate = getLastDateOfCurrentMonthFormatted();
-
-            const newEntries = items.map(item => {
-                const amount = getDiscountAmountForStockist(item.indentor);
-                return {
-                    contract: contractNo,
-                    material: String(item.skuCode || '').trim(),
-                    p: 'R',
-                    amount: amount,
-                    unit: 'INR',
-                    per: '1',
-                    uom: 'L29',
-                    validTo: validToDate
-                };
-            });
-
-            if (!Array.isArray(discountRows)) {
-                discountRows = [];
-            }
-
-            // Append entries without duplicates for the same contract + material
-            newEntries.forEach(entry => {
-                const exists = discountRows.some(d => d.contract === entry.contract && d.material === entry.material);
-                if (!exists) {
-                    discountRows.push(entry);
-                }
-            });
-
-            saveToLocalStorageOnly();
-            pushDataToGitHubCloud();
-            renderDiscountFormatTable();
-            showNotification(`✓ Discount Format entries recorded for Contract: ${contractNo}`, 'emerald');
-
-            if (currentUserRole === 'OFFICIAL') {
-                switchTab('discountTab');
-            }
-        }
-
-        function clearDiscountRows() {
-            if (confirm("Clear all rows from the Discount Format sheet?")) {
-                discountRows = [];
-                saveToLocalStorageOnly();
-                pushDataToGitHubCloud();
-                renderDiscountFormatTable();
-                showNotification("✓ Discount Format sheet cleared.", "emerald");
-            }
-        }
-
-        function renderDiscountFormatTable() {
-            const tbody = document.getElementById('discountTableBody');
-            const badge = document.getElementById('discountCountBadge');
-            if (badge) badge.innerText = discountRows.length;
-
-            if (!tbody) return;
-
-            if (discountRows.length === 0) {
-                tbody.innerHTML = `
-                    <tr>
-                        <td colspan="13" class="text-center py-10 text-slate-400 border border-slate-300">
-                            No discount format generated yet. Dispatch an EXMI order from a Non-CFA plant to view discount lines.
-                        </td>
-                    </tr>
-                `;
-                return;
-            }
-
-            tbody.innerHTML = discountRows.map(r => `
-                <tr class="text-center font-mono text-xs">
-                    <td style="text-align: left; padding-left: 8px; font-weight: 500;">${r.contract}</td>
-                    <td style="text-align: right; padding-right: 8px; font-weight: 500;">${r.material}</td>
-                    <td class="excel-gray-cell"></td>
-                    <td class="excel-gray-cell"></td>
-                    <td style="font-weight: 600;">${r.p}</td>
-                    <td style="text-align: right; padding-right: 8px; font-weight: bold;">${r.amount}</td>
-                    <td style="font-weight: 500;">${r.unit}</td>
-                    <td style="font-weight: 500;">${r.per}</td>
-                    <td style="font-weight: 500;">${r.uom}</td>
-                    <td class="excel-gray-cell"></td>
-                    <td class="excel-gray-cell"></td>
-                    <td class="excel-gray-cell"></td>
-                    <td style="text-align: right; padding-right: 8px; font-weight: 500;">${r.validTo}</td>
-                </tr>
-            `).join('');
-        }
-
-        function copyDiscountFormatTable() {
-            if (discountRows.length === 0) {
-                alert('No discount format data to copy.');
-                return;
-            }
-
-            const tableEl = document.getElementById('discountTableEl');
-            if (!tableEl) return;
-
-            try {
-                if (window.ClipboardItem) {
-                    const blobHtml = new Blob([tableEl.outerHTML], { type: 'text/html' });
-                    let tsv = `Contract\tMaterial\tS\tDescription\tP\tAmount\tUnit\tPer\tUOM\tC\tS\tValid from\tValid to\n`;
-                    discountRows.forEach(r => {
-                        tsv += `${r.contract}\t${r.material}\t\t\t${r.p}\t${r.amount}\t${r.unit}\t${r.per}\t${r.uom}\t\t\t\t${r.validTo}\n`;
-                    });
-                    const blobText = new Blob([tsv], { type: 'text/plain' });
-
-                    navigator.clipboard.write([
-                        new ClipboardItem({
-                            'text/html': blobHtml,
-                            'text/plain': blobText
-                        })
-                    ]);
-                } else {
-                    const range = document.createRange();
-                    range.selectNode(tableEl);
-                    window.getSelection().removeAllRanges();
-                    window.getSelection().addRange(range);
-                    document.execCommand('copy');
-                    window.getSelection().removeAllRanges();
-                }
-
-                const lbl = document.getElementById('copyDiscountBtnText');
-                if (lbl) lbl.innerText = "Copied to Clipboard!";
-                showNotification(`✓ Discount Format table copied to clipboard!`, 'emerald');
-                setTimeout(() => {
-                    if (lbl) lbl.innerText = "Copy Spreadsheet Table";
-                }, 2000);
-            } catch (err) {
-                console.error("Copy failed:", err);
-                showNotification(`Failed to copy table: ${err.message}`, 'rose');
-            }
         }
 
         function copyTableAgain() {
@@ -3188,12 +2955,30 @@
             }
         }
 
+        function exportOrdersToCSV() {
+            if (ordersList.length === 0) {
+                alert('No requisitions or STO to export.');
+                return;
+            }
+            const header = ["Customer/Destination", "Type", "SKU Code", "Source Plant", "Plant Code", "Description", "Quantity", "Vol (KL)"];
+            const rows = ordersList.map(o => [
+                `"${o.indentor}"`, o.type, `"${o.skuCode}"`, `"${o.plant || ''}"`, `"${o.plantCode || ''}"`, `"${o.skuDesc}"`, o.qty, (o.volKL || 0).toFixed(3)
+            ]);
+            const csvContent = "data:text/csv;charset=utf-8," + [header.join(','), ...rows.map(r => r.join(','))].join('\n');
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", `Requisitions_Report_${stockCaptureDate || 'latest'}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
         function saveToLocalStorageOnly() {
             localStorage.setItem('raw_stock_data', JSON.stringify(rawStockRows));
             localStorage.setItem('master_data', JSON.stringify(masterDatabase));
             localStorage.setItem('pack_master_volume', JSON.stringify(packMasterVolumeMap));
             localStorage.setItem('wbso_min_data', JSON.stringify(wbsoMinDatabase));
-            localStorage.setItem('discount_data', JSON.stringify(discountRows));
             localStorage.setItem('orders_data', JSON.stringify(ordersList));
             localStorage.setItem('stock_date', stockCaptureDate);
             localStorage.setItem('stock_upload_time', stockUploadTime);
@@ -3205,7 +2990,6 @@
                 masterDatabase = JSON.parse(localStorage.getItem('master_data')) || {};
                 packMasterVolumeMap = JSON.parse(localStorage.getItem('pack_master_volume')) || {};
                 wbsoMinDatabase = JSON.parse(localStorage.getItem('wbso_min_data')) || {};
-                discountRows = JSON.parse(localStorage.getItem('discount_data')) || [];
                 ordersList = JSON.parse(localStorage.getItem('orders_data')) || [];
                 stockCaptureDate = localStorage.getItem('stock_date') || '';
                 stockUploadTime = localStorage.getItem('stock_upload_time') || '';
