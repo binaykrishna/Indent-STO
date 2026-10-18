@@ -2004,7 +2004,6 @@
 
             rawStockRows = items;
             
-            // Push updated consolidated data to GitHub cloud automatically
             pushDataToGitHubCloud();
             rebuildConsolidatedDatabase();
             populatePlantDropdown();
@@ -2106,7 +2105,6 @@
                             });
                         });
 
-                        // Push updated master data to GitHub cloud automatically
                         pushDataToGitHubCloud();
                         rebuildConsolidatedDatabase();
                         populatePlantDropdown();
@@ -2921,33 +2919,35 @@
             lucide.createIcons();
         }
 
-        // ================= LAUNCH MAIL CLIENT & DISCOUNT FORMAT GENERATOR (BOTH ROLES) =================
+        // ================= ROBUST LAUNCH MAIL CLIENT & DISCOUNT GENERATOR =================
         function handleLaunchMailClientClick() {
             const mailBtn = document.getElementById('btnLaunchMailClient');
             const mailtoUrl = mailBtn ? mailBtn.getAttribute('data-mailto') : '';
 
-            // Evaluate Discount Format Generation criteria:
-            // Supply is NOT from any CFA AND Incoterms is EXMI (Applies to both Stockist and IOC Official entries)
-            if (pendingEmailItems && pendingEmailItems.length > 0 && pendingEmailIncoterm === 'EXMI') {
-                const nonCfaItems = pendingEmailItems.filter(item => {
-                    const plant = String(item.plant || '').toUpperCase();
-                    return !plant.includes('CFA');
+            // Accurately capture incoterm from state or active radio element
+            const selectedIncoterm = pendingEmailIncoterm || 
+                document.querySelector('input[name="emailIncoterm"]:checked')?.value || 'DDP';
+
+            // Discount Format criteria: EXMI incoterms + Non-CFA supply plant
+            if (pendingEmailItems && pendingEmailItems.length > 0 && selectedIncoterm === 'EXMI') {
+                const eligibleItems = pendingEmailItems.filter(item => {
+                    const plantStr = String(item.plant || '').toUpperCase();
+                    return !plantStr.includes('CFA');
                 });
 
-                if (nonCfaItems.length > 0) {
-                    // Prompt for contract number for the batch
+                if (eligibleItems.length > 0) {
                     const enteredContractNo = prompt(
-                        `EXMI direct plant lifting detected from non-CFA source.\nPlease enter Contract No. for generating the Discount Format sheet:`,
+                        `EXMI supply detected (${eligibleItems.length} items from Non-CFA plant).\nEnter Contract No. for Discount Format Sheet:`,
                         ""
                     );
 
                     if (enteredContractNo !== null && enteredContractNo.trim().length > 0) {
-                        appendDiscountFormatRows(nonCfaItems, enteredContractNo.trim());
+                        appendDiscountFormatRows(eligibleItems, enteredContractNo.trim());
                     }
                 }
             }
 
-            // Launch default mail client
+            // Launch mail client
             if (mailtoUrl) {
                 window.location.href = mailtoUrl;
             }
@@ -2979,7 +2979,7 @@
                 const amount = getDiscountAmountForStockist(item.indentor);
                 return {
                     contract: contractNo,
-                    material: item.skuCode,
+                    material: String(item.skuCode || '').trim(),
                     p: 'R',
                     amount: amount,
                     unit: 'INR',
@@ -2989,7 +2989,11 @@
                 };
             });
 
-            // Merge entries (avoiding identical duplicates by contract + material)
+            if (!Array.isArray(discountRows)) {
+                discountRows = [];
+            }
+
+            // Append entries without duplicates for the same contract + material
             newEntries.forEach(entry => {
                 const exists = discountRows.some(d => d.contract === entry.contract && d.material === entry.material);
                 if (!exists) {
