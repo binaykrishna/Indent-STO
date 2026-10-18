@@ -19700,8 +19700,3141 @@
       }
     }
   },
-  "priceMasterDatabase": [],
+  "priceMasterDatabase": {
+    "21404__1.00": {
+      "prodCode": "21404",
+      "packSize": 1,
+      "dlp": 296.54,
+      "effDlp": 278.84,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 40 - 1 HDPE"
+    },
+    "21404__5.00": {
+      "prodCode": "21404",
+      "packSize": 5,
+      "dlp": 1466.39,
+      "effDlp": 1377.89,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 40 - 5 HDPE"
+    },
+    "21404__10.00": {
+      "prodCode": "21404",
+      "packSize": 10,
+      "dlp": 2932.31,
+      "effDlp": 2755.31,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 40 - 10 HDPE"
+    },
+    "21404__20.00": {
+      "prodCode": "21404",
+      "packSize": 20,
+      "dlp": 5698.28,
+      "effDlp": 5226.28,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 40 - 20 HDPE"
+    },
+    "22040__0.50": {
+      "prodCode": "22040",
+      "packSize": 0.5,
+      "dlp": 165.38,
+      "effDlp": 159.48,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE SMG 20W-40 - 0.5 HDPE"
+    },
+    "22040__1.00": {
+      "prodCode": "22040",
+      "packSize": 1,
+      "dlp": 303.02,
+      "effDlp": 279.42,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE SMG 20W-40 - 1 HDPE"
+    },
+    "22040__3.50": {
+      "prodCode": "22040",
+      "packSize": 3.5,
+      "dlp": 1081.16,
+      "effDlp": 998.56,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE SMG 20W-40 - 3.5 HDPE"
+    },
+    "22040__5.00": {
+      "prodCode": "22040",
+      "packSize": 5,
+      "dlp": 1498.89,
+      "effDlp": 1380.89,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE SMG 20W-40 - 5 HDPE"
+    },
+    "22874__0.90": {
+      "prodCode": "22874",
+      "packSize": 0.9,
+      "dlp": 260,
+      "effDlp": 228.14,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO MOTOCARE 4T - 0.9 HDPE"
+    },
+    "22874__1.00": {
+      "prodCode": "22874",
+      "packSize": 1,
+      "dlp": 279,
+      "effDlp": 251.86,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO MOTOCARE 4T - 1 HDPE"
+    },
+    "22875__0.90": {
+      "prodCode": "22875",
+      "packSize": 0.9,
+      "dlp": 270,
+      "effDlp": 270,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO MOTOCARE 4T 20W-50 - 0.9 HDPE"
+    },
+    "22875__1.00": {
+      "prodCode": "22875",
+      "packSize": 1,
+      "dlp": 295,
+      "effDlp": 295,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO MOTOCARE 4T 20W-50 - 1 HDPE"
+    },
+    "22875__1.20": {
+      "prodCode": "22875",
+      "packSize": 1.2,
+      "dlp": 364,
+      "effDlp": 364,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO MOTOCARE 4T 20W-50 - 1.2 HDPE"
+    },
+    "22876__0.80": {
+      "prodCode": "22876",
+      "packSize": 0.8,
+      "dlp": 260,
+      "effDlp": 260,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO MOTOCARE SCOOTER 10W-30 - 0.8 HDPE"
+    },
+    "22959__1.00": {
+      "prodCode": "22959",
+      "packSize": 1,
+      "dlp": 323.25,
+      "effDlp": 299.65,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE 5W-30 - 1 HDPE"
+    },
+    "22959__3.00": {
+      "prodCode": "22959",
+      "packSize": 3,
+      "dlp": 958.59,
+      "effDlp": 887.79,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE 5W-30 - 3 HDPE"
+    },
+    "22959__3.50": {
+      "prodCode": "22959",
+      "packSize": 3.5,
+      "dlp": 1118.93,
+      "effDlp": 1036.33,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE 5W-30 - 3.5 HDPE"
+    },
+    "22959__5.00": {
+      "prodCode": "22959",
+      "packSize": 5,
+      "dlp": 1587.97,
+      "effDlp": 1469.97,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE 5W-30 - 5 HDPE"
+    },
+    "23725__3.50": {
+      "prodCode": "23725",
+      "packSize": 3.5,
+      "dlp": 925,
+      "effDlp": 821.75,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO KISANPOWER SPSO - 3.5 HDPE"
+    },
+    "24950__1.00": {
+      "prodCode": "24950",
+      "packSize": 1,
+      "dlp": 288.08,
+      "effDlp": 264.48,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO KISANPOWER OIB - 1 HDPE"
+    },
+    "24950__5.00": {
+      "prodCode": "24950",
+      "packSize": 5,
+      "dlp": 1423.84,
+      "effDlp": 1305.84,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO KISANPOWER OIB - 5 HDPE"
+    },
+    "24950__20.00": {
+      "prodCode": "24950",
+      "packSize": 20,
+      "dlp": 5552.6,
+      "effDlp": 5080.6,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO KISANPOWER OIB - 20 HDPE"
+    },
+    "25034__0.50": {
+      "prodCode": "25034",
+      "packSize": 0.5,
+      "dlp": 146.91,
+      "effDlp": 141.01,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO 20W-50 - 0.5 HDPE"
+    },
+    "25034__1.00": {
+      "prodCode": "25034",
+      "packSize": 1,
+      "dlp": 267.91,
+      "effDlp": 250.21,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO 20W-50 - 1 HDPE"
+    },
+    "25034__2.10": {
+      "prodCode": "25034",
+      "packSize": 2.1,
+      "dlp": 558.76,
+      "effDlp": 533.98,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO 20W-50 - 2.1 HDPE"
+    },
+    "25034__3.00": {
+      "prodCode": "25034",
+      "packSize": 3,
+      "dlp": 800,
+      "effDlp": 764.6,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO 20W-50 - 3 HDPE"
+    },
+    "25034__20.00": {
+      "prodCode": "25034",
+      "packSize": 20,
+      "dlp": 5243.73,
+      "effDlp": 4889.73,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO 20W-50 - 20 HDPE"
+    },
+    "25051__0.50": {
+      "prodCode": "25051",
+      "packSize": 0.5,
+      "dlp": 157.12,
+      "effDlp": 157.12,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO - 0.5 HDPE"
+    },
+    "25051__1.00": {
+      "prodCode": "25051",
+      "packSize": 1,
+      "dlp": 275,
+      "effDlp": 275,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO - 1 HDPE"
+    },
+    "25051__3.00": {
+      "prodCode": "25051",
+      "packSize": 3,
+      "dlp": 825,
+      "effDlp": 825,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO - 3 HDPE"
+    },
+    "25051__20.00": {
+      "prodCode": "25051",
+      "packSize": 20,
+      "dlp": 5500,
+      "effDlp": 5500,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO SUPERMILE GEO - 20 HDPE"
+    },
+    "27364__1.00": {
+      "prodCode": "27364",
+      "packSize": 1,
+      "dlp": 287.69,
+      "effDlp": 264.09,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 15W-40 - 1 HDPE"
+    },
+    "27364__3.00": {
+      "prodCode": "27364",
+      "packSize": 3,
+      "dlp": 855.38,
+      "effDlp": 784.58,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 15W-40 - 3 HDPE"
+    },
+    "27364__5.00": {
+      "prodCode": "27364",
+      "packSize": 5,
+      "dlp": 1421.8,
+      "effDlp": 1303.8,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 15W-40 - 5 HDPE"
+    },
+    "27364__7.50": {
+      "prodCode": "27364",
+      "packSize": 7.5,
+      "dlp": 2140,
+      "effDlp": 1963,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 15W-40 - 7.5 HDPE"
+    },
+    "27364__10.00": {
+      "prodCode": "27364",
+      "packSize": 10,
+      "dlp": 2843.6,
+      "effDlp": 2607.6,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 15W-40 - 10 HDPE"
+    },
+    "27364__15.00": {
+      "prodCode": "27364",
+      "packSize": 15,
+      "dlp": 4234.35,
+      "effDlp": 3880.35,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 15W-40 - 15 HDPE"
+    },
+    "27364__20.00": {
+      "prodCode": "27364",
+      "packSize": 20,
+      "dlp": 5639.5,
+      "effDlp": 5167.5,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 15W-40 - 20 HDPE"
+    },
+    "27370__1.00": {
+      "prodCode": "27370",
+      "packSize": 1,
+      "dlp": 305,
+      "effDlp": 281.4,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET XL 15W-40 - 1 HDPE"
+    },
+    "27370__3.00": {
+      "prodCode": "27370",
+      "packSize": 3,
+      "dlp": 885,
+      "effDlp": 796.5,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET XL 15W-40 - 3 HDPE"
+    },
+    "27370__5.00": {
+      "prodCode": "27370",
+      "packSize": 5,
+      "dlp": 1486.24,
+      "effDlp": 1338.74,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET XL 15W-40 - 5 HDPE"
+    },
+    "27370__7.50": {
+      "prodCode": "27370",
+      "packSize": 7.5,
+      "dlp": 2250,
+      "effDlp": 2028.75,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET XL 15W-40 - 7.5 HDPE"
+    },
+    "27370__10.00": {
+      "prodCode": "27370",
+      "packSize": 10,
+      "dlp": 2999,
+      "effDlp": 2704,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET XL 15W-40 - 10 HDPE"
+    },
+    "27370__15.00": {
+      "prodCode": "27370",
+      "packSize": 15,
+      "dlp": 4370,
+      "effDlp": 3839,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET XL 15W-40 - 15 HDPE"
+    },
+    "27370__20.00": {
+      "prodCode": "27370",
+      "packSize": 20,
+      "dlp": 5778.88,
+      "effDlp": 5070.88,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET XL 15W-40 - 20 HDPE"
+    },
+    "27376__1.00": {
+      "prodCode": "27376",
+      "packSize": 1,
+      "dlp": 278.06,
+      "effDlp": 266.26,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO KISANPOWER TRACTOR OIL - 1 HDPE"
+    },
+    "27376__6.00": {
+      "prodCode": "27376",
+      "packSize": 6,
+      "dlp": 1658.58,
+      "effDlp": 1481.58,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO KISANPOWER TRACTOR OIL - 6 HDPE"
+    },
+    "27376__7.50": {
+      "prodCode": "27376",
+      "packSize": 7.5,
+      "dlp": 2073.56,
+      "effDlp": 1852.31,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO KISANPOWER TRACTOR OIL - 7.5 HDPE"
+    },
+    "27376__8.50": {
+      "prodCode": "27376",
+      "packSize": 8.5,
+      "dlp": 2345.83,
+      "effDlp": 2095.08,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO KISANPOWER TRACTOR OIL - 8.5 HDPE"
+    },
+    "27473__1.00": {
+      "prodCode": "27473",
+      "packSize": 1,
+      "dlp": 298.25,
+      "effDlp": 298.25,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET TC 15W-40 - 1 HDPE"
+    },
+    "27473__3.00": {
+      "prodCode": "27473",
+      "packSize": 3,
+      "dlp": 887.11,
+      "effDlp": 887.11,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET TC 15W-40 - 3 HDPE"
+    },
+    "27473__5.00": {
+      "prodCode": "27473",
+      "packSize": 5,
+      "dlp": 1474.82,
+      "effDlp": 1474.82,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET TC 15W-40 - 5 HDPE"
+    },
+    "27473__7.50": {
+      "prodCode": "27473",
+      "packSize": 7.5,
+      "dlp": 2181.27,
+      "effDlp": 2181.27,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET TC 15W-40 - 7.5 HDPE"
+    },
+    "27473__10.00": {
+      "prodCode": "27473",
+      "packSize": 10,
+      "dlp": 2891.05,
+      "effDlp": 2891.05,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET TC 15W-40 - 10 HDPE"
+    },
+    "27473__15.00": {
+      "prodCode": "27473",
+      "packSize": 15,
+      "dlp": 4305.1,
+      "effDlp": 4305.1,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET TC 15W-40 - 15 HDPE"
+    },
+    "27473__20.00": {
+      "prodCode": "27473",
+      "packSize": 20,
+      "dlp": 5733.62,
+      "effDlp": 5733.62,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET TC 15W-40 - 20 HDPE"
+    },
+    "27485__0.50": {
+      "prodCode": "27485",
+      "packSize": 0.5,
+      "dlp": 153.58,
+      "effDlp": 141.78,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 0.5 HDPE"
+    },
+    "27485__1.00": {
+      "prodCode": "27485",
+      "packSize": 1,
+      "dlp": 285.34,
+      "effDlp": 261.74,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 1 HDPE"
+    },
+    "27485__1.20": {
+      "prodCode": "27485",
+      "packSize": 1.2,
+      "dlp": 350,
+      "effDlp": 321.68,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 1.2 HDPE"
+    },
+    "27485__3.00": {
+      "prodCode": "27485",
+      "packSize": 3,
+      "dlp": 830.64,
+      "effDlp": 759.84,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 3 HDPE"
+    },
+    "27485__5.00": {
+      "prodCode": "27485",
+      "packSize": 5,
+      "dlp": 1381.03,
+      "effDlp": 1263.03,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 5 HDPE"
+    },
+    "27485__6.00": {
+      "prodCode": "27485",
+      "packSize": 6,
+      "dlp": 1675,
+      "effDlp": 1533.4,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 6 HDPE"
+    },
+    "27485__7.50": {
+      "prodCode": "27485",
+      "packSize": 7.5,
+      "dlp": 2100,
+      "effDlp": 1923,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 7.5 HDPE"
+    },
+    "27485__10.00": {
+      "prodCode": "27485",
+      "packSize": 10,
+      "dlp": 2741.35,
+      "effDlp": 2505.35,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 10 HDPE"
+    },
+    "27485__15.00": {
+      "prodCode": "27485",
+      "packSize": 15,
+      "dlp": 4080.98,
+      "effDlp": 3726.98,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 15 HDPE"
+    },
+    "27485__20.00": {
+      "prodCode": "27485",
+      "packSize": 20,
+      "dlp": 5434.1,
+      "effDlp": 4962.1,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-40 - 20 HDPE"
+    },
+    "27514__1.00": {
+      "prodCode": "27514",
+      "packSize": 1,
+      "dlp": 279.81,
+      "effDlp": 279.81,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-50 - 1 HDPE"
+    },
+    "27514__3.00": {
+      "prodCode": "27514",
+      "packSize": 3,
+      "dlp": 839.98,
+      "effDlp": 839.98,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-50 - 3 HDPE"
+    },
+    "27514__5.00": {
+      "prodCode": "27514",
+      "packSize": 5,
+      "dlp": 1391.18,
+      "effDlp": 1391.18,
+      "sc": 0.025,
+      "cd": 0.02,
+      "desc": "SERVO FLEET 20W-50 - 5 HDPE"
+    },
+    "42886__0.80": {
+      "prodCode": "42886",
+      "packSize": 0.8,
+      "dlp": 325,
+      "effDlp": 291.96,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM SCOOTER 10W-30 - 0.8 HDPE"
+    },
+    "42900__0.02": {
+      "prodCode": "42900",
+      "packSize": 0.02,
+      "dlp": 8.84,
+      "effDlp": 8.84,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO  ZOOM 2T SUPREME - 0.02 POUCH"
+    },
+    "42900__0.04": {
+      "prodCode": "42900",
+      "packSize": 0.04,
+      "dlp": 16.13,
+      "effDlp": 16.13,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO  ZOOM 2T SUPREME - 0.04 POUCH"
+    },
+    "42900__0.06": {
+      "prodCode": "42900",
+      "packSize": 0.06,
+      "dlp": 24.06,
+      "effDlp": 24.06,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO  ZOOM 2T SUPREME - 0.06 POUCH"
+    },
+    "42900__0.25": {
+      "prodCode": "42900",
+      "packSize": 0.25,
+      "dlp": 104,
+      "effDlp": 104,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO  ZOOM 2T SUPREME - 0.25 HDPE"
+    },
+    "42900__0.50": {
+      "prodCode": "42900",
+      "packSize": 0.5,
+      "dlp": 201.53,
+      "effDlp": 201.53,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO  ZOOM 2T SUPREME - 0.5 HDPE"
+    },
+    "42900__1.00": {
+      "prodCode": "42900",
+      "packSize": 1,
+      "dlp": 370,
+      "effDlp": 370,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO  ZOOM 2T SUPREME - 1 HDPE"
+    },
+    "42900__5.00": {
+      "prodCode": "42900",
+      "packSize": 5,
+      "dlp": 1855.6,
+      "effDlp": 1855.6,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO  ZOOM 2T SUPREME - 5 HDPE"
+    },
+    "42924__0.90": {
+      "prodCode": "42924",
+      "packSize": 0.9,
+      "dlp": 294.31,
+      "effDlp": 273.07,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM 4T - 0.9 HDPE"
+    },
+    "42924__1.00": {
+      "prodCode": "42924",
+      "packSize": 1,
+      "dlp": 319.36,
+      "effDlp": 302.84,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM 4T - 1 HDPE"
+    },
+    "42931__1.00": {
+      "prodCode": "42931",
+      "packSize": 1,
+      "dlp": 318.23,
+      "effDlp": 306.43,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM 4T 20W-50 - 1 HDPE"
+    },
+    "42931__1.20": {
+      "prodCode": "42931",
+      "packSize": 1.2,
+      "dlp": 400,
+      "effDlp": 371.68,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM 4T 20W-50 - 1.2 HDPE"
+    },
+    "42936__0.90": {
+      "prodCode": "42936",
+      "packSize": 0.9,
+      "dlp": 299.62,
+      "effDlp": 283.69,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM 4T 10W-30 - 0.9 HDPE"
+    },
+    "42936__1.00": {
+      "prodCode": "42936",
+      "packSize": 1,
+      "dlp": 319.42,
+      "effDlp": 301.72,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM 4T 10W-30 - 1 HDPE"
+    },
+    "42951__0.90": {
+      "prodCode": "42951",
+      "packSize": 0.9,
+      "dlp": 300.22,
+      "effDlp": 284.29,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM 4T 10W-40 - 0.9 HDPE"
+    },
+    "42951__1.00": {
+      "prodCode": "42951",
+      "packSize": 1,
+      "dlp": 325.97,
+      "effDlp": 308.27,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO ZOOM 4T 10W-40 - 1 HDPE"
+    },
+    "44975__1.00": {
+      "prodCode": "44975",
+      "packSize": 1,
+      "dlp": 334.94,
+      "effDlp": 299.54,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO OIB - 1 HDPE"
+    },
+    "44975__5.00": {
+      "prodCode": "44975",
+      "packSize": 5,
+      "dlp": 1651.81,
+      "effDlp": 1474.81,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO OIB - 5 HDPE"
+    },
+    "44975__20.00": {
+      "prodCode": "44975",
+      "packSize": 20,
+      "dlp": 6558.26,
+      "effDlp": 5614.26,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO OIB - 20 HDPE"
+    },
+    "47102__1.00": {
+      "prodCode": "47102",
+      "packSize": 1,
+      "dlp": 400.53,
+      "effDlp": 382.83,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 0W-20 - 1 HDPE"
+    },
+    "47102__3.00": {
+      "prodCode": "47102",
+      "packSize": 3,
+      "dlp": 1198.06,
+      "effDlp": 1144.96,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 0W-20 - 3 HDPE"
+    },
+    "47102__3.50": {
+      "prodCode": "47102",
+      "packSize": 3.5,
+      "dlp": 1389.47,
+      "effDlp": 1327.52,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 0W-20 - 3.5 HDPE"
+    },
+    "47102__4.00": {
+      "prodCode": "47102",
+      "packSize": 4,
+      "dlp": 1587.97,
+      "effDlp": 1517.17,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 0W-20 - 4 HDPE"
+    },
+    "47102__5.00": {
+      "prodCode": "47102",
+      "packSize": 5,
+      "dlp": 1984.96,
+      "effDlp": 1896.46,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 0W-20 - 5 HDPE"
+    },
+    "47325__1.00": {
+      "prodCode": "47325",
+      "packSize": 1,
+      "dlp": 290.86,
+      "effDlp": 267.26,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 15W-40 - 1 HDPE"
+    },
+    "47325__3.00": {
+      "prodCode": "47325",
+      "packSize": 3,
+      "dlp": 857.92,
+      "effDlp": 787.12,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 15W-40 - 3 HDPE"
+    },
+    "47325__5.00": {
+      "prodCode": "47325",
+      "packSize": 5,
+      "dlp": 1426.22,
+      "effDlp": 1308.22,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 15W-40 - 5 HDPE"
+    },
+    "47325__7.50": {
+      "prodCode": "47325",
+      "packSize": 7.5,
+      "dlp": 2134.44,
+      "effDlp": 1957.44,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 15W-40 - 7.5 HDPE"
+    },
+    "47325__10.00": {
+      "prodCode": "47325",
+      "packSize": 10,
+      "dlp": 2852.27,
+      "effDlp": 2616.27,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 15W-40 - 10 HDPE"
+    },
+    "47325__15.00": {
+      "prodCode": "47325",
+      "packSize": 15,
+      "dlp": 4246.99,
+      "effDlp": 3892.99,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 15W-40 - 15 HDPE"
+    },
+    "47325__20.00": {
+      "prodCode": "47325",
+      "packSize": 20,
+      "dlp": 5656.2,
+      "effDlp": 5184.2,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 15W-40 - 20 HDPE"
+    },
+    "47375__1.00": {
+      "prodCode": "47375",
+      "packSize": 1,
+      "dlp": 329.69,
+      "effDlp": 306.09,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 1 HDPE"
+    },
+    "47375__3.00": {
+      "prodCode": "47375",
+      "packSize": 3,
+      "dlp": 982.47,
+      "effDlp": 876.27,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 3 HDPE"
+    },
+    "47375__5.00": {
+      "prodCode": "47375",
+      "packSize": 5,
+      "dlp": 1630.85,
+      "effDlp": 1512.85,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 5 HDPE"
+    },
+    "47375__6.00": {
+      "prodCode": "47375",
+      "packSize": 6,
+      "dlp": 1957.02,
+      "effDlp": 1815.42,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 6 HDPE"
+    },
+    "47375__7.50": {
+      "prodCode": "47375",
+      "packSize": 7.5,
+      "dlp": 2445.86,
+      "effDlp": 2268.86,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 7.5 HDPE"
+    },
+    "47375__10.00": {
+      "prodCode": "47375",
+      "packSize": 10,
+      "dlp": 3238.6,
+      "effDlp": 3002.6,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 10 HDPE"
+    },
+    "47375__15.00": {
+      "prodCode": "47375",
+      "packSize": 15,
+      "dlp": 4822.43,
+      "effDlp": 4468.43,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 15 HDPE"
+    },
+    "47375__18.00": {
+      "prodCode": "47375",
+      "packSize": 18,
+      "dlp": 5732.46,
+      "effDlp": 5307.66,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 18 HDPE"
+    },
+    "47375__20.00": {
+      "prodCode": "47375",
+      "packSize": 20,
+      "dlp": 6366.1,
+      "effDlp": 5894.1,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 15W-40. - 20 HDPE"
+    },
+    "47430__1.00": {
+      "prodCode": "47430",
+      "packSize": 1,
+      "dlp": 394.77,
+      "effDlp": 382.97,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 5W-30 - 1 HDPE"
+    },
+    "47430__3.00": {
+      "prodCode": "47430",
+      "packSize": 3,
+      "dlp": 1187.41,
+      "effDlp": 1152.01,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 5W-30 - 3 HDPE"
+    },
+    "47430__3.50": {
+      "prodCode": "47430",
+      "packSize": 3.5,
+      "dlp": 1381.61,
+      "effDlp": 1340.31,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 5W-30 - 3.5 HDPE"
+    },
+    "47430__5.00": {
+      "prodCode": "47430",
+      "packSize": 5,
+      "dlp": 1975.12,
+      "effDlp": 1916.12,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA 5W-30 - 5 HDPE"
+    },
+    "47554__1.00": {
+      "prodCode": "47554",
+      "packSize": 1,
+      "dlp": 301.89,
+      "effDlp": 272.39,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO 15W-40 - 1 HDPE"
+    },
+    "47554__6.00": {
+      "prodCode": "47554",
+      "packSize": 6,
+      "dlp": 1787.1,
+      "effDlp": 1610.1,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO 15W-40 - 6 HDPE"
+    },
+    "47554__7.50": {
+      "prodCode": "47554",
+      "packSize": 7.5,
+      "dlp": 2234.72,
+      "effDlp": 2013.47,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO 15W-40 - 7.5 HDPE"
+    },
+    "47554__8.50": {
+      "prodCode": "47554",
+      "packSize": 8.5,
+      "dlp": 2529.11,
+      "effDlp": 2278.36,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO 15W-40 - 8.5 HDPE"
+    },
+    "47563__1.00": {
+      "prodCode": "47563",
+      "packSize": 1,
+      "dlp": 299.93,
+      "effDlp": 270.43,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO 20W-40 - 1 HDPE"
+    },
+    "47563__6.00": {
+      "prodCode": "47563",
+      "packSize": 6,
+      "dlp": 1782.43,
+      "effDlp": 1605.43,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO 20W-40 - 6 HDPE"
+    },
+    "47563__7.50": {
+      "prodCode": "47563",
+      "packSize": 7.5,
+      "dlp": 2210.94,
+      "effDlp": 1989.69,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO KISANPRO 20W-40 - 7.5 HDPE"
+    },
+    "47570__1.00": {
+      "prodCode": "47570",
+      "packSize": 1,
+      "dlp": 328.38,
+      "effDlp": 328.38,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 10W-30 - 1 HDPE"
+    },
+    "47570__5.00": {
+      "prodCode": "47570",
+      "packSize": 5,
+      "dlp": 1637.12,
+      "effDlp": 1637.12,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 10W-30 - 5 HDPE"
+    },
+    "47570__7.50": {
+      "prodCode": "47570",
+      "packSize": 7.5,
+      "dlp": 2459.46,
+      "effDlp": 2459.46,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 10W-30 - 7.5 HDPE"
+    },
+    "47570__15.00": {
+      "prodCode": "47570",
+      "packSize": 15,
+      "dlp": 4915.56,
+      "effDlp": 4915.56,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 10W-30 - 15 HDPE"
+    },
+    "47570__20.00": {
+      "prodCode": "47570",
+      "packSize": 20,
+      "dlp": 6547.36,
+      "effDlp": 6547.36,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE XL PLUS 10W-30 - 20 HDPE"
+    },
+    "47577__1.00": {
+      "prodCode": "47577",
+      "packSize": 1,
+      "dlp": 304.78,
+      "effDlp": 292.98,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 15W-40 - 1 HDPE"
+    },
+    "47577__3.00": {
+      "prodCode": "47577",
+      "packSize": 3,
+      "dlp": 913.88,
+      "effDlp": 860.78,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 15W-40 - 3 HDPE"
+    },
+    "47577__5.00": {
+      "prodCode": "47577",
+      "packSize": 5,
+      "dlp": 1519.52,
+      "effDlp": 1431.02,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 15W-40 - 5 HDPE"
+    },
+    "47577__7.50": {
+      "prodCode": "47577",
+      "packSize": 7.5,
+      "dlp": 2283.2,
+      "effDlp": 2150.45,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 15W-40 - 7.5 HDPE"
+    },
+    "47577__10.00": {
+      "prodCode": "47577",
+      "packSize": 10,
+      "dlp": 3039.05,
+      "effDlp": 2862.05,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 15W-40 - 10 HDPE"
+    },
+    "47577__15.00": {
+      "prodCode": "47577",
+      "packSize": 15,
+      "dlp": 4562.43,
+      "effDlp": 4296.93,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 15W-40 - 15 HDPE"
+    },
+    "47577__20.00": {
+      "prodCode": "47577",
+      "packSize": 20,
+      "dlp": 6099.72,
+      "effDlp": 5745.72,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 15W-40 - 20 HDPE"
+    },
+    "47592__0.50": {
+      "prodCode": "47592",
+      "packSize": 0.5,
+      "dlp": 169.35,
+      "effDlp": 162.86,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 20W-40 - 0.5 HDPE"
+    },
+    "47592__1.00": {
+      "prodCode": "47592",
+      "packSize": 1,
+      "dlp": 307.66,
+      "effDlp": 294.68,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 20W-40 - 1 HDPE"
+    },
+    "47592__5.00": {
+      "prodCode": "47592",
+      "packSize": 5,
+      "dlp": 1539.61,
+      "effDlp": 1451.11,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 20W-40 - 5 HDPE"
+    },
+    "47592__7.50": {
+      "prodCode": "47592",
+      "packSize": 7.5,
+      "dlp": 2313.32,
+      "effDlp": 2180.57,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 20W-40 - 7.5 HDPE"
+    },
+    "47592__10.00": {
+      "prodCode": "47592",
+      "packSize": 10,
+      "dlp": 3078.7,
+      "effDlp": 2901.7,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 20W-40 - 10 HDPE"
+    },
+    "47592__15.00": {
+      "prodCode": "47592",
+      "packSize": 15,
+      "dlp": 4621.91,
+      "effDlp": 4356.41,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 20W-40 - 15 HDPE"
+    },
+    "47592__20.00": {
+      "prodCode": "47592",
+      "packSize": 20,
+      "dlp": 6156.37,
+      "effDlp": 5802.37,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE 20W-40 - 20 HDPE"
+    },
+    "47617__1.00": {
+      "prodCode": "47617",
+      "packSize": 1,
+      "dlp": 289.26,
+      "effDlp": 289.26,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 15W-40. - 1 HDPE"
+    },
+    "47617__3.00": {
+      "prodCode": "47617",
+      "packSize": 3,
+      "dlp": 867.27,
+      "effDlp": 867.27,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 15W-40. - 3 HDPE"
+    },
+    "47617__5.00": {
+      "prodCode": "47617",
+      "packSize": 5,
+      "dlp": 1447.9,
+      "effDlp": 1447.9,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 15W-40. - 5 HDPE"
+    },
+    "47617__7.50": {
+      "prodCode": "47617",
+      "packSize": 7.5,
+      "dlp": 2166.88,
+      "effDlp": 2166.88,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 15W-40. - 7.5 HDPE"
+    },
+    "47617__10.00": {
+      "prodCode": "47617",
+      "packSize": 10,
+      "dlp": 2877.32,
+      "effDlp": 2877.32,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 15W-40. - 10 HDPE"
+    },
+    "47617__15.00": {
+      "prodCode": "47617",
+      "packSize": 15,
+      "dlp": 4258.47,
+      "effDlp": 4258.47,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 15W-40. - 15 HDPE"
+    },
+    "47617__20.00": {
+      "prodCode": "47617",
+      "packSize": 20,
+      "dlp": 5562.12,
+      "effDlp": 5562.12,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 15W-40. - 20 HDPE"
+    },
+    "47619__0.50": {
+      "prodCode": "47619",
+      "packSize": 0.5,
+      "dlp": 152.84,
+      "effDlp": 152.84,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 20W-50. - 0.5 HDPE"
+    },
+    "47619__1.00": {
+      "prodCode": "47619",
+      "packSize": 1,
+      "dlp": 285.17,
+      "effDlp": 285.17,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 20W-50. - 1 HDPE"
+    },
+    "47619__3.00": {
+      "prodCode": "47619",
+      "packSize": 3,
+      "dlp": 855.65,
+      "effDlp": 855.65,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 20W-50. - 3 HDPE"
+    },
+    "47619__20.00": {
+      "prodCode": "47619",
+      "packSize": 20,
+      "dlp": 5710.76,
+      "effDlp": 5710.76,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE GEO 20W-50. - 20 HDPE"
+    },
+    "47625__0.50": {
+      "prodCode": "47625",
+      "packSize": 0.5,
+      "dlp": 162.74,
+      "effDlp": 150.94,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 20W-50 - 0.5 HDPE"
+    },
+    "47625__1.00": {
+      "prodCode": "47625",
+      "packSize": 1,
+      "dlp": 305.45,
+      "effDlp": 270.05,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 20W-50 - 1 HDPE"
+    },
+    "47625__2.10": {
+      "prodCode": "47625",
+      "packSize": 2.1,
+      "dlp": 637.83,
+      "effDlp": 563.49,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 20W-50 - 2.1 HDPE"
+    },
+    "47625__3.00": {
+      "prodCode": "47625",
+      "packSize": 3,
+      "dlp": 908.68,
+      "effDlp": 802.48,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 20W-50 - 3 HDPE"
+    },
+    "47625__20.00": {
+      "prodCode": "47625",
+      "packSize": 20,
+      "dlp": 5994.28,
+      "effDlp": 5286.28,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO FUTURA GEO 20W-50 - 20 HDPE"
+    },
+    "48234__1.00": {
+      "prodCode": "48234",
+      "packSize": 1,
+      "dlp": 314.35,
+      "effDlp": 302.55,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 1 HDPE"
+    },
+    "48234__2.50": {
+      "prodCode": "48234",
+      "packSize": 2.5,
+      "dlp": 799.92,
+      "effDlp": 740.92,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 2.5 HDPE"
+    },
+    "48234__3.00": {
+      "prodCode": "48234",
+      "packSize": 3,
+      "dlp": 943.05,
+      "effDlp": 854.55,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 3 HDPE"
+    },
+    "48234__5.00": {
+      "prodCode": "48234",
+      "packSize": 5,
+      "dlp": 1557.44,
+      "effDlp": 1498.44,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 5 HDPE"
+    },
+    "48234__6.00": {
+      "prodCode": "48234",
+      "packSize": 6,
+      "dlp": 1868.92,
+      "effDlp": 1798.12,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 6 HDPE"
+    },
+    "48234__7.50": {
+      "prodCode": "48234",
+      "packSize": 7.5,
+      "dlp": 2346.89,
+      "effDlp": 2258.39,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 7.5 HDPE"
+    },
+    "48234__10.00": {
+      "prodCode": "48234",
+      "packSize": 10,
+      "dlp": 3083.07,
+      "effDlp": 2965.07,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 10 HDPE"
+    },
+    "48234__15.00": {
+      "prodCode": "48234",
+      "packSize": 15,
+      "dlp": 4578.5,
+      "effDlp": 4401.5,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 15 HDPE"
+    },
+    "48234__20.00": {
+      "prodCode": "48234",
+      "packSize": 20,
+      "dlp": 6086.64,
+      "effDlp": 5850.64,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE TC 15W-40 - 20 HDPE"
+    },
+    "62113__0.90": {
+      "prodCode": "62113",
+      "packSize": 0.9,
+      "dlp": 466.61,
+      "effDlp": 466.61,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 5W-30 - 0.9 HDPE"
+    },
+    "62113__1.00": {
+      "prodCode": "62113",
+      "packSize": 1,
+      "dlp": 507.46,
+      "effDlp": 507.46,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 5W-30 - 1 HDPE"
+    },
+    "62123__0.90": {
+      "prodCode": "62123",
+      "packSize": 0.9,
+      "dlp": 474.38,
+      "effDlp": 474.38,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 10W-30 - 0.9 HDPE"
+    },
+    "62123__1.00": {
+      "prodCode": "62123",
+      "packSize": 1,
+      "dlp": 516.1,
+      "effDlp": 516.1,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 10W-30 - 1 HDPE"
+    },
+    "62124__0.90": {
+      "prodCode": "62124",
+      "packSize": 0.9,
+      "dlp": 474.38,
+      "effDlp": 474.38,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 10W-40 - 0.9 HDPE"
+    },
+    "62124__1.00": {
+      "prodCode": "62124",
+      "packSize": 1,
+      "dlp": 516.1,
+      "effDlp": 516.1,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 10W-40 - 1 HDPE"
+    },
+    "62135__1.20": {
+      "prodCode": "62135",
+      "packSize": 1.2,
+      "dlp": 646.12,
+      "effDlp": 646.12,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T HD 15W-50 - 1.2 HDPE"
+    },
+    "62135__2.50": {
+      "prodCode": "62135",
+      "packSize": 2.5,
+      "dlp": 1303.76,
+      "effDlp": 1303.76,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T HD 15W-50 - 2.5 HDPE"
+    },
+    "62144__0.90": {
+      "prodCode": "62144",
+      "packSize": 0.9,
+      "dlp": 484.46,
+      "effDlp": 484.46,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T - 0.9 HDPE"
+    },
+    "62144__1.00": {
+      "prodCode": "62144",
+      "packSize": 1,
+      "dlp": 521.4,
+      "effDlp": 521.4,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T - 1 HDPE"
+    },
+    "62145__0.90": {
+      "prodCode": "62145",
+      "packSize": 0.9,
+      "dlp": 481.07,
+      "effDlp": 481.07,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 20W-50 - 0.9 HDPE"
+    },
+    "62145__1.00": {
+      "prodCode": "62145",
+      "packSize": 1,
+      "dlp": 521.11,
+      "effDlp": 521.11,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 20W-50 - 1 HDPE"
+    },
+    "62145__1.20": {
+      "prodCode": "62145",
+      "packSize": 1.2,
+      "dlp": 650.4,
+      "effDlp": 650.4,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT 4T 20W-50 - 1.2 HDPE"
+    },
+    "62224__1.00": {
+      "prodCode": "62224",
+      "packSize": 1,
+      "dlp": 621.75,
+      "effDlp": 621.75,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 10W-40 - 1 HDPE"
+    },
+    "62224__1.20": {
+      "prodCode": "62224",
+      "packSize": 1.2,
+      "dlp": 746.57,
+      "effDlp": 746.57,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 10W-40 - 1.2 HDPE"
+    },
+    "62224__2.50": {
+      "prodCode": "62224",
+      "packSize": 2.5,
+      "dlp": 1551.26,
+      "effDlp": 1551.26,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 10W-40 - 2.5 HDPE"
+    },
+    "62225__1.00": {
+      "prodCode": "62225",
+      "packSize": 1,
+      "dlp": 636.49,
+      "effDlp": 636.49,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 10W-50 - 1 HDPE"
+    },
+    "62225__1.20": {
+      "prodCode": "62225",
+      "packSize": 1.2,
+      "dlp": 763.06,
+      "effDlp": 763.06,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 10W-50 - 1.2 HDPE"
+    },
+    "62225__2.50": {
+      "prodCode": "62225",
+      "packSize": 2.5,
+      "dlp": 1591.1,
+      "effDlp": 1591.1,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 10W-50 - 2.5 HDPE"
+    },
+    "62235__1.00": {
+      "prodCode": "62235",
+      "packSize": 1,
+      "dlp": 620,
+      "effDlp": 620,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 HD 15W-50 - 1 HDPE"
+    },
+    "62235__1.20": {
+      "prodCode": "62235",
+      "packSize": 1.2,
+      "dlp": 775,
+      "effDlp": 775,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 HD 15W-50 - 1.2 HDPE"
+    },
+    "62235__2.50": {
+      "prodCode": "62235",
+      "packSize": 2.5,
+      "dlp": 1550,
+      "effDlp": 1550,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 HD 15W-50 - 2.5 HDPE"
+    },
+    "62245__1.00": {
+      "prodCode": "62245",
+      "packSize": 1,
+      "dlp": 625,
+      "effDlp": 625,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 20W-50 - 1 HDPE"
+    },
+    "62245__1.20": {
+      "prodCode": "62245",
+      "packSize": 1.2,
+      "dlp": 750,
+      "effDlp": 750,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 20W-50 - 1.2 HDPE"
+    },
+    "62245__2.50": {
+      "prodCode": "62245",
+      "packSize": 2.5,
+      "dlp": 1562.5,
+      "effDlp": 1562.5,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT F5 20W-50 - 2.5 HDPE"
+    },
+    "63223__0.80": {
+      "prodCode": "63223",
+      "packSize": 0.8,
+      "dlp": 450,
+      "effDlp": 450,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERSPORT SCOOTER 10W-30 - 0.8 HDPE"
+    },
+    "65113__1.00": {
+      "prodCode": "65113",
+      "packSize": 1,
+      "dlp": 535.72,
+      "effDlp": 535.72,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 5W-30 - 1 HDPE"
+    },
+    "65113__3.00": {
+      "prodCode": "65113",
+      "packSize": 3,
+      "dlp": 1607.16,
+      "effDlp": 1607.16,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 5W-30 - 3 HDPE"
+    },
+    "65113__3.50": {
+      "prodCode": "65113",
+      "packSize": 3.5,
+      "dlp": 1874.88,
+      "effDlp": 1874.88,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 5W-30 - 3.5 HDPE"
+    },
+    "65113__4.00": {
+      "prodCode": "65113",
+      "packSize": 4,
+      "dlp": 2142.69,
+      "effDlp": 2142.69,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 5W-30 - 4 HDPE"
+    },
+    "65201__1.00": {
+      "prodCode": "65201",
+      "packSize": 1,
+      "dlp": 546.74,
+      "effDlp": 546.74,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 0W-16 - 1 HDPE"
+    },
+    "65201__3.00": {
+      "prodCode": "65201",
+      "packSize": 3,
+      "dlp": 1640.22,
+      "effDlp": 1640.22,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 0W-16 - 3 HDPE"
+    },
+    "65201__3.50": {
+      "prodCode": "65201",
+      "packSize": 3.5,
+      "dlp": 1913.6,
+      "effDlp": 1913.6,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 0W-16 - 3.5 HDPE"
+    },
+    "65201__4.00": {
+      "prodCode": "65201",
+      "packSize": 4,
+      "dlp": 2186.97,
+      "effDlp": 2186.97,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 0W-16 - 4 HDPE"
+    },
+    "65202__1.00": {
+      "prodCode": "65202",
+      "packSize": 1,
+      "dlp": 560,
+      "effDlp": 560,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 0W-20 - 1 HDPE"
+    },
+    "65202__3.00": {
+      "prodCode": "65202",
+      "packSize": 3,
+      "dlp": 1680,
+      "effDlp": 1680,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 0W-20 - 3 HDPE"
+    },
+    "65202__3.50": {
+      "prodCode": "65202",
+      "packSize": 3.5,
+      "dlp": 1960,
+      "effDlp": 1960,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 0W-20 - 3.5 HDPE"
+    },
+    "65202__4.00": {
+      "prodCode": "65202",
+      "packSize": 4,
+      "dlp": 2240,
+      "effDlp": 2240,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 0W-20 - 4 HDPE"
+    },
+    "65215__1.00": {
+      "prodCode": "65215",
+      "packSize": 1,
+      "dlp": 610.52,
+      "effDlp": 610.52,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 5W-50 - 1 HDPE"
+    },
+    "65215__3.00": {
+      "prodCode": "65215",
+      "packSize": 3,
+      "dlp": 1831.81,
+      "effDlp": 1831.81,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 5W-50 - 3 HDPE"
+    },
+    "65215__3.50": {
+      "prodCode": "65215",
+      "packSize": 3.5,
+      "dlp": 2136.83,
+      "effDlp": 2136.83,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 5W-50 - 3.5 HDPE"
+    },
+    "65215__4.00": {
+      "prodCode": "65215",
+      "packSize": 4,
+      "dlp": 2442.36,
+      "effDlp": 2442.36,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE 5W-50 - 4 HDPE"
+    },
+    "66201__1.00": {
+      "prodCode": "66201",
+      "packSize": 1,
+      "dlp": 716.96,
+      "effDlp": 716.96,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-16 - 1 HDPE"
+    },
+    "66201__3.00": {
+      "prodCode": "66201",
+      "packSize": 3,
+      "dlp": 2150.87,
+      "effDlp": 2150.87,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-16 - 3 HDPE"
+    },
+    "66201__3.50": {
+      "prodCode": "66201",
+      "packSize": 3.5,
+      "dlp": 2509.35,
+      "effDlp": 2509.35,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-16 - 3.5 HDPE"
+    },
+    "66201__4.00": {
+      "prodCode": "66201",
+      "packSize": 4,
+      "dlp": 2867.82,
+      "effDlp": 2867.82,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-16 - 4 HDPE"
+    },
+    "66201__5.00": {
+      "prodCode": "66201",
+      "packSize": 5,
+      "dlp": 3584.78,
+      "effDlp": 3584.78,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-16 - 5 HDPE"
+    },
+    "66204__1.00": {
+      "prodCode": "66204",
+      "packSize": 1,
+      "dlp": 780,
+      "effDlp": 780,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-40 - 1 HDPE"
+    },
+    "66204__3.00": {
+      "prodCode": "66204",
+      "packSize": 3,
+      "dlp": 2340,
+      "effDlp": 2340,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-40 - 3 HDPE"
+    },
+    "66204__3.50": {
+      "prodCode": "66204",
+      "packSize": 3.5,
+      "dlp": 2730,
+      "effDlp": 2730,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-40 - 3.5 HDPE"
+    },
+    "66204__4.00": {
+      "prodCode": "66204",
+      "packSize": 4,
+      "dlp": 3120,
+      "effDlp": 3120,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-40 - 4 HDPE"
+    },
+    "66204__5.00": {
+      "prodCode": "66204",
+      "packSize": 5,
+      "dlp": 3900,
+      "effDlp": 3900,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 0W-40 - 5 HDPE"
+    },
+    "66224__1.00": {
+      "prodCode": "66224",
+      "packSize": 1,
+      "dlp": 770.89,
+      "effDlp": 770.89,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 10W-40 - 1 HDPE"
+    },
+    "66224__3.00": {
+      "prodCode": "66224",
+      "packSize": 3,
+      "dlp": 2312.67,
+      "effDlp": 2312.67,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 10W-40 - 3 HDPE"
+    },
+    "66224__3.50": {
+      "prodCode": "66224",
+      "packSize": 3.5,
+      "dlp": 2698,
+      "effDlp": 2698,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 10W-40 - 3.5 HDPE"
+    },
+    "66224__4.00": {
+      "prodCode": "66224",
+      "packSize": 4,
+      "dlp": 3083.33,
+      "effDlp": 3083.33,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 10W-40 - 4 HDPE"
+    },
+    "66224__5.00": {
+      "prodCode": "66224",
+      "packSize": 5,
+      "dlp": 3854.1,
+      "effDlp": 3854.1,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERDRIVE NXT 10W-40 - 5 HDPE"
+    },
+    "67123__1.00": {
+      "prodCode": "67123",
+      "packSize": 1,
+      "dlp": 415,
+      "effDlp": 415,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 10W-30 - 1 HDPE"
+    },
+    "67123__5.00": {
+      "prodCode": "67123",
+      "packSize": 5,
+      "dlp": 2050,
+      "effDlp": 2050,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 10W-30 - 5 HDPE"
+    },
+    "67123__7.50": {
+      "prodCode": "67123",
+      "packSize": 7.5,
+      "dlp": 3075,
+      "effDlp": 3075,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 10W-30 - 7.5 HDPE"
+    },
+    "67123__15.00": {
+      "prodCode": "67123",
+      "packSize": 15,
+      "dlp": 6150,
+      "effDlp": 6150,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 10W-30 - 15 HDPE"
+    },
+    "67123__20.00": {
+      "prodCode": "67123",
+      "packSize": 20,
+      "dlp": 8200,
+      "effDlp": 8200,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 10W-30 - 20 HDPE"
+    },
+    "67134__1.00": {
+      "prodCode": "67134",
+      "packSize": 1,
+      "dlp": 430,
+      "effDlp": 430,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 15W-40 - 1 HDPE"
+    },
+    "67134__3.00": {
+      "prodCode": "67134",
+      "packSize": 3,
+      "dlp": 1260,
+      "effDlp": 1260,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 15W-40 - 3 HDPE"
+    },
+    "67134__5.00": {
+      "prodCode": "67134",
+      "packSize": 5,
+      "dlp": 2075,
+      "effDlp": 2075,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 15W-40 - 5 HDPE"
+    },
+    "67134__7.50": {
+      "prodCode": "67134",
+      "packSize": 7.5,
+      "dlp": 3037.5,
+      "effDlp": 3037.5,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 15W-40 - 7.5 HDPE"
+    },
+    "67134__10.00": {
+      "prodCode": "67134",
+      "packSize": 10,
+      "dlp": 4050,
+      "effDlp": 4050,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 15W-40 - 10 HDPE"
+    },
+    "67134__15.00": {
+      "prodCode": "67134",
+      "packSize": 15,
+      "dlp": 6075,
+      "effDlp": 6075,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 15W-40 - 15 HDPE"
+    },
+    "67134__18.00": {
+      "prodCode": "67134",
+      "packSize": 18,
+      "dlp": 7290,
+      "effDlp": 7290,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 15W-40 - 18 HDPE"
+    },
+    "67134__20.00": {
+      "prodCode": "67134",
+      "packSize": 20,
+      "dlp": 8100,
+      "effDlp": 8100,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ 15W-40 - 20 HDPE"
+    },
+    "68123__1.00": {
+      "prodCode": "68123",
+      "packSize": 1,
+      "dlp": 470,
+      "effDlp": 470,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-30 - 1 HDPE"
+    },
+    "68123__5.00": {
+      "prodCode": "68123",
+      "packSize": 5,
+      "dlp": 2300,
+      "effDlp": 2300,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-30 - 5 HDPE"
+    },
+    "68123__7.50": {
+      "prodCode": "68123",
+      "packSize": 7.5,
+      "dlp": 3225,
+      "effDlp": 3225,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-30 - 7.5 HDPE"
+    },
+    "68123__15.00": {
+      "prodCode": "68123",
+      "packSize": 15,
+      "dlp": 6450,
+      "effDlp": 6450,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-30 - 15 HDPE"
+    },
+    "68123__18.00": {
+      "prodCode": "68123",
+      "packSize": 18,
+      "dlp": 7740,
+      "effDlp": 7740,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-30 - 18 HDPE"
+    },
+    "68123__20.00": {
+      "prodCode": "68123",
+      "packSize": 20,
+      "dlp": 8600,
+      "effDlp": 8600,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-30 - 20 HDPE"
+    },
+    "68124__1.00": {
+      "prodCode": "68124",
+      "packSize": 1,
+      "dlp": 510,
+      "effDlp": 510,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-40 - 1 HDPE"
+    },
+    "68124__5.00": {
+      "prodCode": "68124",
+      "packSize": 5,
+      "dlp": 2500,
+      "effDlp": 2500,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-40 - 5 HDPE"
+    },
+    "68124__7.50": {
+      "prodCode": "68124",
+      "packSize": 7.5,
+      "dlp": 3675,
+      "effDlp": 3675,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-40 - 7.5 HDPE"
+    },
+    "68124__15.00": {
+      "prodCode": "68124",
+      "packSize": 15,
+      "dlp": 7350,
+      "effDlp": 7350,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-40 - 15 HDPE"
+    },
+    "68124__18.00": {
+      "prodCode": "68124",
+      "packSize": 18,
+      "dlp": 8820,
+      "effDlp": 8820,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-40 - 18 HDPE"
+    },
+    "68124__20.00": {
+      "prodCode": "68124",
+      "packSize": 20,
+      "dlp": 9800,
+      "effDlp": 9800,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 10W-40 - 20 HDPE"
+    },
+    "68134__1.00": {
+      "prodCode": "68134",
+      "packSize": 1,
+      "dlp": 460,
+      "effDlp": 460,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 15W-40 - 1 HDPE"
+    },
+    "68134__3.00": {
+      "prodCode": "68134",
+      "packSize": 3,
+      "dlp": 1350,
+      "effDlp": 1350,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 15W-40 - 3 HDPE"
+    },
+    "68134__5.00": {
+      "prodCode": "68134",
+      "packSize": 5,
+      "dlp": 2175,
+      "effDlp": 2175,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 15W-40 - 5 HDPE"
+    },
+    "68134__7.50": {
+      "prodCode": "68134",
+      "packSize": 7.5,
+      "dlp": 3150,
+      "effDlp": 3150,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 15W-40 - 7.5 HDPE"
+    },
+    "68134__10.00": {
+      "prodCode": "68134",
+      "packSize": 10,
+      "dlp": 4200,
+      "effDlp": 4200,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 15W-40 - 10 HDPE"
+    },
+    "68134__15.00": {
+      "prodCode": "68134",
+      "packSize": 15,
+      "dlp": 6300,
+      "effDlp": 6300,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 15W-40 - 15 HDPE"
+    },
+    "68134__18.00": {
+      "prodCode": "68134",
+      "packSize": 18,
+      "dlp": 7560,
+      "effDlp": 7560,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 15W-40 - 18 HDPE"
+    },
+    "68134__20.00": {
+      "prodCode": "68134",
+      "packSize": 20,
+      "dlp": 8400,
+      "effDlp": 8400,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO HYPERTORQ NXT 15W-40 - 20 HDPE"
+    },
+    "2485__18.00": {
+      "prodCode": "2485",
+      "packSize": 18,
+      "dlp": 7109.559,
+      "effDlp": 6259.96,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MAHINDRA EM REAR AXLE OIL-18 L"
+    },
+    "2502__0.50": {
+      "prodCode": "2502",
+      "packSize": 0.5,
+      "dlp": 189.3,
+      "effDlp": 189.3,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR HP 90- 1/2L-HDPE"
+    },
+    "2502__1.00": {
+      "prodCode": "2502",
+      "packSize": 1,
+      "dlp": 360.45099999999996,
+      "effDlp": 301.45,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR HP 90- 1L-HDPE"
+    },
+    "2502__5.00": {
+      "prodCode": "2502",
+      "packSize": 5,
+      "dlp": 1788.6468000000002,
+      "effDlp": 1493.65,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR HP 90 - 5L - HDPE"
+    },
+    "2502__20.00": {
+      "prodCode": "2502",
+      "packSize": 20,
+      "dlp": 7065.92,
+      "effDlp": 5885.92,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR HP 90-20L BUC"
+    },
+    "2503__1.00": {
+      "prodCode": "2503",
+      "packSize": 1,
+      "dlp": 371.95399999999995,
+      "effDlp": 312.95,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR HP 140 - 1L - HDPE"
+    },
+    "2503__5.00": {
+      "prodCode": "2503",
+      "packSize": 5,
+      "dlp": 1843.92,
+      "effDlp": 1548.92,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR HP 140 - 5L - HDPE"
+    },
+    "2503__20.00": {
+      "prodCode": "2503",
+      "packSize": 20,
+      "dlp": 7255.4178,
+      "effDlp": 6075.42,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR HP 140-20L BUC"
+    },
+    "2540__2.10": {
+      "prodCode": "2540",
+      "packSize": 2.1,
+      "dlp": 725.8536,
+      "effDlp": 725.85,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGGO 80W-90 - 2.1 L"
+    },
+    "2557__2.50": {
+      "prodCode": "2557",
+      "packSize": 2.5,
+      "dlp": 1340.0928000000001,
+      "effDlp": 1340.09,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HYUNDAI S.GEAR OIL 75W-85- 2.5L-HDPE"
+    },
+    "2909__0.25": {
+      "prodCode": "2909",
+      "packSize": 0.25,
+      "dlp": 99.7515,
+      "effDlp": 99.75,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO BRAKE FLUID SUPER HD - 1/4L-HDP"
+    },
+    "2909__0.50": {
+      "prodCode": "2909",
+      "packSize": 0.5,
+      "dlp": 193.6635,
+      "effDlp": 193.66,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO BRAKE FLUID SUPER HD -1/2L-HDPE"
+    },
+    "2914__0.25": {
+      "prodCode": "2914",
+      "packSize": 0.25,
+      "dlp": 124.65254999999999,
+      "effDlp": 124.65,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO BRAKE FLUID DOT 4- 1/4 L"
+    },
+    "2914__0.50": {
+      "prodCode": "2914",
+      "packSize": 0.5,
+      "dlp": 239.8825,
+      "effDlp": 239.88,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO BRAKE FLUID DOT 4- 1/2 L"
+    },
+    "2927__0.90": {
+      "prodCode": "2927",
+      "packSize": 0.9,
+      "dlp": 405.92299999999994,
+      "effDlp": 379.37,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "SERVO HONDA JOSH- 0.9 L"
+    },
+    "2927__1.00": {
+      "prodCode": "2927",
+      "packSize": 1,
+      "dlp": 450.98400000000004,
+      "effDlp": 421.48,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "SERVO HONDA JOSH- 1 L"
+    },
+    "2964__3.50": {
+      "prodCode": "2964",
+      "packSize": 3.5,
+      "dlp": 1168.2944,
+      "effDlp": 1168.29,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGDO 5W-30- 3.5 L"
+    },
+    "2968__3.50": {
+      "prodCode": "2968",
+      "packSize": 3.5,
+      "dlp": 1425.171,
+      "effDlp": 1363.22,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HY.SERVO ENGINE OIL 5W-30- 3.5L"
+    },
+    "3001__20.00": {
+      "prodCode": "3001",
+      "packSize": 20,
+      "dlp": 6839.6588,
+      "effDlp": 4880.86,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOSYSTEM 32-20L BUC"
+    },
+    "3002__20.00": {
+      "prodCode": "3002",
+      "packSize": 20,
+      "dlp": 6846.994000000001,
+      "effDlp": 4840.99,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOSYSTEM 46 - 20L BUC"
+    },
+    "3006__5.00": {
+      "prodCode": "3006",
+      "packSize": 5,
+      "dlp": 1807.4727000000003,
+      "effDlp": 1229.27,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOSYSTEM 68- 5L - HDPE"
+    },
+    "3006__20.00": {
+      "prodCode": "3006",
+      "packSize": 20,
+      "dlp": 7000.8730000000005,
+      "effDlp": 4688.07,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOSYSTEM 68-20L BUC"
+    },
+    "3059__20.00": {
+      "prodCode": "3059",
+      "packSize": 20,
+      "dlp": 8268.518399999999,
+      "effDlp": 7112.12,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOHYDREX TH 46 PLUS-20 L"
+    },
+    "3064__20.00": {
+      "prodCode": "3064",
+      "packSize": 20,
+      "dlp": 7603.720200000001,
+      "effDlp": 6872.12,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOHYDREX TH 46-20L BUC"
+    },
+    "3614__20.00": {
+      "prodCode": "3614",
+      "packSize": 20,
+      "dlp": 7363.677900000001,
+      "effDlp": 5688.08,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOMESH SP 320-20 L"
+    },
+    "3617__20.00": {
+      "prodCode": "3617",
+      "packSize": 20,
+      "dlp": 7163.0442,
+      "effDlp": 5770.64,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOMESH SP 220-20 L"
+    },
+    "4501__20.00": {
+      "prodCode": "4501",
+      "packSize": 20,
+      "dlp": 6528.939600000001,
+      "effDlp": 5278.14,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOCUT S - 20L BUC"
+    },
+    "4906__0.50": {
+      "prodCode": "4906",
+      "packSize": 0.5,
+      "dlp": 204.57120000000003,
+      "effDlp": 204.57,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO TRANSFLUID A- 1/2 L"
+    },
+    "4906__1.00": {
+      "prodCode": "4906",
+      "packSize": 1,
+      "dlp": 385.6006,
+      "effDlp": 344.3,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO TRANSFLUID A- 1L-HDPE"
+    },
+    "4906__5.00": {
+      "prodCode": "4906",
+      "packSize": 5,
+      "dlp": 1906.2168,
+      "effDlp": 1699.72,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO TRANSFLUID A- 5L-HDPE"
+    },
+    "4906__10.00": {
+      "prodCode": "4906",
+      "packSize": 10,
+      "dlp": 3788.6044,
+      "effDlp": 3375.6,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO TRANSFLUID A-10 L"
+    },
+    "7205__4.00": {
+      "prodCode": "7205",
+      "packSize": 4,
+      "dlp": 1947.4168,
+      "effDlp": 1876.62,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HYUNDAI SERVO SUPERIOR 0W30- 4 L"
+    },
+    "7209__3.50": {
+      "prodCode": "7209",
+      "packSize": 3.5,
+      "dlp": 3569.6265,
+      "effDlp": 3507.68,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HY SERVO SYNTH 0W-30 SP/C3- 3.5 L"
+    },
+    "7232__1.00": {
+      "prodCode": "7232",
+      "packSize": 1,
+      "dlp": 297.6831,
+      "effDlp": 279.98,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HYUNDAI SERVO COOLANT 50- 1 L"
+    },
+    "7264__4.00": {
+      "prodCode": "7264",
+      "packSize": 4,
+      "dlp": 1675.628,
+      "effDlp": 1637.87,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "SERVO MG HECTOR PETROL EO- 4 L"
+    },
+    "7267__5.00": {
+      "prodCode": "7267",
+      "packSize": 5,
+      "dlp": 4413.066000000001,
+      "effDlp": 4289.17,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "SERVO MG HECTOR DIESEL ENGINE OIL- 5 L"
+    },
+    "7420__3.50": {
+      "prodCode": "7420",
+      "packSize": 3.5,
+      "dlp": 1602.9993,
+      "effDlp": 1541.05,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HY SERVO PETROL EO SN PLUS- 3.5 L"
+    },
+    "7420__4.00": {
+      "prodCode": "7420",
+      "packSize": 4,
+      "dlp": 1831.5048000000002,
+      "effDlp": 1784.3,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HY SERVO PETROL EO SN PLUS- 4 L"
+    },
+    "7421__5.00": {
+      "prodCode": "7421",
+      "packSize": 5,
+      "dlp": 2445.228,
+      "effDlp": 2386.23,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HYUNDAI SERVO DEO ACEA C5- 5 L"
+    },
+    "7427__3.50": {
+      "prodCode": "7427",
+      "packSize": 3.5,
+      "dlp": 1622.2656,
+      "effDlp": 1539.67,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "ECSTAR PETROL 0W-20- 3.5 L"
+    },
+    "7428__3.50": {
+      "prodCode": "7428",
+      "packSize": 3.5,
+      "dlp": 1914.6735,
+      "effDlp": 1852.72,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "ECSTAR DIESEL 5W-30- 3.5 L"
+    },
+    "7511__1.00": {
+      "prodCode": "7511",
+      "packSize": 1,
+      "dlp": 379.4396000000001,
+      "effDlp": 302.74,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 80W-90 - 1 L HDPE"
+    },
+    "7511__2.50": {
+      "prodCode": "7511",
+      "packSize": 2.5,
+      "dlp": 943.8462,
+      "effDlp": 752.1,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 80W-90- 2.5 L"
+    },
+    "7511__5.00": {
+      "prodCode": "7511",
+      "packSize": 5,
+      "dlp": 1877.76,
+      "effDlp": 1494.26,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 80W-90- 5 L"
+    },
+    "7511__7.50": {
+      "prodCode": "7511",
+      "packSize": 7.5,
+      "dlp": 2794.278,
+      "effDlp": 2219.03,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 80W-90-7.5 L"
+    },
+    "7511__20.00": {
+      "prodCode": "7511",
+      "packSize": 20,
+      "dlp": 7388.107200000001,
+      "effDlp": 5618.11,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 80W-90-20 L PROMO"
+    },
+    "7515__12.00": {
+      "prodCode": "7515",
+      "packSize": 12,
+      "dlp": 4716.9952,
+      "effDlp": 3796.6,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 85W-140-12 L BUC"
+    },
+    "7515__1.00": {
+      "prodCode": "7515",
+      "packSize": 1,
+      "dlp": 405.6462,
+      "effDlp": 328.95,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 85W-140 - 1 L HDPE"
+    },
+    "7515__5.00": {
+      "prodCode": "7515",
+      "packSize": 5,
+      "dlp": 2015.0167999999999,
+      "effDlp": 1631.52,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 85W-140 - 5 L HDPE"
+    },
+    "7515__7.50": {
+      "prodCode": "7515",
+      "packSize": 7.5,
+      "dlp": 3011.2509000000005,
+      "effDlp": 2347.5,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 85W-140-7.5 L"
+    },
+    "7515__20.00": {
+      "prodCode": "7515",
+      "packSize": 20,
+      "dlp": 7805.4375,
+      "effDlp": 5917.44,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEAR SUPER 85W-140-20 L BUC"
+    },
+    "7584__0.25": {
+      "prodCode": "7584",
+      "packSize": 0.25,
+      "dlp": 90.5751,
+      "effDlp": 90.58,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO KOOL PLUS - 1/4L-HDPE"
+    },
+    "7584__0.50": {
+      "prodCode": "7584",
+      "packSize": 0.5,
+      "dlp": 181.1616,
+      "effDlp": 181.16,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO KOOL PLUS- 1/2L-HDPE"
+    },
+    "7584__1.00": {
+      "prodCode": "7584",
+      "packSize": 1,
+      "dlp": 334.82200000000006,
+      "effDlp": 334.82,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO KOOL PLUS- 1L-HDPE"
+    },
+    "7600__1.00": {
+      "prodCode": "7600",
+      "packSize": 1,
+      "dlp": 332.0079,
+      "effDlp": 332.01,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGO 20W-40 - 1 L"
+    },
+    "7600__3.00": {
+      "prodCode": "7600",
+      "packSize": 3,
+      "dlp": 971.7246000000001,
+      "effDlp": 936.32,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGO 20W-40 - 3 L"
+    },
+    "7607__1.00": {
+      "prodCode": "7607",
+      "packSize": 1,
+      "dlp": 254.835,
+      "effDlp": 254.84,
+      "sc": 0.075,
+      "cd": 0.02,
+      "desc": "SERVO KOOL READY- 1L-HDPE"
+    },
+    "7638__5.00": {
+      "prodCode": "7638",
+      "packSize": 5,
+      "dlp": 1985.2625,
+      "effDlp": 1932.16,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "HYUNDAI SERVO CRDi PREM.ENG.OIL 5L-HDP"
+    },
+    "7670__1.00": {
+      "prodCode": "7670",
+      "packSize": 1,
+      "dlp": 357.1425,
+      "effDlp": 357.14,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGDO 15W-40 - 1 L"
+    },
+    "7670__3.50": {
+      "prodCode": "7670",
+      "packSize": 3.5,
+      "dlp": 1186.1699999999998,
+      "effDlp": 1186.17,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGDO 15W-40 - 3.5 L"
+    },
+    "7670__5.00": {
+      "prodCode": "7670",
+      "packSize": 5,
+      "dlp": 1689.6605,
+      "effDlp": 1630.66,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGDO 15W-40 -  5 L"
+    },
+    "7677__1.00": {
+      "prodCode": "7677",
+      "packSize": 1,
+      "dlp": 372,
+      "effDlp": 324.8,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE ALT PLUS 15W-40 - 1 L"
+    },
+    "7677__10.00": {
+      "prodCode": "7677",
+      "packSize": 10,
+      "dlp": 3640,
+      "effDlp": 3050,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE ALT PLUS 15W-40 -10 L"
+    },
+    "7677__18.00": {
+      "prodCode": "7677",
+      "packSize": 18,
+      "dlp": 6408,
+      "effDlp": 5346,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE ALT PLUS 15W-40-18 L"
+    },
+    "7677__15.00": {
+      "prodCode": "7677",
+      "packSize": 15,
+      "dlp": 5400,
+      "effDlp": 4515,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "SERVO PRIDE ALT PLUS 15W-40 -15 L"
+    },
+    "7688__3.00": {
+      "prodCode": "7688",
+      "packSize": 3,
+      "dlp": 1118.73,
+      "effDlp": 1083.33,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGO 5W-30- 3 L"
+    },
+    "7688__3.50": {
+      "prodCode": "7688",
+      "packSize": 3.5,
+      "dlp": 1305.63,
+      "effDlp": 1264.33,
+      "sc": 0.055,
+      "cd": 0.02,
+      "desc": "MGO 5W-30- 3.5L HDPE"
+    },
+    "7701__20.00": {
+      "prodCode": "7701",
+      "packSize": 20,
+      "dlp": 8188.160400000001,
+      "effDlp": 6772.16,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GREASE MP-20 KG BUC"
+    },
+    "7705__0.50": {
+      "prodCode": "7705",
+      "packSize": 0.5,
+      "dlp": 232.469,
+      "effDlp": 202.97,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GREASE MP 3 - 1/2 KG CTN"
+    },
+    "7705__0.20": {
+      "prodCode": "7705",
+      "packSize": 0.2,
+      "dlp": 104.19,
+      "effDlp": 92.39,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGREASE MP 3- 200 GM CAR"
+    },
+    "7705__1.00": {
+      "prodCode": "7705",
+      "packSize": 1,
+      "dlp": 458.28000000000003,
+      "effDlp": 393.38,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GREASE MP 3 - 1 KG CTN"
+    },
+    "7705__2.00": {
+      "prodCode": "7705",
+      "packSize": 2,
+      "dlp": 902.0386,
+      "effDlp": 760.44,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGREASE MP 3- 2 KG"
+    },
+    "7705__3.00": {
+      "prodCode": "7705",
+      "packSize": 3,
+      "dlp": 1336.392,
+      "effDlp": 1123.99,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGREASE MP 3- 3 KG"
+    },
+    "7705__5.00": {
+      "prodCode": "7705",
+      "packSize": 5,
+      "dlp": 2186.9847999999997,
+      "effDlp": 1832.98,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGREASE MP 3 - 5 KG BUC"
+    },
+    "7705__20.00": {
+      "prodCode": "7705",
+      "packSize": 20,
+      "dlp": 8578.987,
+      "effDlp": 7162.99,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGREASE MP 3 -20 KG BUC"
+    },
+    "7722__20.00": {
+      "prodCode": "7722",
+      "packSize": 20,
+      "dlp": 8783.1813,
+      "effDlp": 7508.78,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGEM 2-20 KG BUC"
+    },
+    "7723__20.00": {
+      "prodCode": "7723",
+      "packSize": 20,
+      "dlp": 8819.04,
+      "effDlp": 7285.04,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGEM 3-20 KG BUC"
+    },
+    "7727__0.50": {
+      "prodCode": "7727",
+      "packSize": 0.5,
+      "dlp": 251.66899999999998,
+      "effDlp": 219.22,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEM RR 3 - 1/2 KG CTN"
+    },
+    "7727__1.00": {
+      "prodCode": "7727",
+      "packSize": 1,
+      "dlp": 480.455,
+      "effDlp": 415.56,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEM RR 3 - 1 KG CTN"
+    },
+    "7727__2.00": {
+      "prodCode": "7727",
+      "packSize": 2,
+      "dlp": 941.9895,
+      "effDlp": 812.19,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEM RR 3- 2 KG TUB"
+    },
+    "7727__3.00": {
+      "prodCode": "7727",
+      "packSize": 3,
+      "dlp": 1380.9619999999998,
+      "effDlp": 1186.26,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEM RR 3- 3 KG"
+    },
+    "7727__20.00": {
+      "prodCode": "7727",
+      "packSize": 20,
+      "dlp": 9005.465600000001,
+      "effDlp": 7589.47,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEM RR 3 - 20 KG. BUC"
+    },
+    "7727__7.00": {
+      "prodCode": "7727",
+      "packSize": 7,
+      "dlp": 3194.613,
+      "effDlp": 2740.31,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO GEM RR 3-7 KG"
+    },
+    "7742__20.00": {
+      "prodCode": "7742",
+      "packSize": 20,
+      "dlp": 8756.391599999999,
+      "effDlp": 7316.79,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGEM EP 2-20 KG BUC"
+    },
+    "7744__20.00": {
+      "prodCode": "7744",
+      "packSize": 20,
+      "dlp": 8782.9027,
+      "effDlp": 8074.9,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGEM HTXX-20 KG BUC"
+    },
+    "7849__0.50": {
+      "prodCode": "7849",
+      "packSize": 0.5,
+      "dlp": 249.02640000000002,
+      "effDlp": 216.58,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO LONG LIFE GREASE- 1/2 KG"
+    },
+    "7849__1.00": {
+      "prodCode": "7849",
+      "packSize": 1,
+      "dlp": 486.58480000000003,
+      "effDlp": 421.68,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO LONG LIFE GREASE- 1 KG TUB"
+    },
+    "7849__2.00": {
+      "prodCode": "7849",
+      "packSize": 2,
+      "dlp": 955.4944,
+      "effDlp": 825.69,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO LONG LIFE GREASE- 2 KG TUB"
+    },
+    "7849__3.00": {
+      "prodCode": "7849",
+      "packSize": 3,
+      "dlp": 1419.782,
+      "effDlp": 1225.08,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO LONG LIFE GREASE- 3 KG TUB"
+    },
+    "7849__5.00": {
+      "prodCode": "7849",
+      "packSize": 5,
+      "dlp": 2343.1725,
+      "effDlp": 2018.67,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO LONG LIFE GREASE-5 KG"
+    },
+    "7849__20.00": {
+      "prodCode": "7849",
+      "packSize": 20,
+      "dlp": 9086.2916,
+      "effDlp": 7670.29,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO LONG LIFE GREASE-20 KG"
+    },
+    "7849__7.00": {
+      "prodCode": "7849",
+      "packSize": 7,
+      "dlp": 3246.9158,
+      "effDlp": 2751.32,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO LONG LIFE GREASE-7 KG"
+    },
+    "7849__10.00": {
+      "prodCode": "7849",
+      "packSize": 10,
+      "dlp": 4602.2875,
+      "effDlp": 3953.29,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVO LONG LIFE GREASE-10 KG BUC"
+    },
+    "7903__1.00": {
+      "prodCode": "7903",
+      "packSize": 1,
+      "dlp": 448,
+      "effDlp": 389,
+      "sc": 0.06,
+      "cd": 0.02,
+      "desc": "SERVOGREASE MIRACLE 3- 1 KG"
+    }
+  },
   "stockCaptureDate": "16-10-2026",
   "stockUploadTime": "08:44:46 pm",
-  "lastUpdated": "2026-10-18T15:14:46.152Z"
+  "lastUpdated": "2026-10-18T15:25:02.768Z"
 }
