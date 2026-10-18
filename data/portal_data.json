@@ -24850,68 +24850,8 @@
       "name": "HYUNDAI SERVO GEAR OIL 75W-85- 4X2.5L-HDPE",
       "category": "OEM Urgent Grade"
     },
-    "2571401": {
-      "name": "TMGO GO 80W-90 LL- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
-    "2572401": {
-      "name": "TMGO RA 80W-140 LL- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
-    "2573401": {
-      "name": "TMGO GEAR OIL SYND 75W-85- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
-    "2583401": {
-      "name": "TMGO ProFE LL AXLE- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
-    "2841152": {
-      "name": "HERO 4T PLUS MOTORCYCLE OIL- 20 X 0.9L",
-      "category": "OEM Urgent Grade"
-    },
-    "2841156": {
-      "name": "HERO 4T PLUS MOTORCYCLE OIL- 20 X 0.8 L",
-      "category": "OEM Urgent Grade"
-    },
-    "2841184": {
-      "name": "HERO 4T PLUS MOTORCYCLE OIL- 20 X 1 L",
-      "category": "OEM Urgent Grade"
-    },
-    "2841225": {
-      "name": "HERO 4T PLUS MOTORCYCLE OIL- 20 X 1.2 L",
-      "category": "OEM Urgent Grade"
-    },
-    "2841230": {
-      "name": "HERO 4T PLUS MOTORCYCLE OIL- 20 X 0.9L PROMO",
-      "category": "OEM Urgent Grade"
-    },
-    "2842156": {
-      "name": "HERO 4T PLUS SCOOTER OIL- 20 X 0.8 L",
-      "category": "OEM Urgent Grade"
-    },
-    "2844034": {
-      "name": "HERO XOTIC+ 10W30- 10 X 1.25 L",
-      "category": "OEM Urgent Grade"
-    },
     "2849030": {
       "name": "HARLEY DAVIDSON X- 4 X 2.8 L",
-      "category": "OEM Urgent Grade"
-    },
-    "2850230": {
-      "name": "HERO 4T PLUS 20W-40- 20 X 0.9L PROMO",
-      "category": "OEM Urgent Grade"
-    },
-    "2998401": {
-      "name": "TMGO HYDRAULIC OIL 68 GRADE- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
-    "4957032": {
-      "name": "HERO TRANS 75W-90 oil- 96 X 125 ML",
-      "category": "OEM Urgent Grade"
-    },
-    "5049401": {
-      "name": "TMGO GAS ENGINE OIL 15W-40 LL- 210 L BRL",
       "category": "OEM Urgent Grade"
     },
     "7202401": {
@@ -24938,18 +24878,6 @@
       "name": "SERVO FUTURA NXT 0W-16- 210 L BRL",
       "category": "OEM Urgent Grade"
     },
-    "7384401": {
-      "name": "TMGO SYNTHETIC ENGINE OIL 05W30- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
-    "7386401": {
-      "name": "TMGO ENGINE OIL CK4 10W-30- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
-    "7387401": {
-      "name": "TMGO ENGINE OIL CK4 15W-40- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
     "7420401": {
       "name": "HYUNDAI SERVO PETROL ENGINE OIL SN PLUS- 210 L BRL",
       "category": "OEM Urgent Grade"
@@ -24960,10 +24888,6 @@
     },
     "7427401": {
       "name": "ECSTAR PETROL 0W-20- 210 L BRL",
-      "category": "OEM Urgent Grade"
-    },
-    "7440401": {
-      "name": "TMGO DEO CI-4 PLUS- 210 L BRL",
       "category": "OEM Urgent Grade"
     }
   },
@@ -26297,7 +26221,8 @@
       }
     }
   },
+  "priceMasterDatabase": [],
   "stockCaptureDate": "17-10-2026",
   "stockUploadTime": "04:38:25 PM",
-  "lastUpdated": "2026-10-17T11:08:25.038Z"
+  "lastUpdated": "2026-10-18T15:14:37.880Z"
 }
