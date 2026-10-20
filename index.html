@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>Daily Stock Position & Indent Portal</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -36,7 +39,7 @@
 <body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
 
     <!-- ================= INITIAL ROLE ONBOARDING / LOGIN MODAL ================= -->
-    <div id="roleModal" class="fixed inset-0 bg-slate-900/80 backdrop-blur-md flex items-center justify-center p-4 z-[100]">
+    <div id="roleModal" class="fixed inset-0 bg-slate-900/80 backdrop-blur-md flex items-center justify-center p-4 z-[100] hidden">
         <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 space-y-5 border border-slate-200 animate-in fade-in zoom-in duration-200">
             <div class="text-center space-y-1.5">
                 <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mx-auto shadow-inner border border-blue-100 mb-2">
@@ -148,7 +151,14 @@
                 </div>
             </div>
             
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-2 sm:gap-3">
+                <!-- Force App Update Button -->
+                <button onclick="forceAppUpdate()" class="flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 px-2.5 py-1.5 rounded-full text-xs font-medium transition-colors" title="Force refresh and clear cached standalone assets">
+                    <i data-lucide="refresh-cw" class="w-3.5 h-3.5 text-slate-600"></i>
+                    <span class="hidden sm:inline">Check for Updates</span>
+                    <span class="sm:hidden">Update</span>
+                </button>
+
                 <!-- Direct Cloud Status Indicator -->
                 <button id="cloudSyncBadge" onclick="handleCloudSyncClick()" class="flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-xs font-medium transition-colors" title="Click to refresh latest data or configure token">
                     <i data-lucide="cloud" class="w-3.5 h-3.5 text-blue-600"></i>
@@ -879,6 +889,22 @@
 
     <!-- Complete Unified JavaScript Logic -->
     <script>
+        // Force App Hard Refresh and Cache Busting for Home-screen Shortcuts
+        function forceAppUpdate() {
+            if ('caches' in window) {
+                caches.keys().then((names) => {
+                    names.forEach((name) => caches.delete(name));
+                });
+            }
+            if (window.navigator && navigator.serviceWorker) {
+                navigator.serviceWorker.getRegistrations().then((registrations) => {
+                    registrations.forEach((registration) => registration.unregister());
+                });
+            }
+            const cleanUrl = window.location.href.split('?')[0] + '?_nocache=' + Date.now();
+            window.location.replace(cleanUrl);
+        }
+
         // ================= CLOUD PERSISTENCE CONFIGURATION =================
         const GITHUB_REPO_OWNER = "binaykrishna";
         const GITHUB_REPO_NAME = "Indent-STO";
@@ -1819,7 +1845,21 @@
             refreshEmailDatalists();
             toggleToClearBtn();
 
-            openRoleModal();
+            // Auto-restore session from device memory so hard reloads / updates don't throw user back to login modal
+            const savedRole = localStorage.getItem('user_role');
+            const savedStockist = localStorage.getItem('user_stockist') || '';
+            const modalEl = document.getElementById('roleModal');
+
+            if (savedRole) {
+                currentUserRole = savedRole;
+                selectedStockistProfile = savedStockist;
+                if (modalEl) modalEl.classList.add('hidden');
+                updateUserProfileUI();
+                updateStats();
+                renderOrdersTable();
+            } else {
+                openRoleModal();
+            }
 
             document.addEventListener('click', (e) => {
                 const searchWrapper = document.getElementById('searchInput')?.parentElement;
