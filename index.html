@@ -1111,8 +1111,8 @@
                     const code = (stk.code || '').trim();
                     if (isExcludedProduct(code, desc)) return false;
                     
-                    // Restrict out non-9-digit codes from new series suggestions
-                    if (/^\d{7}$/.test(code) || /^\d{8}$/.test(code)) return false;
+                    // Restrict out non-9-digit codes from new series suggestions (e.g. 7-digit and 8-digit)
+                    if (!/^\d{9}$/.test(code)) return false;
 
                     const isNameMatch = cleanNewWords.every(w => desc.includes(w));
                     
@@ -2124,6 +2124,16 @@
                     sourcingHtml = `<span class="inline-block px-2 py-0.5 rounded bg-rose-100 text-rose-800 text-xs font-semibold">Nil Regional Stock</span>`;
                 }
 
+                // Determine default source plant for the action column STO button
+                let defaultSourcePlant = '';
+                if (selectedSourcingPlant !== 'ALL' && row.alternateStockLocations.some(src => src.plant === selectedSourcingPlant)) {
+                    defaultSourcePlant = selectedSourcingPlant;
+                } else if (row.alternateStockLocations.length > 0) {
+                    defaultSourcePlant = row.alternateStockLocations[0].plant;
+                } else {
+                    defaultSourcePlant = row.targetPlant;
+                }
+
                 return `
                     <tr class="hover:bg-slate-50 transition-colors bg-rose-50/20">
                         <td class="px-4 py-3 font-mono text-xs font-bold text-slate-900">${row.skuCode}</td>
@@ -2148,7 +2158,7 @@
                             ${sourcingHtml}
                         </td>
                         <td class="px-4 py-3 text-center space-x-1.5 whitespace-nowrap">
-                            <button onclick="initiateStoFromWbso('${row.skuCode}', '${escapeQuotes(row.alternateStockLocations.length > 0 ? row.alternateStockLocations[0].plant : row.targetPlant)}', '${escapeQuotes(row.targetPlant)}', ${row.shortfall})" 
+                            <button onclick="initiateStoFromWbso('${row.skuCode}', '${escapeQuotes(defaultSourcePlant)}', '${escapeQuotes(row.targetPlant)}', ${row.shortfall})" 
                                 class="px-2.5 py-1 bg-amber-50 hover:bg-amber-100 text-amber-800 rounded border border-amber-300 text-xs font-semibold shadow-2xs transition-colors">
                                 STO
                             </button>
@@ -2168,8 +2178,12 @@
             openIndentModal(skuCode, sourcePlant, 'STO');
             
             setTimeout(() => {
+                const sourceItem = stockDatabase.find(i => i.code === skuCode && i.plant === sourcePlant);
+                const maxAvailable = sourceItem ? ((sourceItem.qty || 0) + (sourceItem.transitQty || 0)) : shortfallQty;
+                const safeInitialQty = Math.min(shortfallQty, maxAvailable > 0 ? maxAvailable : shortfallQty);
+
                 const qtyInput = document.getElementById('formQty');
-                if (qtyInput) qtyInput.value = shortfallQty;
+                if (qtyInput) qtyInput.value = safeInitialQty;
 
                 const destSelect = document.getElementById('formDestPlant');
                 if (destSelect) destSelect.value = destPlant;
@@ -2265,7 +2279,7 @@
                 const code = String(row[colMap.mat]).trim();
                 if (!code || (isNaN(Number(code)) && code.toLowerCase().includes('total'))) continue;
 
-                // Restrict suggestions/searches from accepting outdated 8-digit codes
+                // Restrict 8-digit codes, allow 7-digit and 9-digit SKU codes in Search & Indent tab
                 if (/^\d{8}$/.test(code)) continue;
 
                 const desc = colMap.desc !== -1 && row[colMap.desc] ? String(row[colMap.desc]).trim() : '';
@@ -2427,7 +2441,7 @@
 
                                 if (code) {
                                     const cleanCode = String(code).trim();
-                                    // Skip 8-digit SKU codes
+                                    // Skip 8-digit SKU codes, allow 7-digit and 9-digit
                                     if (/^\d{8}$/.test(cleanCode)) return;
 
                                     const cleanDesc = String(desc || '').trim();
@@ -2553,22 +2567,25 @@
                 return;
             }
 
+            const queryWords = val.replace(/[^a-z0-9]/g, ' ').split(/\s+/).filter(w => w.length > 0);
+
             const seen = new Set();
             const suggestions = [];
 
             for (const item of stockDatabase) {
                 const master = masterDatabase[item.code] || {};
-                const name = master.name || item.description || '';
-                const code = item.code;
+                const name = (master.name || item.description || '').toLowerCase();
+                const code = (item.code || '').trim();
 
-                // Never display excluded items or 8-digit codes in search suggestions
+                // Exclude 8-digit codes, allow 7-digit and 9-digit in Search tab
                 if (/^\d{8}$/.test(code)) continue;
                 if (isExcludedProduct(code, name)) continue;
 
                 if (!seen.has(code)) {
-                    if (code.toLowerCase().includes(val) || name.toLowerCase().includes(val)) {
+                    const isMatch = queryWords.every(word => name.includes(word) || code.includes(word));
+                    if (isMatch) {
                         seen.add(code);
-                        suggestions.push({ code, name });
+                        suggestions.push({ code, name: master.name || item.description || '' });
                         if (suggestions.length >= 25) break;
                     }
                 }
@@ -2659,7 +2676,7 @@
                 // Exclude products starting with HERO, TRU4, and TMGO
                 if (isExcludedProduct(itemCode, itemDesc)) return false;
 
-                // Restrict 8-digit codes from inventory view
+                // Restrict 8-digit codes from inventory view, allow 7-digit and 9-digit
                 if (/^\d{8}$/.test(itemCode)) return false;
 
                 const itemDescLower = itemDesc.toLowerCase();
@@ -2933,14 +2950,15 @@
                 return;
             }
 
-            // Indent validation: Qty cannot exceed Available + Transit Qty
-            if (type === 'INDENT') {
+            // Indent / STO validation: Qty cannot exceed Available + Transit Qty of source plant
+            if (type === 'INDENT' || type === 'STO') {
                 const availQty = item ? (item.qty || 0) : 0;
                 const transitQty = item ? (item.transitQty || 0) : 0;
                 const totalAllowed = availQty + transitQty;
                 
                 if (qty > totalAllowed) {
-                    alert(`Error: Indent Quantity (${qty}) cannot exceed Available + Transit Quantity (${totalAllowed}).\n\nAvailable: ${availQty}\nIn-Transit: ${transitQty}\n\nPlease enter a quantity less than or equal to ${totalAllowed}, or choose "Urgent" requisition.`);
+                    const label = type === 'STO' ? 'STO Transfer Quantity' : 'Indent Quantity';
+                    alert(`Error: ${label} (${qty}) cannot exceed Available + Transit Quantity (${totalAllowed}) at source plant (${sourcePlant || '-'}).\n\nAvailable: ${availQty}\nIn-Transit: ${transitQty}\n\nPlease enter a quantity less than or equal to ${totalAllowed}.`);
                     document.getElementById('formQty').focus();
                     return;
                 }
