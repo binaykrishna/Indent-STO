@@ -147,7 +147,7 @@
                 </div>
                 <div>
                     <h1 class="text-xl font-bold text-slate-900 leading-none">Stock & Indent Portal</h1>
-                    <span class="text-xs text-slate-500">Plant-wise Live Inventory, Indent and urgent requirement placement</span>
+                    <span class="text-xs text-slate-500">Plant-wise Live Inventory, Indent and STO</span>
                 </div>
             </div>
             
@@ -293,7 +293,11 @@
                         </p>
                     </div>
 
-                    <div class="flex items-center gap-2">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <button onclick="openAutoStoModal()" class="bg-emerald-600 hover:bg-emerald-700 text-white px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center gap-1.5 shadow-xs transition-colors">
+                            <i data-lucide="wand-2" class="w-4 h-4"></i>
+                            <span>Auto STO Generator</span>
+                        </button>
                         <label class="bg-amber-600 hover:bg-amber-700 text-white px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center gap-1.5 shadow-xs cursor-pointer transition-colors">
                             <i data-lucide="upload" class="w-4 h-4"></i>
                             <span>Upload WBSO Min Stock File</span>
@@ -592,6 +596,66 @@
             <div class="pt-2">
                 <button onclick="closeUploadFeedbackModal()" class="w-full py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-semibold shadow-xs transition-colors">
                     Continue to Dashboard
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= MODAL: AUTO STO GENERATOR ================= -->
+    <div id="autoStoModal" class="fixed inset-0 bg-slate-900/70 backdrop-blur-xs flex items-center justify-center p-4 z-[85] hidden">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-6 space-y-4 border border-slate-200 animate-in fade-in zoom-in duration-150">
+            <div class="flex items-center gap-3 text-emerald-600 border-b pb-3">
+                <div class="p-2.5 bg-emerald-100 rounded-xl">
+                    <i data-lucide="wand-2" class="w-5 h-5 text-emerald-600"></i>
+                </div>
+                <div>
+                    <h3 class="text-base font-bold text-slate-900">Auto STO Batch Generator</h3>
+                    <p class="text-xs text-slate-500">Auto-create STOs for all SKU deficits up to available stock</p>
+                </div>
+            </div>
+
+            <div class="space-y-3.5 text-xs">
+                <div>
+                    <label class="block font-semibold text-slate-700 mb-1">Select Deficit Plant (Receiving Plant) *</label>
+                    <select id="autoStoDeficitPlant" onchange="updateAutoStoPreview()" class="w-full px-3 py-2 border rounded-xl bg-white text-xs font-semibold text-slate-800 focus:ring-2 focus:ring-blue-500">
+                        <option value="ALL">All Plants in Deficit</option>
+                        <option value="CFA-MOURIGRAM">CFA Mourigram (5610)</option>
+                        <option value="CFA-RAJBANDH">CFA Rajbandh (5611)</option>
+                        <option value="CFA-RANINAGAR (LUBE)">CFA Raninagar (5608)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block font-semibold text-slate-700 mb-1">Select Source Plant (Supplying Plant) *</label>
+                    <select id="autoStoSourcePlant" onchange="updateAutoStoPreview()" class="w-full px-3 py-2 border rounded-xl bg-white text-xs font-semibold text-slate-800 focus:ring-2 focus:ring-emerald-500">
+                        <option value="ALL">All Sourcing Plants (Separate STOs per Source)</option>
+                    </select>
+                </div>
+
+                <!-- Preview Box -->
+                <div class="p-3 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5">
+                    <div class="flex justify-between text-slate-600">
+                        <span>Items with Shortfall:</span>
+                        <span id="autoStoDeficitCount" class="font-bold text-slate-900">0</span>
+                    </div>
+                    <div class="flex justify-between text-slate-600">
+                        <span>Items Sourced:</span>
+                        <span id="autoStoSourcedCount" class="font-bold text-emerald-700">0</span>
+                    </div>
+                    <div class="flex justify-between text-slate-600">
+                        <span>Separate STO Orders Created:</span>
+                        <span id="autoStoOrdersCount" class="font-bold text-blue-700">0</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 pt-1 border-t border-slate-200">
+                        Transfer quantity will strictly equal <code class="font-mono text-slate-700 font-semibold">Min(Shortfall, Available + Transit)</code>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex justify-end gap-2 pt-2 border-t">
+                <button type="button" onclick="closeAutoStoModal()" class="px-4 py-2 border rounded-xl text-xs text-slate-600 hover:bg-slate-50">Cancel</button>
+                <button type="button" onclick="executeAutoStoGeneration()" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl text-xs flex items-center gap-1.5 shadow-xs">
+                    <i data-lucide="check" class="w-4 h-4"></i> Generate STOs
                 </button>
             </div>
         </div>
@@ -1322,6 +1386,169 @@
             initiateStoFromWbso(skuCode, defaultSourcePlant, targetPlant, shortfallQty);
         }
 
+        // ================= AUTO STO BATCH GENERATOR =================
+        function openAutoStoModal() {
+            if (currentUserRole !== 'OFFICIAL') {
+                alert('Access Restricted: Auto STO Generation is available for IOC Officials only.');
+                return;
+            }
+
+            // Populate source plant dropdown inside Auto STO modal
+            const sourceSelect = document.getElementById('autoStoSourcePlant');
+            if (sourceSelect) {
+                sourceSelect.innerHTML = '<option value="ALL">All Sourcing Plants (Separate STOs per Source)</option>';
+                detectedPlants.forEach(plant => {
+                    const opt = document.createElement('option');
+                    opt.value = plant;
+                    opt.innerText = plant;
+                    sourceSelect.appendChild(opt);
+                });
+            }
+
+            // Synchronize with currently active table filters if chosen
+            const currentDeficitFilter = document.getElementById('wbsoPlantFilter')?.value || 'ALL';
+            const currentSourcingFilter = document.getElementById('wbsoSourcingPlantFilter')?.value || 'ALL';
+            
+            const defSelect = document.getElementById('autoStoDeficitPlant');
+            if (defSelect && currentDeficitFilter !== 'ALL') defSelect.value = currentDeficitFilter;
+            if (sourceSelect && currentSourcingFilter !== 'ALL') sourceSelect.value = currentSourcingFilter;
+
+            updateAutoStoPreview();
+
+            const modal = document.getElementById('autoStoModal');
+            if (modal) modal.classList.remove('hidden');
+            lucide.createIcons();
+        }
+
+        function closeAutoStoModal() {
+            const modal = document.getElementById('autoStoModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        function getAutoStoPlan() {
+            const selectedDeficitPlant = document.getElementById('autoStoDeficitPlant')?.value || 'ALL';
+            const selectedSourcePlant = document.getElementById('autoStoSourcePlant')?.value || 'ALL';
+            const skusWithMin = Object.keys(wbsoMinDatabase);
+
+            const plan = [];
+            let totalDeficits = 0;
+
+            skusWithMin.forEach(skuCode => {
+                const wbsoItem = wbsoMinDatabase[skuCode];
+                const master = masterDatabase[skuCode] || {};
+                const skuDesc = wbsoItem.name || master.name || 'SKU ' + skuCode;
+
+                if (isExcludedProduct(skuCode, skuDesc)) return;
+
+                for (const [targetPlant, minQty] of Object.entries(wbsoItem.plants)) {
+                    if (selectedDeficitPlant !== 'ALL' && targetPlant !== selectedDeficitPlant) {
+                        continue;
+                    }
+
+                    const currentPlantStock = stockDatabase.find(i => i.code === skuCode && i.plant === targetPlant);
+                    const avail = currentPlantStock ? (currentPlantStock.qty || 0) : 0;
+                    const transit = currentPlantStock ? (currentPlantStock.transitQty || 0) : 0;
+                    const effectiveStock = avail + transit;
+
+                    if (effectiveStock < minQty) {
+                        totalDeficits++;
+                        let shortfall = minQty - effectiveStock;
+
+                        // Find alternate sourcing plants that have stock
+                        let sources = stockDatabase.filter(i => 
+                            i.code === skuCode && 
+                            i.plant !== targetPlant && 
+                            (i.qty + (i.transitQty || 0)) > 0
+                        );
+
+                        if (selectedSourcePlant !== 'ALL') {
+                            sources = sources.filter(src => src.plant === selectedSourcePlant);
+                        }
+
+                        if (sources.length > 0) {
+                            // Sort by highest available stock first
+                            sources.sort((a, b) => (b.qty + (b.transitQty || 0)) - (a.qty + (a.transitQty || 0)));
+
+                            for (const src of sources) {
+                                if (shortfall <= 0) break;
+                                const srcAvailable = (src.qty || 0) + (src.transitQty || 0);
+                                if (srcAvailable <= 0) continue;
+
+                                const transferQty = Math.min(shortfall, srcAvailable);
+                                plan.push({
+                                    skuCode: skuCode,
+                                    skuDesc: skuDesc,
+                                    sourcePlant: src.plant,
+                                    sourcePlantCode: src.plantCode || PLANT_CODE_MAP[src.plant] || '5611',
+                                    destPlant: targetPlant,
+                                    destPlantCode: PLANT_CODE_MAP[targetPlant] || '5611',
+                                    qty: transferQty,
+                                    uom: src.uom || 'NOS'
+                                });
+                                shortfall -= transferQty;
+                            }
+                        }
+                    }
+                }
+            });
+
+            const uniqueSources = new Set(plan.map(p => `${p.sourcePlant}__${p.destPlant}`));
+
+            return {
+                plan: plan,
+                totalDeficits: totalDeficits,
+                sourcedItemsCount: plan.length,
+                uniqueOrdersCount: uniqueSources.size
+            };
+        }
+
+        function updateAutoStoPreview() {
+            const result = getAutoStoPlan();
+            safeSetText('autoStoDeficitCount', result.totalDeficits.toString());
+            safeSetText('autoStoSourcedCount', result.sourcedItemsCount.toString());
+            safeSetText('autoStoOrdersCount', result.uniqueOrdersCount.toString());
+        }
+
+        function executeAutoStoGeneration() {
+            const { plan, sourcedItemsCount, uniqueOrdersCount } = getAutoStoPlan();
+
+            if (plan.length === 0) {
+                alert('No shortfall items could be sourced with the chosen plant selection (either no deficits exist or alternate plants have 0 stock).');
+                return;
+            }
+
+            const timestamp = new Date().toLocaleString('en-IN');
+            let addedCount = 0;
+
+            plan.forEach(item => {
+                const volKL = calculateVolumeKL(item.skuCode, item.skuDesc, item.qty);
+                const order = {
+                    skuCode: item.skuCode,
+                    plant: item.sourcePlant,
+                    plantCode: item.sourcePlantCode,
+                    destPlant: item.destPlant,
+                    destPlantCode: item.destPlantCode,
+                    skuDesc: item.skuDesc,
+                    qty: item.qty,
+                    uom: item.uom,
+                    volKL: volKL,
+                    indentor: `Transfer To: ${item.destPlant}`,
+                    type: 'STO',
+                    timestamp: timestamp
+                };
+                ordersList.unshift(order);
+                addedCount++;
+            });
+
+            saveToLocalStorageOnly();
+            updateStats();
+            renderOrdersTable();
+            closeAutoStoModal();
+
+            showNotification(`✓ Auto-generated ${addedCount} STO lines across ${uniqueOrdersCount} source transfer routes!`, 'emerald');
+            switchTab('ordersTab');
+        }
+
         // Helper to check if a product name or SKU starts with disallowed prefixes
         function isExcludedProduct(skuCode, description) {
             const excludedPrefixes = ['HERO', 'TRU4', 'TMGO'];
@@ -1755,6 +1982,21 @@
                 });
                 if (detectedPlants.includes(currentVal)) {
                     sourcingSelect.value = currentVal;
+                }
+            }
+
+            const autoSourceSelect = document.getElementById('autoStoSourcePlant');
+            if (autoSourceSelect) {
+                const currentVal = autoSourceSelect.value;
+                autoSourceSelect.innerHTML = '<option value="ALL">All Sourcing Plants (Separate STOs per Source)</option>';
+                detectedPlants.forEach(plant => {
+                    const opt = document.createElement('option');
+                    opt.value = plant;
+                    opt.innerText = plant;
+                    autoSourceSelect.appendChild(opt);
+                });
+                if (detectedPlants.includes(currentVal)) {
+                    autoSourceSelect.value = currentVal;
                 }
             }
 
