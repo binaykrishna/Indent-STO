@@ -1281,7 +1281,7 @@
     {
       "code": "273640203",
       "description": "SERVO FLEET 15W-40-4 X 3 L",
-      "qty": 580,
+      "qty": 380,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -1417,6 +1417,15 @@
       "code": "273640256",
       "description": "SERVO FLEET 15W-40-15 L",
       "qty": 0,
+      "transitQty": 105,
+      "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "273640256",
+      "description": "SERVO FLEET 15W-40-15 L",
+      "qty": 0,
       "transitQty": 112,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
@@ -1435,10 +1444,28 @@
       "code": "273700184",
       "description": "SERVO FLEET XL 15W-40-20 X 1 L",
       "qty": 0,
+      "transitQty": 150,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "273700184",
+      "description": "SERVO FLEET XL 15W-40-20 X 1 L",
+      "qty": 0,
       "transitQty": 222,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
+    },
+    {
+      "code": "273700203",
+      "description": "SERVO FLEET XL 15W-40-4 X 3 L",
+      "qty": 0,
+      "transitQty": 108,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "273700203",
@@ -3378,6 +3405,15 @@
     {
       "code": "3002265",
       "description": "SERVOSYSTEM 46 - 20L BUC",
+      "qty": 0,
+      "transitQty": 105,
+      "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "3002265",
+      "description": "SERVOSYSTEM 46 - 20L BUC",
       "qty": 38,
       "transitQty": 0,
       "uom": "BUC",
@@ -3621,7 +3657,7 @@
     {
       "code": "3006401",
       "description": "SERVOSYSTEM 68 - 210L BRL",
-      "qty": 13,
+      "qty": 76,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -4017,7 +4053,7 @@
     {
       "code": "3040288",
       "description": "SERVOHYDRASHAKTI 68-26 L",
-      "qty": 766,
+      "qty": 614,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "LBP - Budge Budge",
@@ -5169,7 +5205,7 @@
     {
       "code": "3617401",
       "description": "SERVOMESH SP 220 - 210L BRL",
-      "qty": 61,
+      "qty": 134,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -5259,7 +5295,7 @@
     {
       "code": "3622401",
       "description": "SERVOMESH XP 320-210 L BRL",
-      "qty": 49,
+      "qty": 14,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -6591,7 +6627,7 @@
     {
       "code": "473750184",
       "description": "SERVO PRIDE XL PLUS 15W-40.-20 X 1 L",
-      "qty": 1601,
+      "qty": 1689,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -6634,6 +6670,24 @@
       "plantCode": "5610"
     },
     {
+      "code": "473750240",
+      "description": "SERVO PRIDE XL PLUS 15W-40.-4X5 L PROMO",
+      "qty": 0,
+      "transitQty": 144,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "473750241",
+      "description": "SERVO PRIDE XL PLUS 15W-40.-10 L PROMO",
+      "qty": 0,
+      "transitQty": 72,
+      "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
       "code": "473750241",
       "description": "SERVO PRIDE XL PLUS 15W-40.-10 L PROMO",
       "qty": 40,
@@ -6666,6 +6720,15 @@
       "qty": 55,
       "transitQty": 0,
       "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "473750401",
+      "description": "SERVO PRIDE XL PLUS 15W-40.-210 L",
+      "qty": 0,
+      "transitQty": 12,
+      "uom": "BRL",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
     },
@@ -6920,15 +6983,6 @@
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
-    },
-    {
-      "code": "475770250",
-      "description": "SERVO PRIDE 15W-40-7.5 L PROMO",
-      "qty": 163,
-      "transitQty": 0,
-      "uom": "BUC",
-      "plant": "LBP - Budge Budge",
-      "plantCode": "2138"
     },
     {
       "code": "475770250",
@@ -7437,7 +7491,7 @@
     {
       "code": "482340204",
       "description": "SERVO PRIDE TC 15W-40-4 X 3 L PROMO",
-      "qty": 303,
+      "qty": 305,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Budge Budge",
@@ -7563,7 +7617,7 @@
     {
       "code": "482340269",
       "description": "SERVO PRIDE TC 15W-40-20 L PROMO",
-      "qty": 18,
+      "qty": 469,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "LBP - Budge Budge",
@@ -8635,6 +8689,15 @@
       "code": "621450229",
       "description": "SERVO HYPERSPORT 4T 20W-50-20 X1 L PROMO",
       "qty": 0,
+      "transitQty": 16,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "621450229",
+      "description": "SERVO HYPERSPORT 4T 20W-50-20 X1 L PROMO",
+      "qty": 0,
       "transitQty": 50,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
@@ -9660,7 +9723,7 @@
     {
       "code": "7406401",
       "description": "SERVOELECTRA LP-210 L",
-      "qty": 50,
+      "qty": 24,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Budge Budge",
@@ -10218,7 +10281,7 @@
     {
       "code": "7436401",
       "description": "SERVO PRIDE NXT CK4 15W40-210 L BRL",
-      "qty": 77,
+      "qty": 34,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -11249,6 +11312,15 @@
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7515269",
+      "description": "SERVO GEAR SUPER 85W-140-20 L PROMO",
+      "qty": 0,
+      "transitQty": 105,
+      "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "7515401",
@@ -15223,7 +15295,7 @@
       }
     }
   },
-  "stockCaptureDate": "20-10-2026",
-  "stockUploadTime": "06:01:40 PM",
-  "lastUpdated": "2026-10-20T12:31:40.016Z"
+  "stockCaptureDate": "21-10-2026",
+  "stockUploadTime": "06:42:03 PM",
+  "lastUpdated": "2026-10-21T13:12:03.465Z"
 }
