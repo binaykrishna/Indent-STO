@@ -3,6 +3,15 @@
     {
       "code": "1056401",
       "description": "SERVO ULTRA 40(E) - 210L BRL",
+      "qty": 41,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "1056401",
+      "description": "SERVO ULTRA 40(E) - 210L BRL",
       "qty": 2,
       "transitQty": 0,
       "uom": "BRL",
@@ -62,6 +71,15 @@
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
+    },
+    {
+      "code": "1303401",
+      "description": "SERVO ULTRA 30 - 210L BRL",
+      "qty": 22,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "1303401",
@@ -127,6 +145,24 @@
       "plantCode": "5610"
     },
     {
+      "code": "1314401",
+      "description": "SERVO ULTRA 40 (I)-210 L",
+      "qty": 60,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "1403401",
+      "description": "SERVO PRIDE 30 - 210L BRL",
+      "qty": 44,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "1403401",
       "description": "SERVO PRIDE 30 - 210L BRL",
       "qty": 2,
@@ -148,10 +184,28 @@
       "code": "1404184",
       "description": "SERVO PRIDE 40 - 20x1L - HDPE",
       "qty": 0,
+      "transitQty": 4,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "1404184",
+      "description": "SERVO PRIDE 40 - 20x1L - HDPE",
+      "qty": 0,
       "transitQty": 49,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "1404234",
+      "description": "SERVO PRIDE 40 - 4x5L - HDPE",
+      "qty": 0,
+      "transitQty": 62,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "1404234",
@@ -175,10 +229,28 @@
       "code": "1404242",
       "description": "SERVO PRIDE 40 - 10L BUC",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "1404242",
+      "description": "SERVO PRIDE 40 - 10L BUC",
+      "qty": 0,
       "transitQty": 28,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "1404265",
+      "description": "SERVO PRIDE 40-20L BUC",
+      "qty": 0,
+      "transitQty": 13,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "1404265",
@@ -244,6 +316,42 @@
       "plantCode": "2136"
     },
     {
+      "code": "1407401",
+      "description": "SERVO MAXIMILE 10K-210L BRL",
+      "qty": 38,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "1413401",
+      "description": "SERVO PRIDE MG 5W30 - 210 L BRL",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "1419401",
+      "description": "M-STAR TEO-210 L",
+      "qty": 18,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "1516401",
+      "description": "SERVO RR 606 MG PLUS(II) - 210 L BRL",
+      "qty": 11,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "1516401",
       "description": "SERVO RR 606 MG PLUS(II) - 210 L BRL",
       "qty": 41,
@@ -269,6 +377,15 @@
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "228740152",
+      "description": "SERVO MOTOCARE 4T-20 X 0.9 L",
+      "qty": 311,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "228740152",
@@ -301,7 +418,7 @@
       "code": "228740152",
       "description": "SERVO MOTOCARE 4T-20 X 0.9 L",
       "qty": 0,
-      "transitQty": 1000,
+      "transitQty": 650,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -318,7 +435,7 @@
     {
       "code": "228740152",
       "description": "SERVO MOTOCARE 4T-20 X 0.9 L",
-      "qty": 6,
+      "qty": 106,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -363,11 +480,11 @@
     {
       "code": "237250213",
       "description": "SERVO KISANPOWER SPSO-4 X 3.5 L",
-      "qty": 61,
+      "qty": 1061,
       "transitQty": 0,
       "uom": "CAR",
-      "plant": "LBP - Budge Budge",
-      "plantCode": "2138"
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "237250213",
@@ -377,6 +494,15 @@
       "uom": "CAR",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "237250213",
+      "description": "SERVO KISANPOWER SPSO-4 X 3.5 L",
+      "qty": 0,
+      "transitQty": 62,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "237250213",
@@ -408,7 +534,7 @@
     {
       "code": "237250213",
       "description": "SERVO KISANPOWER SPSO-4 X 3.5 L",
-      "qty": 59,
+      "qty": 34,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -422,6 +548,15 @@
       "uom": "BRL",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "2478401",
+      "description": "SERVO SYNCHRO TM 80W-90 LL(T)-210 L",
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2479401",
@@ -453,7 +588,7 @@
     {
       "code": "249500234",
       "description": "SERVO KISANPOWER OIB-4 X 5 L",
-      "qty": 394,
+      "qty": 801,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Budge Budge",
@@ -467,6 +602,15 @@
       "uom": "CAR",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "249500234",
+      "description": "SERVO KISANPOWER OIB-4 X 5 L",
+      "qty": 0,
+      "transitQty": 196,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "249500234",
@@ -494,6 +638,15 @@
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "249500265",
+      "description": "SERVO KISANPOWER OIB-20 L",
+      "qty": 170,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "249500265",
@@ -530,6 +683,15 @@
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "2501401",
+      "description": "SERVO GEAR HP 80W-210L BRL",
+      "qty": 12,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2502183",
@@ -588,7 +750,7 @@
     {
       "code": "2502184",
       "description": "SERVO GEAR HP 90-20X1L-HDPE",
-      "qty": 216,
+      "qty": 116,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -660,8 +822,8 @@
     {
       "code": "2502265",
       "description": "SERVO GEAR HP 90-20L BUC",
-      "qty": 0,
-      "transitQty": 100,
+      "qty": 100,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -687,7 +849,7 @@
     {
       "code": "2502401",
       "description": "SERVO GEAR HP 90 - 210L BRL",
-      "qty": 37,
+      "qty": 22,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -822,6 +984,15 @@
     {
       "code": "2503401",
       "description": "SERVO GEAR HP 140-210L BRL",
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2503401",
+      "description": "SERVO GEAR HP 140-210L BRL",
       "qty": 7,
       "transitQty": 0,
       "uom": "BRL",
@@ -858,6 +1029,15 @@
     {
       "code": "250340184",
       "description": "SERVO SUPERMILE GEO 20W-50-20 X 1 L",
+      "qty": 1521,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "250340184",
+      "description": "SERVO SUPERMILE GEO 20W-50-20 X 1 L",
       "qty": 90,
       "transitQty": 0,
       "uom": "CAR",
@@ -874,6 +1054,15 @@
       "plantCode": "5611"
     },
     {
+      "code": "250340199",
+      "description": "SERVO SUPERMILE GEO 20W-50-4 X 2.1 L",
+      "qty": 192,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "250340203",
       "description": "SERVO SUPERMILE GEO 20W-50-4 X 3 L",
       "qty": 79,
@@ -885,11 +1074,38 @@
     {
       "code": "250510184",
       "description": "SERVO SUPERMILE GEO-20 X 1 L",
+      "qty": 240,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "250510184",
+      "description": "SERVO SUPERMILE GEO-20 X 1 L",
       "qty": 100,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "250510203",
+      "description": "SERVO SUPERMILE GEO-4 X 3 L",
+      "qty": 133,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2505401",
+      "description": "SERVO GEAR HP 75W-90-210L BRL",
+      "qty": 0,
+      "transitQty": 5,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2508401",
@@ -910,6 +1126,24 @@
       "plantCode": "5770"
     },
     {
+      "code": "2513401",
+      "description": "SERVO SYNGEAR HP 75W-90-210L BRL",
+      "qty": 0,
+      "transitQty": 3,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2515401",
+      "description": "SERVO GEAR HP 80W(T)-210L BRL",
+      "qty": 6,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "2530401",
       "description": "SERVO GEAR AXLE 85W-140-210L BRL",
       "qty": 5,
@@ -917,6 +1151,15 @@
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "2532401",
+      "description": "SERVO SYNCHRO TM 80W-90-210 L BRL",
+      "qty": 23,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2540199",
@@ -962,6 +1205,15 @@
       "uom": "BRL",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2556401",
+      "description": "SERVO GR AXLE TM 80W140LL-210 L BRL",
+      "qty": 55,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2557195",
@@ -1083,6 +1335,15 @@
     {
       "code": "2603401",
       "description": "SERVO GEAR SUPER 140-210L BRL",
+      "qty": 11,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2603401",
+      "description": "SERVO GEAR SUPER 140-210L BRL",
       "qty": 1,
       "transitQty": 0,
       "uom": "BRL",
@@ -1106,6 +1367,24 @@
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "2630401",
+      "description": "SERVO GEAR AXLE 80W-90-210 L",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2705401",
+      "description": "SERVO MLO SUPER-210 L BRL",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2707401",
@@ -1227,6 +1506,15 @@
     {
       "code": "273640251",
       "description": "SERVO FLEET 15W-40-7.5 L",
+      "qty": 890,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "273640251",
+      "description": "SERVO FLEET 15W-40-7.5 L",
       "qty": 6,
       "transitQty": 0,
       "uom": "BUC",
@@ -1263,16 +1551,7 @@
     {
       "code": "273640251",
       "description": "SERVO FLEET 15W-40-7.5 L",
-      "qty": 0,
-      "transitQty": 80,
-      "uom": "BUC",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "273640251",
-      "description": "SERVO FLEET 15W-40-7.5 L",
-      "qty": 3,
+      "qty": 83,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
@@ -1281,16 +1560,7 @@
     {
       "code": "273640251",
       "description": "SERVO FLEET 15W-40-7.5 L",
-      "qty": 0,
-      "transitQty": 218,
-      "uom": "BUC",
-      "plant": "CFA CIP Kolkata",
-      "plantCode": "5770"
-    },
-    {
-      "code": "273640251",
-      "description": "SERVO FLEET 15W-40-7.5 L",
-      "qty": 648,
+      "qty": 866,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
@@ -1322,6 +1592,15 @@
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "273700184",
+      "description": "SERVO FLEET XL 15W-40-20 X 1 L",
+      "qty": 12,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "273700184",
@@ -1363,7 +1642,16 @@
       "code": "273700203",
       "description": "SERVO FLEET XL 15W-40-4 X 3 L",
       "qty": 0,
-      "transitQty": 1153,
+      "transitQty": 366,
+      "uom": "CAR",
+      "plant": "CFA CIP Kolkata",
+      "plantCode": "5770"
+    },
+    {
+      "code": "273700203",
+      "description": "SERVO FLEET XL 15W-40-4 X 3 L",
+      "qty": 787,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -1371,8 +1659,8 @@
     {
       "code": "273700242",
       "description": "SERVO FLEET XL 15W-40-10 L",
-      "qty": 0,
-      "transitQty": 64,
+      "qty": 64,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -1434,11 +1722,20 @@
     {
       "code": "273700256",
       "description": "SERVO FLEET XL 15W-40-15 L",
-      "qty": 0,
-      "transitQty": 300,
+      "qty": 300,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "273760251",
+      "description": "SERVO KISANPOWER TRACTOR OIL-7.5 L",
+      "qty": 2286,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "273760251",
@@ -1479,6 +1776,15 @@
     {
       "code": "274850184",
       "description": "SERVO FLEET 20W-40-20 X 1 L",
+      "qty": 237,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "274850184",
+      "description": "SERVO FLEET 20W-40-20 X 1 L",
       "qty": 5,
       "transitQty": 0,
       "uom": "CAR",
@@ -1506,8 +1812,8 @@
     {
       "code": "274850184",
       "description": "SERVO FLEET 20W-40-20 X 1 L",
-      "qty": 0,
-      "transitQty": 50,
+      "qty": 1,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -1515,7 +1821,7 @@
     {
       "code": "274850184",
       "description": "SERVO FLEET 20W-40-20 X 1 L",
-      "qty": 69,
+      "qty": 118,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
@@ -1531,6 +1837,15 @@
       "plantCode": "5770"
     },
     {
+      "code": "274850234",
+      "description": "SERVO FLEET 20W-40-4 X 5 L",
+      "qty": 14,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "274850242",
       "description": "SERVO FLEET 20W-40-10 L",
       "qty": 151,
@@ -1542,20 +1857,20 @@
     {
       "code": "274850242",
       "description": "SERVO FLEET 20W-40-10 L",
-      "qty": 0,
-      "transitQty": 188,
+      "qty": 190,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
     },
     {
-      "code": "274850242",
-      "description": "SERVO FLEET 20W-40-10 L",
-      "qty": 2,
+      "code": "274850251",
+      "description": "SERVO FLEET 20W-40-7.5 L",
+      "qty": 2361,
       "transitQty": 0,
       "uom": "BUC",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "274850251",
@@ -1570,7 +1885,16 @@
       "code": "274850251",
       "description": "SERVO FLEET 20W-40-7.5 L",
       "qty": 0,
-      "transitQty": 240,
+      "transitQty": 180,
+      "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "274850251",
+      "description": "SERVO FLEET 20W-40-7.5 L",
+      "qty": 240,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -1587,16 +1911,7 @@
     {
       "code": "274850256",
       "description": "SERVO FLEET 20W-40-15 L",
-      "qty": 0,
-      "transitQty": 48,
-      "uom": "BUC",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "274850256",
-      "description": "SERVO FLEET 20W-40-15 L",
-      "qty": 23,
+      "qty": 71,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
@@ -1614,7 +1929,16 @@
     {
       "code": "274850265",
       "description": "SERVO FLEET 20W-40-20 L",
-      "qty": 525,
+      "qty": 2513,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "274850265",
+      "description": "SERVO FLEET 20W-40-20 L",
+      "qty": 75,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
@@ -1628,6 +1952,15 @@
       "uom": "BUC",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "274850265",
+      "description": "SERVO FLEET 20W-40-20 L",
+      "qty": 0,
+      "transitQty": 96,
+      "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "274850265",
@@ -1651,10 +1984,28 @@
       "code": "2824152",
       "description": "SERVO 4T GREEN-20 X 0.9 L",
       "qty": 0,
+      "transitQty": 21,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2824152",
+      "description": "SERVO 4T GREEN-20 X 0.9 L",
+      "qty": 0,
       "transitQty": 23,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2824184",
+      "description": "SERVO 4T GREEN-20 X 1 L",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2824184",
@@ -1698,8 +2049,26 @@
       "qty": 0,
       "transitQty": 5,
       "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2828184",
+      "description": "SERVO 4T XTRA-20 X 1 L",
+      "qty": 0,
+      "transitQty": 5,
+      "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2828229",
+      "description": "SERVO 4T XTRA-20 X 1 L PROMO",
+      "qty": 0,
+      "transitQty": 23,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2828229",
@@ -1732,6 +2101,15 @@
       "code": "2828230",
       "description": "SERVO 4T XTRA-20 X 0.9 L PROMO",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2828230",
+      "description": "SERVO 4T XTRA-20 X 0.9 L PROMO",
+      "qty": 0,
       "transitQty": 19,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -1745,6 +2123,15 @@
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "2829152",
+      "description": "SERVO 4T XTRA 10W-30-20 X 0.9 L",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2829152",
@@ -1770,8 +2157,26 @@
       "qty": 0,
       "transitQty": 1,
       "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2829229",
+      "description": "SERVO 4T XTRA 10W-30-20 X 1 L PROMO",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2829230",
+      "description": "SERVO 4T XTRA 10W-30-20 X 0.9 L PROMO",
+      "qty": 0,
+      "transitQty": 2,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2829230",
@@ -1822,10 +2227,28 @@
       "code": "2830229",
       "description": "SERVO 4T XTRA 20W-50-20 X 1 L PROMO",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2830229",
+      "description": "SERVO 4T XTRA 20W-50-20 X 1 L PROMO",
+      "qty": 0,
       "transitQty": 2,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2830230",
+      "description": "SERVO 4T XTRA 20W-50-20 X 0.9 L PROMO",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2830230",
@@ -1837,6 +2260,15 @@
       "plantCode": "2136"
     },
     {
+      "code": "2835152",
+      "description": "SERVO 4T SPECIAL-20 X 0.9 L",
+      "qty": 0,
+      "transitQty": 177,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "2849040",
       "description": "HARLEY DAVIDSON X-4 X 2.3 L",
       "qty": 20,
@@ -1846,6 +2278,42 @@
       "plantCode": "5608"
     },
     {
+      "code": "2863401",
+      "description": "SERVO 4T 10W-30 (B)-210 L",
+      "qty": 40,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2864401",
+      "description": "SERVO 4T 20W-50 (B)-210 L",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2868184",
+      "description": "POWER PRO 10W30 SPN-20 X 1 L",
+      "qty": 87,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2874152",
+      "description": "SERVO ECO 4T-20 X 0.9 L",
+      "qty": 0,
+      "transitQty": 5,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "2874152",
       "description": "SERVO ECO 4T-20 X 0.9 L",
       "qty": 0,
@@ -1853,6 +2321,15 @@
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2874184",
+      "description": "SERVO ECO 4T-20 X 1 L",
+      "qty": 0,
+      "transitQty": 4,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2874184",
@@ -1903,10 +2380,37 @@
       "code": "2885036",
       "description": "SERVO SCOOTOMATIC XTRA 5W-30-20 X 600 ML",
       "qty": 0,
+      "transitQty": 110,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2885036",
+      "description": "SERVO SCOOTOMATIC XTRA 5W-30-20 X 600 ML",
+      "qty": 0,
       "transitQty": 233,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2889156",
+      "description": "SERVO SCOOTOMATIC 4ST 10W-30-20 X 0.8 L",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2889156",
+      "description": "SERVO SCOOTOMATIC 4ST 10W-30-20 X 0.8 L",
+      "qty": 457,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2889156",
@@ -1952,6 +2456,15 @@
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "2900125",
+      "description": "SERVO 2T SUPREME(JFC)-300x40ML - POU",
+      "qty": 144,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2900125",
@@ -2163,6 +2676,15 @@
     {
       "code": "2909401",
       "description": "SERVO BRAKE FLUID SUPER HD  - 210L BRL",
+      "qty": 84,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2909401",
+      "description": "SERVO BRAKE FLUID SUPER HD  - 210L BRL",
       "qty": 4,
       "transitQty": 0,
       "uom": "BRL",
@@ -2186,6 +2708,15 @@
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "2913401",
+      "description": "SERVO BRAKE FLUID DOT 3 PLUS -210L BRL",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2914165",
@@ -2308,6 +2839,24 @@
       "code": "2924152",
       "description": "SERVO 4T-20x0.9 L CAR",
       "qty": 0,
+      "transitQty": 31,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2924152",
+      "description": "SERVO 4T-20x0.9 L CAR",
+      "qty": 26,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2924152",
+      "description": "SERVO 4T-20x0.9 L CAR",
+      "qty": 0,
       "transitQty": 3,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -2344,10 +2893,37 @@
       "code": "2924229",
       "description": "SERVO 4T - 20 X 1 L HDPE PROMO",
       "qty": 0,
+      "transitQty": 48,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2924229",
+      "description": "SERVO 4T - 20 X 1 L HDPE PROMO",
+      "qty": 0,
       "transitQty": 358,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2924230",
+      "description": "SERVO 4T - 20 X 0.9 L HDPE PROMO",
+      "qty": 0,
+      "transitQty": 67,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2924230",
+      "description": "SERVO 4T - 20 X 0.9 L HDPE PROMO",
+      "qty": 33,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2924230",
@@ -2379,6 +2955,15 @@
     {
       "code": "2927152",
       "description": "SERVO HONDA JOSH-20 X 0.9 L",
+      "qty": 951,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2927152",
+      "description": "SERVO HONDA JOSH-20 X 0.9 L",
       "qty": 48,
       "transitQty": 0,
       "uom": "CAR",
@@ -2388,16 +2973,7 @@
     {
       "code": "2927152",
       "description": "SERVO HONDA JOSH-20 X 0.9 L",
-      "qty": 0,
-      "transitQty": 10,
-      "uom": "CAR",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "2927152",
-      "description": "SERVO HONDA JOSH-20 X 0.9 L",
-      "qty": 10,
+      "qty": 20,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
@@ -2411,6 +2987,15 @@
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "2927184",
+      "description": "SERVO HONDA JOSH-20 X 1 L",
+      "qty": 441,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2927184",
@@ -2429,6 +3014,15 @@
       "uom": "CAR",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "2927184",
+      "description": "SERVO HONDA JOSH-20 X 1 L",
+      "qty": 0,
+      "transitQty": 160,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "2927184",
@@ -2452,6 +3046,15 @@
       "code": "2931184",
       "description": "SERVO 4T 20W-50-20 X 1 L",
       "qty": 0,
+      "transitQty": 28,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2931184",
+      "description": "SERVO 4T 20W-50-20 X 1 L",
+      "qty": 0,
       "transitQty": 206,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -2461,10 +3064,28 @@
       "code": "2931225",
       "description": "SERVO 4T 20W-50-20 X 1.2 L",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2931225",
+      "description": "SERVO 4T 20W-50-20 X 1.2 L",
+      "qty": 0,
       "transitQty": 20,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2931229",
+      "description": "SERVO 4T 20W-50-20 X 1 L PROMO",
+      "qty": 0,
+      "transitQty": 8,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2931229",
@@ -2496,11 +3117,29 @@
     {
       "code": "2933156",
       "description": "SERVO HONDA SCOOTONXT-20 X 0.8 L",
+      "qty": 937,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2933156",
+      "description": "SERVO HONDA SCOOTONXT-20 X 0.8 L",
       "qty": 2,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "2933156",
+      "description": "SERVO HONDA SCOOTONXT-20 X 0.8 L",
+      "qty": 0,
+      "transitQty": 120,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "2933156",
@@ -2647,6 +3286,24 @@
       "plantCode": "2136"
     },
     {
+      "code": "2949299",
+      "description": "SERVO 4T SYNTH-20X1 L SPL PROMO",
+      "qty": 0,
+      "transitQty": 2,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2951401",
+      "description": "SERVO 4T ZOOM 10W-40-210 L BRL",
+      "qty": 47,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "2953213",
       "description": "HY.SERVO SYNTH PLUS 5W-30-4x3.5L HDPE",
       "qty": 2,
@@ -2654,6 +3311,15 @@
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "2953401",
+      "description": "HY.SERVO SYNTH PLUS 5W-30-210 L BRL",
+      "qty": 2,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2953401",
@@ -2737,6 +3403,15 @@
       "plantCode": "5608"
     },
     {
+      "code": "2960401",
+      "description": "SERVO FUTURA SYNTH 0W-40-210 L BRL",
+      "qty": 0,
+      "transitQty": 15,
+      "uom": "BRL",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
       "code": "2966195",
       "description": "SERVO 4T BULLET 15W-50-4 X 2.5 L",
       "qty": 0,
@@ -2767,6 +3442,15 @@
       "code": "2967184",
       "description": "SERVO FUTURA G PLUS 5W-30-20 X 1 L",
       "qty": 0,
+      "transitQty": 28,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2967184",
+      "description": "SERVO FUTURA G PLUS 5W-30-20 X 1 L",
+      "qty": 0,
       "transitQty": 194,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -2776,10 +3460,37 @@
       "code": "2967204",
       "description": "SERVO FUTURA G PLUS 5W-30-4 X 3 L PROMO",
       "qty": 0,
+      "transitQty": 3,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2967204",
+      "description": "SERVO FUTURA G PLUS 5W-30-4 X 3 L PROMO",
+      "qty": 0,
       "transitQty": 1,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2967213",
+      "description": "SERVO FUTURA G PLUS 5W-30-4 X 3.5 L",
+      "qty": 0,
+      "transitQty": 7,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2967220",
+      "description": "SERVO FUTURA G PLUS 5W-30-4 X 4 L PROMO",
+      "qty": 0,
+      "transitQty": 2,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2967220",
@@ -2807,6 +3518,15 @@
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "2968401",
+      "description": "HY.SERVO ENGINE OIL 5W-30-210 L BRL",
+      "qty": 92,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2968401",
@@ -2857,6 +3577,15 @@
       "code": "2971195",
       "description": "SERVO 4T HD-4 X 2.5 L",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2971195",
+      "description": "SERVO 4T HD-4 X 2.5 L",
+      "qty": 0,
       "transitQty": 2,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -2866,10 +3595,28 @@
       "code": "2971225",
       "description": "SERVO 4T HD-20 X 1.2 L",
       "qty": 0,
+      "transitQty": 2,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2971225",
+      "description": "SERVO 4T HD-20 X 1.2 L",
+      "qty": 0,
       "transitQty": 13,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "2971294",
+      "description": "SERVO 4T HD-4 X 2.5 L - PROMO",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "2971294",
@@ -2917,6 +3664,33 @@
       "plantCode": "5770"
     },
     {
+      "code": "2989242",
+      "description": "SAARTHI HYDRAULIC OIL 68-10 L",
+      "qty": 1307,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "2989288",
+      "description": "SAARTHI HYDRAULIC OIL 68-26 L",
+      "qty": 1788,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3000401",
+      "description": "SERVOSYSTEM 32 (MUL) - 210 L BRL",
+      "qty": 34,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "3001265",
       "description": "SERVOSYSTEM 32-20L BUC",
       "qty": 89,
@@ -2928,7 +3702,7 @@
     {
       "code": "3001401",
       "description": "SERVOSYSTEM 32 - 210L BRL",
-      "qty": 30,
+      "qty": 17,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -2955,16 +3729,7 @@
     {
       "code": "3001401",
       "description": "SERVOSYSTEM 32 - 210L BRL",
-      "qty": 0,
-      "transitQty": 18,
-      "uom": "BRL",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "3001401",
-      "description": "SERVOSYSTEM 32 - 210L BRL",
-      "qty": 49,
+      "qty": 67,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
@@ -2973,7 +3738,7 @@
     {
       "code": "3001401",
       "description": "SERVOSYSTEM 32 - 210L BRL",
-      "qty": 92,
+      "qty": 72,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
@@ -3045,6 +3810,15 @@
     {
       "code": "3002401",
       "description": "SERVOSYSTEM 46 - 210L BRL",
+      "qty": 7,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3002401",
+      "description": "SERVOSYSTEM 46 - 210L BRL",
       "qty": 4,
       "transitQty": 0,
       "uom": "BRL",
@@ -3090,8 +3864,8 @@
     {
       "code": "3003401",
       "description": "SERVOSYSTEM 57 - 210L BRL",
-      "qty": 0,
-      "transitQty": 5,
+      "qty": 5,
+      "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -3189,7 +3963,7 @@
     {
       "code": "3006271",
       "description": "SERVOSYSTEM 68 - 50L HDPE",
-      "qty": 34,
+      "qty": 31,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-MOURIGRAM",
@@ -3216,6 +3990,15 @@
     {
       "code": "3006288",
       "description": "SERVOSYSTEM 68-26 L",
+      "qty": 309,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3006288",
+      "description": "SERVOSYSTEM 68-26 L",
       "qty": 30,
       "transitQty": 0,
       "uom": "BUC",
@@ -3234,7 +4017,16 @@
     {
       "code": "3006401",
       "description": "SERVOSYSTEM 68 - 210L BRL",
-      "qty": 20,
+      "qty": 153,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3006401",
+      "description": "SERVOSYSTEM 68 - 210L BRL",
+      "qty": 3,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -3340,13 +4132,13 @@
       "plantCode": "2136"
     },
     {
-      "code": "3007403",
-      "description": "SERVOSYSTEM 100-210 L HD",
-      "qty": 2,
+      "code": "3012401",
+      "description": "SERVOHYDRAULIC OIL 100 M-210L BRL",
+      "qty": 19,
       "transitQty": 0,
       "uom": "BRL",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "3015401",
@@ -3358,9 +4150,18 @@
       "plantCode": "5608"
     },
     {
+      "code": "3016401",
+      "description": "SERVOSYSTEM 176 - 210L BRL",
+      "qty": 8,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "3017401",
       "description": "SERVOSYSTEM 320 - 210L BRL",
-      "qty": 22,
+      "qty": 2,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -3450,6 +4251,15 @@
     {
       "code": "3021401",
       "description": "SERVOHYDRAULIC OIL 32-210L BRL",
+      "qty": 90,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3021401",
+      "description": "SERVOHYDRAULIC OIL 32-210L BRL",
       "qty": 83,
       "transitQty": 0,
       "uom": "BRL",
@@ -3495,6 +4305,15 @@
     {
       "code": "3023403",
       "description": "SERVOHYDRAULIC OIL 68-210 L HD",
+      "qty": 225,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3023403",
+      "description": "SERVOHYDRAULIC OIL 68-210 L HD",
       "qty": 26,
       "transitQty": 0,
       "uom": "BRL",
@@ -3531,7 +4350,7 @@
     {
       "code": "3040265",
       "description": "SERVOHYDRASHAKTI 68-20 L",
-      "qty": 1045,
+      "qty": 835,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
@@ -3581,6 +4400,15 @@
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "3040288",
+      "description": "SERVOHYDRASHAKTI 68-26 L",
+      "qty": 171,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "3040288",
@@ -3675,7 +4503,7 @@
     {
       "code": "3064401",
       "description": "SERVOHYDREX TH 46-210L BRL",
-      "qty": 13,
+      "qty": 16,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Budge Budge",
@@ -3720,7 +4548,16 @@
     {
       "code": "3081401",
       "description": "SERVOSYSTEM HLP 32 - 210L BRL",
-      "qty": 37,
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3081401",
+      "description": "SERVOSYSTEM HLP 32 - 210L BRL",
+      "qty": 19,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -3734,6 +4571,15 @@
       "uom": "BRL",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "3081401",
+      "description": "SERVOSYSTEM HLP 32 - 210L BRL",
+      "qty": 0,
+      "transitQty": 18,
+      "uom": "BRL",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "3081401",
@@ -3864,11 +4710,29 @@
     {
       "code": "3086401",
       "description": "SERVOSYSTEM HLP 100 - 210L BRL",
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3086401",
+      "description": "SERVOSYSTEM HLP 100 - 210L BRL",
       "qty": 25,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "3091401",
+      "description": "SERVOSYSTEM HLP 22N - 210L BRL",
+      "qty": 45,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "3094401",
@@ -3936,6 +4800,15 @@
     {
       "code": "3120403",
       "description": "SERVOPRIME 32-210 L HD",
+      "qty": 26,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3120403",
+      "description": "SERVOPRIME 32-210 L HD",
       "qty": 2,
       "transitQty": 0,
       "uom": "BRL",
@@ -3945,7 +4818,7 @@
     {
       "code": "3121401",
       "description": "SERVOPRIME 46 - 210L BRL",
-      "qty": 481,
+      "qty": 395,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -3981,6 +4854,15 @@
     {
       "code": "3124401",
       "description": "SERVOPRIME 68 - 210L BRL",
+      "qty": 38,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Kolkata",
+      "plantCode": "2136"
+    },
+    {
+      "code": "3124401",
+      "description": "SERVOPRIME 68 - 210L BRL",
       "qty": 4,
       "transitQty": 0,
       "uom": "BRL",
@@ -4008,11 +4890,20 @@
     {
       "code": "3133401",
       "description": "SERVOPRIME 46G  - 210L BRL",
-      "qty": 25,
+      "qty": 1,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "3133401",
+      "description": "SERVOPRIME 46G  - 210L BRL",
+      "qty": 0,
+      "transitQty": 24,
+      "uom": "BRL",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "3133401",
@@ -4042,10 +4933,37 @@
       "plantCode": "5770"
     },
     {
+      "code": "3136401",
+      "description": "SERVOPRIME 46 LP - 210L BRL",
+      "qty": 23,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3141401",
+      "description": "SERVOPRIME 32T - 210L BRL",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3142401",
+      "description": "SERVOPRIME 46T - 210L BRL",
+      "qty": 18,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "3148401",
       "description": "SERVOPRIME 46 XL-210 L",
-      "qty": 0,
-      "transitQty": 26,
+      "qty": 16,
+      "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -4096,6 +5014,15 @@
       "plantCode": "5770"
     },
     {
+      "code": "3206401",
+      "description": "SERVOLINE 220 - 210L BRL",
+      "qty": 7,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "3216401",
       "description": "SERVOFILM 100 - 210L BRL",
       "qty": 7,
@@ -4103,6 +5030,15 @@
       "uom": "BRL",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "3225401",
+      "description": "SERVOFILM 460 - 210L BRL",
+      "qty": 10,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "3239401",
@@ -4330,6 +5266,24 @@
       "plantCode": "5770"
     },
     {
+      "code": "3414401",
+      "description": "SERVOKNIT CLEAN 32 - 210L BRL",
+      "qty": 20,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3414401",
+      "description": "SERVOKNIT CLEAN 32 - 210L BRL",
+      "qty": 17,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "3415453",
       "description": "SERVOCONING OIL - 175 KG DRM",
       "qty": 0,
@@ -4393,6 +5347,24 @@
       "plantCode": "5610"
     },
     {
+      "code": "3518401",
+      "description": "SERVOPRESS 320 - 210L BRL",
+      "qty": 42,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3520401",
+      "description": "SERVOPRESS 150 RR - 210L BRL",
+      "qty": 44,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "3520401",
       "description": "SERVOPRESS 150 RR - 210L BRL",
       "qty": 14,
@@ -4409,6 +5381,24 @@
       "uom": "BRL",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "3524401",
+      "description": "SERVOPRESS T 32 - 210L BRL",
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3529401",
+      "description": "SERVOPRESS 46 XL-210 L BRL",
+      "qty": 13,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "3534401",
@@ -4436,6 +5426,15 @@
       "uom": "BRL",
       "plant": "CFA-PORT BLAIR",
       "plantCode": "5607"
+    },
+    {
+      "code": "3612401",
+      "description": "SERVOMESH SP 150 - 210L BRL",
+      "qty": 62,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "3612401",
@@ -4474,6 +5473,24 @@
       "plantCode": "2136"
     },
     {
+      "code": "3614265",
+      "description": "SERVOMESH SP 320-20 L",
+      "qty": 0,
+      "transitQty": 60,
+      "uom": "BUC",
+      "plant": "CFA CIP Kolkata",
+      "plantCode": "5770"
+    },
+    {
+      "code": "3614401",
+      "description": "SERVOMESH SP 320 - 210L BRL",
+      "qty": 199,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "3614401",
       "description": "SERVOMESH SP 320 - 210L BRL",
       "qty": 7,
@@ -4494,11 +5511,29 @@
     {
       "code": "3614401",
       "description": "SERVOMESH SP 320 - 210L BRL",
-      "qty": 46,
+      "qty": 36,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
+    },
+    {
+      "code": "3615401",
+      "description": "SERVOMESH SP 460 - 210L BRL",
+      "qty": 159,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3615401",
+      "description": "SERVOMESH SP 460 - 210L BRL",
+      "qty": 236,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Kolkata",
+      "plantCode": "2136"
     },
     {
       "code": "3615401",
@@ -4519,9 +5554,18 @@
       "plantCode": "5610"
     },
     {
+      "code": "3615401",
+      "description": "SERVOMESH SP 460 - 210L BRL",
+      "qty": 0,
+      "transitQty": 55,
+      "uom": "BRL",
+      "plant": "CFA-RAJBANDH",
+      "plantCode": "5611"
+    },
+    {
       "code": "3616401",
       "description": "SERVOMESH SP 680 - 210L BRL",
-      "qty": 37,
+      "qty": 14,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -4539,6 +5583,15 @@
     {
       "code": "3616401",
       "description": "SERVOMESH SP 680 - 210L BRL",
+      "qty": 0,
+      "transitQty": 23,
+      "uom": "BRL",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "3616401",
+      "description": "SERVOMESH SP 680 - 210L BRL",
       "qty": 28,
       "transitQty": 0,
       "uom": "BRL",
@@ -4548,7 +5601,7 @@
     {
       "code": "3616401",
       "description": "SERVOMESH SP 680 - 210L BRL",
-      "qty": 10,
+      "qty": 6,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
@@ -4575,11 +5628,20 @@
     {
       "code": "3617265",
       "description": "SERVOMESH SP 220-20 L",
-      "qty": 0,
-      "transitQty": 20,
+      "qty": 20,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
+    },
+    {
+      "code": "3617265",
+      "description": "SERVOMESH SP 220-20 L",
+      "qty": 0,
+      "transitQty": 48,
+      "uom": "BUC",
+      "plant": "CFA CIP Kolkata",
+      "plantCode": "5770"
     },
     {
       "code": "3617265",
@@ -4598,6 +5660,15 @@
       "uom": "BRL",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "3618401",
+      "description": "SERVOMESH SP 100 - 210L BRL",
+      "qty": 2,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "3618401",
@@ -4780,15 +5851,6 @@
       "plantCode": "5611"
     },
     {
-      "code": "3687401",
-      "description": "SERVOSYNGEAR 1500 PLUS-210 L",
-      "qty": 9,
-      "transitQty": 0,
-      "uom": "BRL",
-      "plant": "CFA CIP Kolkata",
-      "plantCode": "5770"
-    },
-    {
       "code": "3688401",
       "description": "SERVOSYNSEAL FG 6-210 L BRL",
       "qty": 3,
@@ -4818,7 +5880,7 @@
     {
       "code": "3712401",
       "description": "SERVO ULTRA KB 10  - 210L BRL",
-      "qty": 6,
+      "qty": 1,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -4873,6 +5935,15 @@
       "code": "3723184",
       "description": "SERVO PUMP SET OIL 20W-40-20 X 1 L",
       "qty": 0,
+      "transitQty": 5,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3723184",
+      "description": "SERVO PUMP SET OIL 20W-40-20 X 1 L",
+      "qty": 0,
       "transitQty": 3,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -4882,10 +5953,28 @@
       "code": "3723213",
       "description": "SERVO PUMP SET OIL 20W-40 - 4x3.5L",
       "qty": 0,
+      "transitQty": 10,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "3723213",
+      "description": "SERVO PUMP SET OIL 20W-40 - 4x3.5L",
+      "qty": 0,
       "transitQty": 2,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "3725213",
+      "description": "SERVO SUPER PUMP SO 40-4x3.5L HDPE",
+      "qty": 0,
+      "transitQty": 12,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "3725213",
@@ -4908,7 +5997,7 @@
     {
       "code": "3805401",
       "description": "SERVONEUM 100 - 210L BRL",
-      "qty": 25,
+      "qty": 5,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -5142,16 +6231,7 @@
     {
       "code": "4211451",
       "description": "SERVOCOAT 170T - 182KG DRM",
-      "qty": 0,
-      "transitQty": 16,
-      "uom": "DRM",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "4211451",
-      "description": "SERVOCOAT 170T - 182KG DRM",
-      "qty": 3,
+      "qty": 19,
       "transitQty": 0,
       "uom": "DRM",
       "plant": "CFA-RAJBANDH",
@@ -5169,7 +6249,7 @@
     {
       "code": "4215451",
       "description": "SERVO TAK 40-182KG DRM",
-      "qty": 111,
+      "qty": 149,
       "transitQty": 0,
       "uom": "DRM",
       "plant": "LBP - Kolkata",
@@ -5203,13 +6283,13 @@
       "plantCode": "5610"
     },
     {
-      "code": "4281401",
-      "description": "SERVOAROL 76-210L BRL",
-      "qty": 40,
+      "code": "428860156",
+      "description": "SERVO ZOOM SCOOTER 10W-30-20 X 0.8 L",
+      "qty": 1137,
       "transitQty": 0,
-      "uom": "BRL",
-      "plant": "CFA CIP Kolkata",
-      "plantCode": "5770"
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "428860156",
@@ -5242,6 +6322,15 @@
       "code": "428860156",
       "description": "SERVO ZOOM SCOOTER 10W-30-20 X 0.8 L",
       "qty": 0,
+      "transitQty": 200,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "428860156",
+      "description": "SERVO ZOOM SCOOTER 10W-30-20 X 0.8 L",
+      "qty": 0,
       "transitQty": 500,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -5259,11 +6348,29 @@
     {
       "code": "429000175",
       "description": "SERVO ZOOM 2T SUPREME-20 X 1/2 L",
+      "qty": 109,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "429000175",
+      "description": "SERVO ZOOM 2T SUPREME-20 X 1/2 L",
       "qty": 0,
       "transitQty": 434,
       "uom": "CAR",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "429000175",
+      "description": "SERVO ZOOM 2T SUPREME-20 X 1/2 L",
+      "qty": 0,
+      "transitQty": 100,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "429000175",
@@ -5295,7 +6402,7 @@
     {
       "code": "429000184",
       "description": "SERVO ZOOM 2T SUPREME-20 X 1 L",
-      "qty": 226,
+      "qty": 206,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
@@ -5313,7 +6420,7 @@
     {
       "code": "429000184",
       "description": "SERVO ZOOM 2T SUPREME-20 X 1 L",
-      "qty": 184,
+      "qty": 159,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -5336,6 +6443,15 @@
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "429240229",
+      "description": "SERVO ZOOM 4T-20 X 1 L PROMO",
+      "qty": 909,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "429240229",
@@ -5363,6 +6479,15 @@
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
+    },
+    {
+      "code": "429240230",
+      "description": "SERVO ZOOM 4T-20 X 0.9 L PROMO",
+      "qty": 3768,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "429240230",
@@ -5401,9 +6526,18 @@
       "plantCode": "5770"
     },
     {
+      "code": "429240401",
+      "description": "SERVO ZOOM 4T-210 L",
+      "qty": 82,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "429310021",
       "description": "SERVO ZOOM 4T 20W-50-20 X 1.2 L PROMO",
-      "qty": 114,
+      "qty": 74,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -5457,11 +6591,29 @@
     {
       "code": "4302401",
       "description": "SERVORUBBER 24-210L BRL",
+      "qty": 13,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4302401",
+      "description": "SERVORUBBER 24-210L BRL",
       "qty": 90,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "4305401",
+      "description": "SERVORUBBESS 32-210L BRL",
+      "qty": 90,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "4305401",
@@ -5500,22 +6652,31 @@
       "plantCode": "5770"
     },
     {
+      "code": "4313401",
+      "description": "SERVORUBBESS 32 PLUS-210 L",
+      "qty": 70,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "4326455",
       "description": "IOC PROCESS OIL MEDIUM - 200KG DRM",
-      "qty": 0,
-      "transitQty": 1,
+      "qty": 7,
+      "transitQty": 0,
       "uom": "DRM",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
     },
     {
-      "code": "4326455",
-      "description": "IOC PROCESS OIL MEDIUM - 200KG DRM",
-      "qty": 6,
+      "code": "4401401",
+      "description": "SERVOQUENCH 11-210L BRL",
+      "qty": 99,
       "transitQty": 0,
-      "uom": "DRM",
-      "plant": "CFA CIP Kolkata",
-      "plantCode": "5770"
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "4401401",
@@ -5601,7 +6762,7 @@
     {
       "code": "449750184",
       "description": "SERVO KISANPRO OIB-20 X 1 L",
-      "qty": 691,
+      "qty": 424,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -5611,7 +6772,16 @@
       "code": "449750184",
       "description": "SERVO KISANPRO OIB-20 X 1 L",
       "qty": 0,
-      "transitQty": 726,
+      "transitQty": 338,
+      "uom": "CAR",
+      "plant": "CFA CIP Kolkata",
+      "plantCode": "5770"
+    },
+    {
+      "code": "449750184",
+      "description": "SERVO KISANPRO OIB-20 X 1 L",
+      "qty": 388,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -5619,7 +6789,7 @@
     {
       "code": "449750240",
       "description": "SERVO KISANPRO OIB-4 X 5 L PROMO",
-      "qty": 1554,
+      "qty": 722,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -5628,20 +6798,20 @@
     {
       "code": "449750240",
       "description": "SERVO KISANPRO OIB-4 X 5 L PROMO",
-      "qty": 0,
-      "transitQty": 462,
+      "qty": 662,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
     },
     {
-      "code": "449750240",
-      "description": "SERVO KISANPRO OIB-4 X 5 L PROMO",
-      "qty": 200,
+      "code": "449750269",
+      "description": "SERVO KISANPRO OIB-20 L PROMO",
+      "qty": 233,
       "transitQty": 0,
-      "uom": "CAR",
-      "plant": "CFA CIP Kolkata",
-      "plantCode": "5770"
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "449750269",
@@ -5655,7 +6825,7 @@
     {
       "code": "449750269",
       "description": "SERVO KISANPRO OIB-20 L PROMO",
-      "qty": 524,
+      "qty": 376,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "LBP - Budge Budge",
@@ -5669,6 +6839,15 @@
       "uom": "BUC",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "449750269",
+      "description": "SERVO KISANPRO OIB-20 L PROMO",
+      "qty": 0,
+      "transitQty": 99,
+      "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "449750269",
@@ -5727,8 +6906,8 @@
     {
       "code": "4501401",
       "description": "SERVOCUT S - 210L BRL",
-      "qty": 0,
-      "transitQty": 65,
+      "qty": 45,
+      "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -5916,6 +7095,15 @@
     {
       "code": "4731401",
       "description": "SERVO SHOCAB-210L BRL",
+      "qty": 87,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4731401",
+      "description": "SERVO SHOCAB-210L BRL",
       "qty": 8,
       "transitQty": 0,
       "uom": "BRL",
@@ -5961,7 +7149,7 @@
     {
       "code": "473230253",
       "description": "SERVO PRIDE NXT 10W-30-15 L PROMO",
-      "qty": 36,
+      "qty": 16,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
@@ -5970,11 +7158,20 @@
     {
       "code": "473230269",
       "description": "SERVO PRIDE NXT 10W-30-20 L PROMO",
-      "qty": 0,
-      "transitQty": 100,
+      "qty": 100,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "4732401",
+      "description": "SERVO TELESHOCAB-210L BRL",
+      "qty": 8,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "4732401",
@@ -5988,11 +7185,20 @@
     {
       "code": "473340253",
       "description": "SERVO PRIDE NXT 15W-40-15 L PROMO",
-      "qty": 0,
-      "transitQty": 200,
+      "qty": 200,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "473340269",
+      "description": "SERVO PRIDE NXT 15W-40-20 L PROMO",
+      "qty": 1103,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "473340401",
@@ -6002,6 +7208,24 @@
       "uom": "BRL",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "4736401",
+      "description": "SERVO SHOC MSF-210 L",
+      "qty": 29,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4737401",
+      "description": "SERVO SHOC MSR-210 L",
+      "qty": 29,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "473750136",
@@ -6024,7 +7248,7 @@
     {
       "code": "473750184",
       "description": "SERVO PRIDE XL PLUS 15W-40.-20 X 1 L",
-      "qty": 354,
+      "qty": 30,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -6033,7 +7257,7 @@
     {
       "code": "473750184",
       "description": "SERVO PRIDE XL PLUS 15W-40.-20 X 1 L",
-      "qty": 1085,
+      "qty": 1075,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
@@ -6052,7 +7276,7 @@
       "code": "473750184",
       "description": "SERVO PRIDE XL PLUS 15W-40.-20 X 1 L",
       "qty": 0,
-      "transitQty": 150,
+      "transitQty": 474,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -6069,7 +7293,7 @@
     {
       "code": "473750240",
       "description": "SERVO PRIDE XL PLUS 15W-40.-4X5 L PROMO",
-      "qty": 144,
+      "qty": 134,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
@@ -6097,7 +7321,16 @@
       "code": "473750250",
       "description": "SERVO PRIDE XL PLUS 15W-40.-7.5 L PROMO",
       "qty": 0,
-      "transitQty": 330,
+      "transitQty": 250,
+      "uom": "BUC",
+      "plant": "CFA CIP Kolkata",
+      "plantCode": "5770"
+    },
+    {
+      "code": "473750250",
+      "description": "SERVO PRIDE XL PLUS 15W-40.-7.5 L PROMO",
+      "qty": 80,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -6150,6 +7383,15 @@
     {
       "code": "474300111",
       "description": "SERVO FUTURA 5W-30-4X3.5 L PROMO",
+      "qty": 2,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "474300111",
+      "description": "SERVO FUTURA 5W-30-4X3.5 L PROMO",
       "qty": 111,
       "transitQty": 0,
       "uom": "CAR",
@@ -6177,7 +7419,7 @@
     {
       "code": "474300111",
       "description": "SERVO FUTURA 5W-30-4X3.5 L PROMO",
-      "qty": 304,
+      "qty": 279,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
@@ -6186,16 +7428,7 @@
     {
       "code": "474300111",
       "description": "SERVO FUTURA 5W-30-4X3.5 L PROMO",
-      "qty": 0,
-      "transitQty": 25,
-      "uom": "CAR",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "474300111",
-      "description": "SERVO FUTURA 5W-30-4X3.5 L PROMO",
-      "qty": 33,
+      "qty": 58,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
@@ -6204,7 +7437,7 @@
     {
       "code": "474300111",
       "description": "SERVO FUTURA 5W-30-4X3.5 L PROMO",
-      "qty": 2209,
+      "qty": 2179,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -6249,7 +7482,7 @@
     {
       "code": "474300184",
       "description": "SERVO FUTURA 5W-30-20 X 1 L",
-      "qty": 423,
+      "qty": 413,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -6267,7 +7500,7 @@
     {
       "code": "474300204",
       "description": "SERVO FUTURA 5W-30-4 X 3 L PROMO",
-      "qty": 319,
+      "qty": 271,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -6492,7 +7725,7 @@
     {
       "code": "475770269",
       "description": "SERVO PRIDE 15W-40-20 L PROMO",
-      "qty": 687,
+      "qty": 387,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "LBP - Budge Budge",
@@ -6510,6 +7743,15 @@
     {
       "code": "475770269",
       "description": "SERVO PRIDE 15W-40-20 L PROMO",
+      "qty": 0,
+      "transitQty": 300,
+      "uom": "BUC",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "475770269",
+      "description": "SERVO PRIDE 15W-40-20 L PROMO",
       "qty": 34,
       "transitQty": 0,
       "uom": "BUC",
@@ -6519,8 +7761,8 @@
     {
       "code": "475770269",
       "description": "SERVO PRIDE 15W-40-20 L PROMO",
-      "qty": 0,
-      "transitQty": 105,
+      "qty": 105,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -6537,7 +7779,7 @@
     {
       "code": "475920184",
       "description": "SERVO PRIDE 20W-40-20 X 1 L",
-      "qty": 229,
+      "qty": 4,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -6591,6 +7833,15 @@
     {
       "code": "475920240",
       "description": "SERVO PRIDE 20W-40-4 X 5 L PROMO",
+      "qty": 2339,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "475920240",
+      "description": "SERVO PRIDE 20W-40-4 X 5 L PROMO",
       "qty": 280,
       "transitQty": 0,
       "uom": "CAR",
@@ -6605,6 +7856,15 @@
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
+    },
+    {
+      "code": "475920241",
+      "description": "SERVO PRIDE 20W-40-10 L PROMO",
+      "qty": 1906,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "475920241",
@@ -6636,11 +7896,29 @@
     {
       "code": "475920250",
       "description": "SERVO PRIDE 20W-40-7.5 L PROMO",
+      "qty": 3,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "475920250",
+      "description": "SERVO PRIDE 20W-40-7.5 L PROMO",
       "qty": 40,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "475920253",
+      "description": "SERVO PRIDE 20W-40-15 L PROMO",
+      "qty": 1141,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "475920253",
@@ -6699,6 +7977,15 @@
     {
       "code": "476250184",
       "description": "SERVO FUTURA GEO 20W-50-20 X 1 L",
+      "qty": 64,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "476250184",
+      "description": "SERVO FUTURA GEO 20W-50-20 X 1 L",
       "qty": 50,
       "transitQty": 0,
       "uom": "CAR",
@@ -6726,16 +8013,7 @@
     {
       "code": "4763401",
       "description": "SERVOSTEELMOULD - 210 L BRL",
-      "qty": 0,
-      "transitQty": 19,
-      "uom": "BRL",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "4763401",
-      "description": "SERVOSTEELMOULD - 210 L BRL",
-      "qty": 17,
+      "qty": 36,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
@@ -6850,6 +8128,15 @@
       "plantCode": "5608"
     },
     {
+      "code": "4791401",
+      "description": "SERVOSYNGEAR 460 RR - 210L BRL",
+      "qty": 0,
+      "transitQty": 6,
+      "uom": "BRL",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
       "code": "4796401",
       "description": "SERVOSYNCO PE 100-210 L BRL",
       "qty": 2,
@@ -6857,6 +8144,15 @@
       "uom": "BRL",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "4803401",
+      "description": "SERVOTHERM SPECIAL-210L BRL",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "4803401",
@@ -6906,6 +8202,15 @@
     {
       "code": "4811401",
       "description": "SERVOTHERM S SPECIAL-210 L BRL",
+      "qty": 35,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4811401",
+      "description": "SERVOTHERM S SPECIAL-210 L BRL",
       "qty": 54,
       "transitQty": 0,
       "uom": "BRL",
@@ -6951,7 +8256,7 @@
     {
       "code": "482340204",
       "description": "SERVO PRIDE TC 15W-40-4 X 3 L PROMO",
-      "qty": 550,
+      "qty": 520,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
@@ -6992,6 +8297,15 @@
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
+    },
+    {
+      "code": "482340250",
+      "description": "SERVO PRIDE TC 15W-40-7.5 L PROMO",
+      "qty": 625,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "482340250",
@@ -7041,7 +8355,7 @@
     {
       "code": "482340250",
       "description": "SERVO PRIDE TC 15W-40-7.5 L PROMO",
-      "qty": 16,
+      "qty": 8,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
@@ -7149,6 +8463,15 @@
     {
       "code": "4906184",
       "description": "SERVO TRANSFLUID A-20X1L-HDPE",
+      "qty": 605,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Kolkata",
+      "plantCode": "2136"
+    },
+    {
+      "code": "4906184",
+      "description": "SERVO TRANSFLUID A-20X1L-HDPE",
       "qty": 3,
       "transitQty": 0,
       "uom": "CAR",
@@ -7185,7 +8508,16 @@
     {
       "code": "4906184",
       "description": "SERVO TRANSFLUID A-20X1L-HDPE",
-      "qty": 2375,
+      "qty": 0,
+      "transitQty": 500,
+      "uom": "CAR",
+      "plant": "CFA CIP Kolkata",
+      "plantCode": "5770"
+    },
+    {
+      "code": "4906184",
+      "description": "SERVO TRANSFLUID A-20X1L-HDPE",
+      "qty": 2155,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -7194,7 +8526,7 @@
     {
       "code": "4906234",
       "description": "SERVO TRANSFLUID A-4X5L-HDPE",
-      "qty": 940,
+      "qty": 16,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -7239,7 +8571,7 @@
     {
       "code": "4906234",
       "description": "SERVO TRANSFLUID A-4X5L-HDPE",
-      "qty": 1695,
+      "qty": 1495,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -7257,16 +8589,7 @@
     {
       "code": "4906242",
       "description": "SERVO TRANSFLUID A-10 L",
-      "qty": 0,
-      "transitQty": 64,
-      "uom": "BUC",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "4906242",
-      "description": "SERVO TRANSFLUID A-10 L",
-      "qty": 3,
+      "qty": 67,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
@@ -7280,6 +8603,15 @@
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "4906401",
+      "description": "SERVO TRANSFLUID A - 210L BRL",
+      "qty": 168,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "4906401",
@@ -7302,16 +8634,7 @@
     {
       "code": "4906401",
       "description": "SERVO TRANSFLUID A - 210L BRL",
-      "qty": 0,
-      "transitQty": 5,
-      "uom": "BRL",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "4906401",
-      "description": "SERVO TRANSFLUID A - 210L BRL",
-      "qty": 3,
+      "qty": 8,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
@@ -7356,11 +8679,29 @@
     {
       "code": "4925401",
       "description": "SERVO TRANSMISSION C4 SAE 30-210L BRL",
-      "qty": 45,
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4925401",
+      "description": "SERVO TRANSMISSION C4 SAE 30-210L BRL",
+      "qty": 24,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "4925401",
+      "description": "SERVO TRANSMISSION C4 SAE 30-210L BRL",
+      "qty": 0,
+      "transitQty": 21,
+      "uom": "BRL",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "4925401",
@@ -7519,6 +8860,15 @@
       "code": "4950269",
       "description": "SERVO OIB OIL -20L PROMO",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4950269",
+      "description": "SERVO OIB OIL -20L PROMO",
+      "qty": 0,
       "transitQty": 8,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
@@ -7545,6 +8895,15 @@
     {
       "code": "4950401",
       "description": "SERVO OIB OIL-210 L BRL",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4950401",
+      "description": "SERVO OIB OIL-210 L BRL",
       "qty": 0,
       "transitQty": 2,
       "uom": "BRL",
@@ -7559,6 +8918,60 @@
       "uom": "BRL",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "4960401",
+      "description": "MAHINDRA MSTAR CLASSIC-210 L BRL",
+      "qty": 2,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4961401",
+      "description": "SWARAJ CLASSIC NEW-210 L",
+      "qty": 8,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4963401",
+      "description": "SERVO TRANSTRAC (I)-210 L",
+      "qty": 67,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4964265",
+      "description": "SERVO MKM OIB OIL-20 L",
+      "qty": 0,
+      "transitQty": 439,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4965401",
+      "description": "SWARAJ CLASSIC NEW PLUS-210 L",
+      "qty": 9,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "4975401",
+      "description": "SERVO OIB PLUS-210 L",
+      "qty": 56,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "5001401",
@@ -7608,7 +9021,7 @@
     {
       "code": "5015401",
       "description": "SERVOSTEEL 220 PLUS - 210 L BRL",
-      "qty": 110,
+      "qty": 109,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -7681,6 +9094,15 @@
       "code": "5034184",
       "description": "SERVO GAS ENGINE OIL - 20x1L - HDPE",
       "qty": 0,
+      "transitQty": 52,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "5034184",
+      "description": "SERVO GAS ENGINE OIL - 20x1L - HDPE",
+      "qty": 0,
       "transitQty": 194,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -7714,6 +9136,33 @@
       "plantCode": "2136"
     },
     {
+      "code": "5034204",
+      "description": "SERVO GAS ENGINE OIL-4 X 3 L PROMO",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "5034265",
+      "description": "SERVO GAS ENGINE OIL-20L BUC",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "5034401",
+      "description": "SERVO GAS ENGINE OIL-210L BRL",
+      "qty": 7,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "5034401",
       "description": "SERVO GAS ENGINE OIL-210L BRL",
       "qty": 1,
@@ -7725,16 +9174,7 @@
     {
       "code": "5035401",
       "description": "SERVOSTEEL EP 100 PLUS - 210 L BRL",
-      "qty": 0,
-      "transitQty": 13,
-      "uom": "BRL",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "5035401",
-      "description": "SERVOSTEEL EP 100 PLUS - 210 L BRL",
-      "qty": 5,
+      "qty": 18,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
@@ -7757,6 +9197,15 @@
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
+    },
+    {
+      "code": "5048401",
+      "description": "SERVO PRIDE GEO 15W-40 LL-210 L",
+      "qty": 179,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "5048401",
@@ -7833,7 +9282,7 @@
     {
       "code": "5830401",
       "description": "SERVO MARINE 2040 - 210L BRL",
-      "qty": 13,
+      "qty": 65,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -7860,6 +9309,15 @@
     {
       "code": "5873401",
       "description": "SERVO GREEN EDGE-210 L BRL",
+      "qty": 3,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "5873401",
+      "description": "SERVO GREEN EDGE-210 L BRL",
       "qty": 16,
       "transitQty": 0,
       "uom": "BRL",
@@ -7869,7 +9327,7 @@
     {
       "code": "5902401",
       "description": "SERVO MARINE T 68-210L BRL",
-      "qty": 5,
+      "qty": 1,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
@@ -7878,7 +9336,7 @@
     {
       "code": "5922401",
       "description": "SERVO MARINE HYD 32-210L BRL",
-      "qty": 27,
+      "qty": 19,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
@@ -7892,15 +9350,6 @@
       "uom": "BRL",
       "plant": "CFA-PORT BLAIR",
       "plantCode": "5607"
-    },
-    {
-      "code": "5923401",
-      "description": "SERVO MARINE HYD 46-210L BRL",
-      "qty": 4,
-      "transitQty": 0,
-      "uom": "BRL",
-      "plant": "CFA CIP Kolkata",
-      "plantCode": "5770"
     },
     {
       "code": "5924401",
@@ -7946,6 +9395,15 @@
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "621230229",
+      "description": "SERVO HYPERSPORT 4T 10W30-20 X 1 L PROMO",
+      "qty": 37,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "621230229",
@@ -8004,6 +9462,15 @@
     {
       "code": "621440229",
       "description": "SERVO HYPERSPORT 4T-20 X 1 L PROMO",
+      "qty": 40,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "621440229",
+      "description": "SERVO HYPERSPORT 4T-20 X 1 L PROMO",
       "qty": 93,
       "transitQty": 0,
       "uom": "CAR",
@@ -8022,6 +9489,15 @@
     {
       "code": "621440230",
       "description": "SERVO HYPERSPORT 4T-20 X 0.9 L PROMO",
+      "qty": 506,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "621440230",
+      "description": "SERVO HYPERSPORT 4T-20 X 0.9 L PROMO",
       "qty": 9,
       "transitQty": 0,
       "uom": "CAR",
@@ -8031,8 +9507,8 @@
     {
       "code": "621440230",
       "description": "SERVO HYPERSPORT 4T-20 X 0.9 L PROMO",
-      "qty": 0,
-      "transitQty": 50,
+      "qty": 50,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -8085,6 +9561,15 @@
     {
       "code": "6325401",
       "description": "IOC ROEL 280 - 210L BRL",
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "6325401",
+      "description": "IOC ROEL 280 - 210L BRL",
       "qty": 2,
       "transitQty": 0,
       "uom": "BRL",
@@ -8103,8 +9588,8 @@
     {
       "code": "6353401",
       "description": "LUBREX 32 - 210L BRL",
-      "qty": 0,
-      "transitQty": 5,
+      "qty": 5,
+      "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -8126,6 +9611,24 @@
       "uom": "BRL",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "6490401",
+      "description": "SERVO KOOL WT (E)-210 L",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "651130111",
+      "description": "SERVO HYPERDRIVE 5W-30-4X3.5 L PROMO",
+      "qty": 966,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "651130111",
@@ -8175,6 +9678,24 @@
     {
       "code": "651130229",
       "description": "SERVO HYPERDRIVE 5W-30-20 X 1 L PROMO",
+      "qty": 960,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "651130229",
+      "description": "SERVO HYPERDRIVE 5W-30-20 X 1 L PROMO",
+      "qty": 0,
+      "transitQty": 100,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "651130229",
+      "description": "SERVO HYPERDRIVE 5W-30-20 X 1 L PROMO",
       "qty": 0,
       "transitQty": 300,
       "uom": "CAR",
@@ -8202,11 +9723,20 @@
     {
       "code": "652010401",
       "description": "SERVO HYPERDRIVE 0W-16-210 L",
-      "qty": 16,
+      "qty": 2,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "652020111",
+      "description": "SERVO HYPERDRIVE 0W-20-4X3.5 L PROMO",
+      "qty": 0,
+      "transitQty": 100,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "652020111",
@@ -8238,7 +9768,7 @@
     {
       "code": "671340240",
       "description": "SERVO HYPERTORQ 15W-40-4 X 5 L PROMO",
-      "qty": 194,
+      "qty": 144,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -8293,7 +9823,7 @@
       "code": "671340401",
       "description": "SERVO HYPERTORQ 15W-40-210 L",
       "qty": 0,
-      "transitQty": 19,
+      "transitQty": 50,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -8382,7 +9912,7 @@
     {
       "code": "681340240",
       "description": "SERVO HYPERTORQ NXT 15W-40-4 X 5 L PROMO",
-      "qty": 914,
+      "qty": 864,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -8436,6 +9966,15 @@
     {
       "code": "7079213",
       "description": "ECSTAR PETROL 0W-16 FE-4 X 3.5 L",
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7079213",
+      "description": "ECSTAR PETROL 0W-16 FE-4 X 3.5 L",
       "qty": 0,
       "transitQty": 100,
       "uom": "CAR",
@@ -8454,7 +9993,7 @@
     {
       "code": "7079401",
       "description": "ECSTAR PETROL 0W-16 FE-210 L",
-      "qty": 49,
+      "qty": 20,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
@@ -8490,16 +10029,7 @@
     {
       "code": "7205222",
       "description": "HYUNDAI SERVO SUPERIOR 0W30-4 X 4 L",
-      "qty": 0,
-      "transitQty": 62,
-      "uom": "CAR",
-      "plant": "CFA CIP Kolkata",
-      "plantCode": "5770"
-    },
-    {
-      "code": "7205222",
-      "description": "HYUNDAI SERVO SUPERIOR 0W30-4 X 4 L",
-      "qty": 50,
+      "qty": 102,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -8598,6 +10128,15 @@
     {
       "code": "7208401",
       "description": "SERVO SUPERIOR EO 0W20 SN PLUS-210 L",
+      "qty": 146,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7208401",
+      "description": "SERVO SUPERIOR EO 0W20 SN PLUS-210 L",
       "qty": 3,
       "transitQty": 0,
       "uom": "BRL",
@@ -8634,7 +10173,7 @@
     {
       "code": "7208401",
       "description": "SERVO SUPERIOR EO 0W20 SN PLUS-210 L",
-      "qty": 38,
+      "qty": 36,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
@@ -8652,8 +10191,8 @@
     {
       "code": "7209213",
       "description": "HY SERVO SYNTH 0W-30 SP/C3-4 X 3.5 L",
-      "qty": 0,
-      "transitQty": 20,
+      "qty": 20,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -8661,7 +10200,7 @@
     {
       "code": "7209213",
       "description": "HY SERVO SYNTH 0W-30 SP/C3-4 X 3.5 L",
-      "qty": 26,
+      "qty": 6,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -8680,7 +10219,16 @@
       "code": "7209401",
       "description": "HY SERVO SYNTH 0W-30 SP/C3-210 L",
       "qty": 0,
-      "transitQty": 61,
+      "transitQty": 23,
+      "uom": "BRL",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
+    },
+    {
+      "code": "7209401",
+      "description": "HY SERVO SYNTH 0W-30 SP/C3-210 L",
+      "qty": 0,
+      "transitQty": 20,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -8688,11 +10236,20 @@
     {
       "code": "7209401",
       "description": "HY SERVO SYNTH 0W-30 SP/C3-210 L",
-      "qty": 6,
+      "qty": 55,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "7211213",
+      "description": "SERVO GREENMILE-4 X 3.5 L",
+      "qty": 0,
+      "transitQty": 17,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7211213",
@@ -8725,6 +10282,15 @@
       "code": "7227251",
       "description": "SERVO TRACTOR GREEN-7.5 L",
       "qty": 0,
+      "transitQty": 2,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7227251",
+      "description": "SERVO TRACTOR GREEN-7.5 L",
+      "qty": 0,
       "transitQty": 12,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
@@ -8738,6 +10304,15 @@
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7231256",
+      "description": "SERVO RAFTAAR-15 L",
+      "qty": 0,
+      "transitQty": 2,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7231256",
@@ -8767,6 +10342,15 @@
       "plantCode": "5770"
     },
     {
+      "code": "724160401",
+      "description": "SERVO SUPERIOR FE 0W-16-210 L",
+      "qty": 30,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "724740401",
       "description": "SERVO SYNGEAR TM 75W-85 LL-210 L",
       "qty": 24,
@@ -8774,6 +10358,24 @@
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "7256401",
+      "description": "SERVO PRIDE TC 10W-40-210 L",
+      "qty": 17,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7257401",
+      "description": "SERVO PRIDE XL PLUS 15W-40 (D)-210 L",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7263234",
@@ -8859,7 +10461,7 @@
     {
       "code": "7265234",
       "description": "SERVO MG GLOSTER DIESEL EO-4 X 5 L",
-      "qty": 111,
+      "qty": 107,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -8932,6 +10534,15 @@
       "code": "7271111",
       "description": "SERVO FUTURA NXT 0W-16-4X3.5 L PROMO",
       "qty": 0,
+      "transitQty": 62,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7271111",
+      "description": "SERVO FUTURA NXT 0W-16-4X3.5 L PROMO",
+      "qty": 0,
       "transitQty": 9,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -8945,6 +10556,15 @@
       "uom": "CAR",
       "plant": "CFA-PORT BLAIR",
       "plantCode": "5607"
+    },
+    {
+      "code": "7271213",
+      "description": "SERVO FUTURA NXT 0W-16-4 X 3.5 L",
+      "qty": 0,
+      "transitQty": 8,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7271229",
@@ -8977,6 +10597,15 @@
       "code": "7272111",
       "description": "SERVO FUTURA NXT 0W-20-4X3.5 L PROMO",
       "qty": 0,
+      "transitQty": 16,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7272111",
+      "description": "SERVO FUTURA NXT 0W-20-4X3.5 L PROMO",
+      "qty": 0,
       "transitQty": 82,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -9003,8 +10632,8 @@
     {
       "code": "729680213",
       "description": "HYUNDAI SERVO ENGINE OIL 5W-30-4 X 3.5 L",
-      "qty": 0,
-      "transitQty": 520,
+      "qty": 520,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -9012,7 +10641,7 @@
     {
       "code": "729810265",
       "description": "JCB HVI HYDRAULIC OIL-20 L",
-      "qty": 254,
+      "qty": 11,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "LBP - Budge Budge",
@@ -9021,7 +10650,7 @@
     {
       "code": "729810271",
       "description": "JCB HVI HYDRAULIC OIL-50 L",
-      "qty": 60,
+      "qty": 75,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "LBP - Budge Budge",
@@ -9066,6 +10695,15 @@
     {
       "code": "7364184",
       "description": "SERVO ECO CF-4 15W-40-20 X 1 L",
+      "qty": 0,
+      "transitQty": 16,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7364184",
+      "description": "SERVO ECO CF-4 15W-40-20 X 1 L",
       "qty": 237,
       "transitQty": 0,
       "uom": "CAR",
@@ -9091,6 +10729,15 @@
       "plantCode": "2136"
     },
     {
+      "code": "7364251",
+      "description": "SERVO ECO CF-4 15W-40-7.5 L",
+      "qty": 0,
+      "transitQty": 84,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7368234",
       "description": "TMOO 0W-20 DSX FULLY SYNTH OIL-4 X 5 L",
       "qty": 12,
@@ -9107,6 +10754,24 @@
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "7376251",
+      "description": "SERVO ECO TRACTOR OIL-7.5 L",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7376252",
+      "description": "SERVO ECO TRACTOR OIL-8.5 L",
+      "qty": 0,
+      "transitQty": 319,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7376252",
@@ -9127,6 +10792,24 @@
       "plantCode": "5610"
     },
     {
+      "code": "7397278",
+      "description": "TAFE MILES ROYAL-2 X 8.5 L",
+      "qty": 1535,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7398278",
+      "description": "TAFE MILES CLASSIC-2 X 8.5 L",
+      "qty": 1751,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7403401",
       "description": "SERVOELECTRA - 210L BRL",
       "qty": 43,
@@ -9138,7 +10821,7 @@
     {
       "code": "7403401",
       "description": "SERVOELECTRA - 210L BRL",
-      "qty": 2171,
+      "qty": 2283,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Budge Budge",
@@ -9219,7 +10902,7 @@
     {
       "code": "7420213",
       "description": "HY SERVO PETROL EO SN PLUS-4 X 3.5 L",
-      "qty": 389,
+      "qty": 369,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -9242,6 +10925,15 @@
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "7420401",
+      "description": "HY SERVO PETROL EO SN PLUS-210 L",
+      "qty": 472,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7420401",
@@ -9273,16 +10965,7 @@
     {
       "code": "7420401",
       "description": "HY SERVO PETROL EO SN PLUS-210 L",
-      "qty": 0,
-      "transitQty": 4,
-      "uom": "BRL",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
-    },
-    {
-      "code": "7420401",
-      "description": "HY SERVO PETROL EO SN PLUS-210 L",
-      "qty": 1,
+      "qty": 5,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-RAJBANDH",
@@ -9291,7 +10974,7 @@
     {
       "code": "7420401",
       "description": "HY SERVO PETROL EO SN PLUS-210 L",
-      "qty": 13,
+      "qty": 10,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA CIP Kolkata",
@@ -9343,13 +11026,13 @@
       "plantCode": "5608"
     },
     {
-      "code": "7421401",
-      "description": "HYUNDAI SERVO DEO ACEA C5-210 L",
-      "qty": 3,
+      "code": "7427213",
+      "description": "ECSTAR PETROL 0W-20-4 X 3.5 L",
+      "qty": 1,
       "transitQty": 0,
-      "uom": "BRL",
-      "plant": "CFA CIP Kolkata",
-      "plantCode": "5770"
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7427213",
@@ -9372,7 +11055,7 @@
     {
       "code": "7427213",
       "description": "ECSTAR PETROL 0W-20-4 X 3.5 L",
-      "qty": 230,
+      "qty": 220,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
@@ -9395,6 +11078,15 @@
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "7427401",
+      "description": "ECSTAR PETROL 0W-20-210 L",
+      "qty": 67,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7427401",
@@ -9490,10 +11182,28 @@
       "code": "7429184",
       "description": "SERVO SUPERMILE 10W-30-20 X 1 L",
       "qty": 0,
+      "transitQty": 3,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7429184",
+      "description": "SERVO SUPERMILE 10W-30-20 X 1 L",
+      "qty": 0,
       "transitQty": 1,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7429240",
+      "description": "SERVO SUPERMILE 10W-30-4 X 5 L PROMO",
+      "qty": 0,
+      "transitQty": 26,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7429244",
@@ -9526,10 +11236,28 @@
       "code": "7430240",
       "description": "SERVO SUPERMILE PLUS 5W-30-4 X 5 L PROMO",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7430240",
+      "description": "SERVO SUPERMILE PLUS 5W-30-4 X 5 L PROMO",
+      "qty": 0,
       "transitQty": 3,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7430297",
+      "description": "SERVO SUPERMILE PLUS 5W-30-7 L PROMO",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7430297",
@@ -9598,6 +11326,15 @@
       "code": "7436203",
       "description": "SERVO PRIDE NXT CK4 15W-40-4 X 3 L",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7436203",
+      "description": "SERVO PRIDE NXT CK4 15W-40-4 X 3 L",
+      "qty": 0,
       "transitQty": 36,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -9631,6 +11368,15 @@
       "plantCode": "2136"
     },
     {
+      "code": "7436401",
+      "description": "SERVO PRIDE NXT CK4 15W40-210 L BRL",
+      "qty": 155,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7442401",
       "description": "ECSTAR NEXA 0W-20 PETROL-210 L",
       "qty": 12,
@@ -9661,10 +11407,28 @@
       "code": "7470184",
       "description": "S FLEET SUPREME CI4PLUS 15W-40-20 X 1 L",
       "qty": 0,
+      "transitQty": 2,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7470184",
+      "description": "S FLEET SUPREME CI4PLUS 15W-40-20 X 1 L",
+      "qty": 0,
       "transitQty": 6,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7470251",
+      "description": "S FLEET SUPREME CI4PLUS 15W-40-7.5 L",
+      "qty": 0,
+      "transitQty": 7,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7470251",
@@ -9679,6 +11443,15 @@
       "code": "7470256",
       "description": "SERVO FLEET SUPREME CI4 PLUS 15W-40-15 L",
       "qty": 0,
+      "transitQty": 2,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7470256",
+      "description": "SERVO FLEET SUPREME CI4 PLUS 15W-40-15 L",
+      "qty": 0,
       "transitQty": 1,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
@@ -9687,7 +11460,7 @@
     {
       "code": "7470401",
       "description": "S FLEET SUPREME CI4PLUS 15W-40-210 L",
-      "qty": 85,
+      "qty": 75,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -9701,6 +11474,24 @@
       "uom": "BRL",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "7471277",
+      "description": "TGO PLUS-2 X 7.5 L",
+      "qty": 1582,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7472184",
+      "description": "SERVO FLT CF4 15W-40-20 X 1 L",
+      "qty": 0,
+      "transitQty": 10,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7472184",
@@ -9724,10 +11515,28 @@
       "code": "7472203",
       "description": "SERVO FLT CF4 15W-40-4 X 3 L",
       "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7472203",
+      "description": "SERVO FLT CF4 15W-40-4 X 3 L",
+      "qty": 0,
       "transitQty": 13,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7472234",
+      "description": "SERVO FLT CF4 15W-40-4 X 5 L",
+      "qty": 0,
+      "transitQty": 1093,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7472234",
@@ -9742,10 +11551,28 @@
       "code": "7472251",
       "description": "SERVO FLT CF4 15W-40-7.5 L",
       "qty": 0,
+      "transitQty": 24,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7472251",
+      "description": "SERVO FLT CF4 15W-40-7.5 L",
+      "qty": 0,
       "transitQty": 7,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7472256",
+      "description": "SERVO FLT CF4 15W-40-15 L",
+      "qty": 0,
+      "transitQty": 380,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7472256",
@@ -9823,6 +11650,15 @@
       "code": "7485174",
       "description": "SERVO SUPER 20W-40 MG-40X1/2L",
       "qty": 0,
+      "transitQty": 13,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7485174",
+      "description": "SERVO SUPER 20W-40 MG-40X1/2L",
+      "qty": 0,
       "transitQty": 35,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -9850,6 +11686,15 @@
       "code": "7485184",
       "description": "SERVO SUPER 20W-40 MG-20 X 1 L",
       "qty": 0,
+      "transitQty": 27,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7485184",
+      "description": "SERVO SUPER 20W-40 MG-20 X 1 L",
+      "qty": 0,
       "transitQty": 11,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -9868,10 +11713,37 @@
       "code": "7485234",
       "description": "SERVO SUPER 20W-40 MG-4x5L - HDPE",
       "qty": 0,
+      "transitQty": 10,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7485234",
+      "description": "SERVO SUPER 20W-40 MG-4x5L - HDPE",
+      "qty": 21,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7485234",
+      "description": "SERVO SUPER 20W-40 MG-4x5L - HDPE",
+      "qty": 0,
       "transitQty": 192,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7485242",
+      "description": "SERVO SUPER 20W-40 MG-10 L",
+      "qty": 0,
+      "transitQty": 7,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7485242",
@@ -9895,10 +11767,46 @@
       "code": "7485251",
       "description": "SERVO SUPER 20W-40 MG-7.5 L",
       "qty": 0,
+      "transitQty": 3,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7485251",
+      "description": "SERVO SUPER 20W-40 MG-7.5 L",
+      "qty": 12,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7485251",
+      "description": "SERVO SUPER 20W-40 MG-7.5 L",
+      "qty": 0,
       "transitQty": 12,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7485265",
+      "description": "SERVO SUPER 20W-40 MG-20 L",
+      "qty": 0,
+      "transitQty": 7,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7485265",
+      "description": "SERVO SUPER 20W-40 MG-20 L",
+      "qty": 5,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7485265",
@@ -9930,7 +11838,7 @@
     {
       "code": "7485401",
       "description": "SERVO SUPER 20W-40 MG-210 L BRL",
-      "qty": 37,
+      "qty": 26,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -9964,6 +11872,15 @@
       "plantCode": "5610"
     },
     {
+      "code": "7488401",
+      "description": "SERVO PRIDE TM 15W-40-210 L BRL",
+      "qty": 2,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7489184",
       "description": "SERVO PRIDE XL PLUS 15W40-20 X 1 L",
       "qty": 0,
@@ -9989,6 +11906,15 @@
       "uom": "CAN",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7489234",
+      "description": "SERVO PRIDE XL PLUS 15W40-4x5L - HDPE",
+      "qty": 0,
+      "transitQty": 4,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7489234",
@@ -10021,6 +11947,15 @@
       "code": "7489241",
       "description": "SERVO PRIDE XL PLUS 15W40-10L PROMO",
       "qty": 0,
+      "transitQty": 2,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7489241",
+      "description": "SERVO PRIDE XL PLUS 15W40-10L PROMO",
+      "qty": 0,
       "transitQty": 6,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
@@ -10041,6 +11976,24 @@
       "qty": 0,
       "transitQty": 4,
       "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7489250",
+      "description": "SERVO PRIDE XL PLUS 15W40-7.5L PROMO",
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7489250",
+      "description": "SERVO PRIDE XL PLUS 15W40-7.5L PROMO",
+      "qty": 0,
+      "transitQty": 4,
+      "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
     },
@@ -10052,6 +12005,15 @@
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7489256",
+      "description": "SERVO PRIDE XL PLUS 15W40-15 L",
+      "qty": 0,
+      "transitQty": 3,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7489256",
@@ -10110,7 +12072,25 @@
     {
       "code": "7489401",
       "description": "SERVO PRIDE XL PLUS 15W40-210 L BRL",
-      "qty": 105,
+      "qty": 9,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7489401",
+      "description": "SERVO PRIDE XL PLUS 15W40-210 L BRL",
+      "qty": 2,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7489401",
+      "description": "SERVO PRIDE XL PLUS 15W40-210 L BRL",
+      "qty": 93,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -10137,20 +12117,11 @@
     {
       "code": "7489401",
       "description": "SERVO PRIDE XL PLUS 15W40-210 L BRL",
-      "qty": 2,
+      "qty": 7,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
-    },
-    {
-      "code": "7489401",
-      "description": "SERVO PRIDE XL PLUS 15W40-210 L BRL",
-      "qty": 2,
-      "transitQty": 0,
-      "uom": "BRL",
-      "plant": "CFA-RAJBANDH",
-      "plantCode": "5611"
     },
     {
       "code": "7494173",
@@ -10169,6 +12140,15 @@
       "uom": "CAN",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7494234",
+      "description": "SERVO SUP.MULT.GRD 20W-40-4x5L - HDPE",
+      "qty": 0,
+      "transitQty": 2,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7494242",
@@ -10236,7 +12216,7 @@
     {
       "code": "7511184",
       "description": "SERVO GEAR SUPER 80W-90 - 20 X 1 L HDPE",
-      "qty": 111,
+      "qty": 71,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -10272,8 +12252,8 @@
     {
       "code": "7511234",
       "description": "SERVO GEAR SUPER 80W-90 - 4 X 5 L HDPE",
-      "qty": 0,
-      "transitQty": 72,
+      "qty": 72,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -10308,7 +12288,7 @@
     {
       "code": "7511240",
       "description": "SERVO GEAR SUPER 80W-90-4 X 5 L PROMO",
-      "qty": 210,
+      "qty": 200,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
@@ -10398,7 +12378,7 @@
     {
       "code": "7511401",
       "description": "SERVO GEAR SUPER 80W-90 - 210L BRL",
-      "qty": 128,
+      "qty": 103,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -10441,10 +12421,19 @@
       "plantCode": "5770"
     },
     {
+      "code": "7514401",
+      "description": "SERVO SUPER MG 20W50-210L BRL",
+      "qty": 7,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7515052",
       "description": "SERVO GEAR SUPER 85W-140-12 L BUC",
       "qty": 0,
-      "transitQty": 1180,
+      "transitQty": 660,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
@@ -10452,7 +12441,7 @@
     {
       "code": "7515052",
       "description": "SERVO GEAR SUPER 85W-140-12 L BUC",
-      "qty": 338,
+      "qty": 858,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA CIP Kolkata",
@@ -10461,7 +12450,7 @@
     {
       "code": "7515184",
       "description": "SERVO GEAR SUPER 85W-140 - 20 X 1 L HDPE",
-      "qty": 591,
+      "qty": 21,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -10524,6 +12513,24 @@
     {
       "code": "7515240",
       "description": "SERVO GEAR SUPER 85W-140-4 X 5 L PROMO",
+      "qty": 50,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7515240",
+      "description": "SERVO GEAR SUPER 85W-140-4 X 5 L PROMO",
+      "qty": 1140,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Kolkata",
+      "plantCode": "2136"
+    },
+    {
+      "code": "7515240",
+      "description": "SERVO GEAR SUPER 85W-140-4 X 5 L PROMO",
       "qty": 41,
       "transitQty": 0,
       "uom": "CAR",
@@ -10533,7 +12540,7 @@
     {
       "code": "7515240",
       "description": "SERVO GEAR SUPER 85W-140-4 X 5 L PROMO",
-      "qty": 183,
+      "qty": 173,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-MOURIGRAM",
@@ -10551,7 +12558,16 @@
     {
       "code": "7515240",
       "description": "SERVO GEAR SUPER 85W-140-4 X 5 L PROMO",
-      "qty": 1525,
+      "qty": 0,
+      "transitQty": 400,
+      "uom": "CAR",
+      "plant": "CFA CIP Kolkata",
+      "plantCode": "5770"
+    },
+    {
+      "code": "7515240",
+      "description": "SERVO GEAR SUPER 85W-140-4 X 5 L PROMO",
+      "qty": 1345,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -10601,6 +12617,24 @@
       "uom": "BUC",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "7515401",
+      "description": "SERVO GEAR SUPER 85W-140-210L BRL",
+      "qty": 5,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7515401",
+      "description": "SERVO GEAR SUPER 85W-140-210L BRL",
+      "qty": 10,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7515401",
@@ -10729,6 +12763,15 @@
       "plantCode": "2136"
     },
     {
+      "code": "7534401",
+      "description": "SERVO SUPERIOR XEE 5W-30 - 210 L BRL",
+      "qty": 5,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7553213",
       "description": "SERVO TILLER SUPER 20W-40-4 X 3.5 L",
       "qty": 0,
@@ -10756,6 +12799,15 @@
       "plantCode": "2136"
     },
     {
+      "code": "7554251",
+      "description": "SERVO TRCTR OIL PLS 15W40-7.5 L",
+      "qty": 0,
+      "transitQty": 9,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7554252",
       "description": "SERVO TRCTR OIL PLS 15W40-8.5 L BUC",
       "qty": 26,
@@ -10777,6 +12829,15 @@
       "code": "7556195",
       "description": "SERVO PRIDE TC 15W-40 - 4 X 2.5 L HDPE",
       "qty": 0,
+      "transitQty": 5,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7556195",
+      "description": "SERVO PRIDE TC 15W-40 - 4 X 2.5 L HDPE",
+      "qty": 0,
       "transitQty": 30,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
@@ -10788,8 +12849,26 @@
       "qty": 0,
       "transitQty": 1,
       "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7556203",
+      "description": "SERVO PRIDE TC 15W-40 - 4 X 3 L HDPE",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7556204",
+      "description": "SERVO PRIDE TC 15W40-4X3 L PROMO",
+      "qty": 0,
+      "transitQty": 15,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7556204",
@@ -10813,10 +12892,28 @@
       "code": "7556241",
       "description": "SERVO PRIDE TC 15W40-10L PROMO",
       "qty": 0,
+      "transitQty": 36,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7556241",
+      "description": "SERVO PRIDE TC 15W40-10L PROMO",
+      "qty": 0,
       "transitQty": 19,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7556250",
+      "description": "SERVO PRIDE TC 15W40-7.5L PROMO",
+      "qty": 0,
+      "transitQty": 14,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7556250",
@@ -10849,10 +12946,28 @@
       "code": "7556253",
       "description": "SERVO PRIDE TC 15W40-15L PROMO",
       "qty": 0,
+      "transitQty": 162,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7556253",
+      "description": "SERVO PRIDE TC 15W40-15L PROMO",
+      "qty": 0,
       "transitQty": 14,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7556265",
+      "description": "SERVO PRIDE TC 15W40 - 20L BUC",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7556265",
@@ -10871,6 +12986,24 @@
       "uom": "BUC",
       "plant": "LBP - Budge Budge",
       "plantCode": "2138"
+    },
+    {
+      "code": "7556401",
+      "description": "SERVO PRIDE TC 15W40 - 210 L BRL",
+      "qty": 2,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7556401",
+      "description": "SERVO PRIDE TC 15W40 - 210 L BRL",
+      "qty": 1004,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7561401",
@@ -10894,10 +13027,28 @@
       "code": "7563250",
       "description": "SERVO TRACTOR OIL MG 20W-40-7.5L PROMO",
       "qty": 0,
+      "transitQty": 6,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7563250",
+      "description": "SERVO TRACTOR OIL MG 20W-40-7.5L PROMO",
+      "qty": 0,
       "transitQty": 8,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7577174",
+      "description": "SERVO PREMIUM CF-4 15W-40-40X1/2L-HDPE",
+      "qty": 0,
+      "transitQty": 3,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7577174",
@@ -10909,6 +13060,24 @@
       "plantCode": "2136"
     },
     {
+      "code": "7577175",
+      "description": "SERVO PREMIUM CF-4 15W-40-20X1/2L-HDPE",
+      "qty": 0,
+      "transitQty": 1,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7577184",
+      "description": "SERVO PREMIUM CF-4 15W-40-20X1L-HDPE",
+      "qty": 0,
+      "transitQty": 6,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7577184",
       "description": "SERVO PREMIUM CF-4 15W-40-20X1L-HDPE",
       "qty": 0,
@@ -10916,6 +13085,15 @@
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7577234",
+      "description": "SERVO PREMIUM CF-4 15W-40-4X5L-HDPE",
+      "qty": 0,
+      "transitQty": 10,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7577234",
@@ -10948,10 +13126,28 @@
       "code": "7577240",
       "description": "SERVO PREMIUM CF-4 15W-40-4x5L - PROMO",
       "qty": 0,
+      "transitQty": 2,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7577240",
+      "description": "SERVO PREMIUM CF-4 15W-40-4x5L - PROMO",
+      "qty": 0,
       "transitQty": 3,
       "uom": "CAR",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7577242",
+      "description": "SERVO PREMIUM CF-4 15W-40-10L BUC",
+      "qty": 0,
+      "transitQty": 5,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7577242",
@@ -10984,10 +13180,37 @@
       "code": "7577251",
       "description": "SERVO PREMIUM CF-4 15W-40-7.5 L",
       "qty": 0,
+      "transitQty": 667,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7577251",
+      "description": "SERVO PREMIUM CF-4 15W-40-7.5 L",
+      "qty": 6,
+      "transitQty": 0,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7577251",
+      "description": "SERVO PREMIUM CF-4 15W-40-7.5 L",
+      "qty": 0,
       "transitQty": 378,
       "uom": "BUC",
       "plant": "LBP - Kolkata",
       "plantCode": "2136"
+    },
+    {
+      "code": "7577256",
+      "description": "SERVO PREMIUM CF-4 15W-40-15 L",
+      "qty": 0,
+      "transitQty": 131,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7577256",
@@ -11011,6 +13234,15 @@
       "code": "7577265",
       "description": "SERVO PREMIUM CF 4 15W 40-20L BUC",
       "qty": 0,
+      "transitQty": 2,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7577265",
+      "description": "SERVO PREMIUM CF 4 15W 40-20L BUC",
+      "qty": 0,
       "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RANINAGAR (LUBE)",
@@ -11024,6 +13256,24 @@
       "uom": "BUC",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "7577401",
+      "description": "SERVO PREMIUM CF-4 15W-40 - 210L BRL",
+      "qty": 0,
+      "transitQty": 0.486,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7577401",
+      "description": "SERVO PREMIUM CF-4 15W-40 - 210L BRL",
+      "qty": 178,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7577401",
@@ -11046,11 +13296,29 @@
     {
       "code": "7584184",
       "description": "SERVO KOOL PLUS-20X1L-HDPE",
+      "qty": 690,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7584184",
+      "description": "SERVO KOOL PLUS-20X1L-HDPE",
       "qty": 0,
       "transitQty": 200,
       "uom": "CAR",
       "plant": "CFA-RANINAGAR (LUBE)",
       "plantCode": "5608"
+    },
+    {
+      "code": "7584184",
+      "description": "SERVO KOOL PLUS-20X1L-HDPE",
+      "qty": 0,
+      "transitQty": 200,
+      "uom": "CAR",
+      "plant": "CFA-MOURIGRAM",
+      "plantCode": "5610"
     },
     {
       "code": "7584184",
@@ -11107,6 +13375,15 @@
       "plantCode": "5608"
     },
     {
+      "code": "7586401",
+      "description": "SERVO ORCHARD SPRAY OIL-210L BRL",
+      "qty": 25,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7600184",
       "description": "MGO 20W-40 - 20 X 1 L",
       "qty": 362,
@@ -11136,11 +13413,29 @@
     {
       "code": "7600184",
       "description": "MGO 20W-40 - 20 X 1 L",
-      "qty": 873,
+      "qty": 673,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "7600203",
+      "description": "MGO 20W-40 - 4 X 3 L",
+      "qty": 0,
+      "transitQty": 23,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7600203",
+      "description": "MGO 20W-40 - 4 X 3 L",
+      "qty": 163,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7600203",
@@ -11190,11 +13485,20 @@
     {
       "code": "7600203",
       "description": "MGO 20W-40 - 4 X 3 L",
-      "qty": 61,
+      "qty": 3,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
       "plantCode": "5770"
+    },
+    {
+      "code": "7600401",
+      "description": "MGO 20W-40 - 210L BRL",
+      "qty": 10,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7600401",
@@ -11233,6 +13537,33 @@
       "plantCode": "5610"
     },
     {
+      "code": "7607184",
+      "description": "SERVO KOOL READY-20X1L-HDPE",
+      "qty": 0,
+      "transitQty": 70,
+      "uom": "CAR",
+      "plant": "CFA CIP Kolkata",
+      "plantCode": "5770"
+    },
+    {
+      "code": "7607401",
+      "description": "SERVO KOOL READY-210L BRL",
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7607401",
+      "description": "SERVO KOOL READY-210L BRL",
+      "qty": 82,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7607401",
       "description": "SERVO KOOL READY-210L BRL",
       "qty": 19,
@@ -11244,7 +13575,7 @@
     {
       "code": "7612401",
       "description": "SERVO PRIDE XL 15W-40 - 210L BRL",
-      "qty": 22,
+      "qty": 12,
       "transitQty": 0,
       "uom": "BRL",
       "plant": "LBP - Kolkata",
@@ -11267,6 +13598,15 @@
       "uom": "BRL",
       "plant": "CFA-MOURIGRAM",
       "plantCode": "5610"
+    },
+    {
+      "code": "7613401",
+      "description": "SERVOHORTICULTURE SPRAY OIL-210L BRL",
+      "qty": 8,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7614401",
@@ -11294,6 +13634,51 @@
       "uom": "BRL",
       "plant": "CFA-PORT BLAIR",
       "plantCode": "5607"
+    },
+    {
+      "code": "7617184",
+      "description": "SERVO PRIDE GEO 15W40- 20x1L - HDPE",
+      "qty": 0,
+      "transitQty": 10,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7617251",
+      "description": "SERVO PRIDE GEO 15W40-7.5 L",
+      "qty": 0,
+      "transitQty": 4,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7617256",
+      "description": "SERVO PRIDE GEO 15W-40-15L BUC",
+      "qty": 0,
+      "transitQty": 21,
+      "uom": "BUC",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7630401",
+      "description": "SERVO PRIDE ALT 15W-40 - 210 L BRL",
+      "qty": 1,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7638401",
+      "description": "HYUNDAI SERVO CRDi PREM.ENG.OIL-210L BRL",
+      "qty": 40,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
     },
     {
       "code": "7643401",
@@ -11341,6 +13726,24 @@
       "plantCode": "5608"
     },
     {
+      "code": "7652401",
+      "description": "SERVO AGROSPRAY S - 210L BRL",
+      "qty": 28,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7653401",
+      "description": "SERVO AGROSPRAY M - 210L BRL",
+      "qty": 3,
+      "transitQty": 0,
+      "uom": "BRL",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
       "code": "7660222",
       "description": "SERVO FUTURA D-4 x 4 L",
       "qty": 0,
@@ -11370,7 +13773,16 @@
     {
       "code": "7670213",
       "description": "MGDO 15W-40 - 4 X 3.5 L",
-      "qty": 20,
+      "qty": 4,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7670213",
+      "description": "MGDO 15W-40 - 4 X 3.5 L",
+      "qty": 434,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "LBP - Budge Budge",
@@ -11505,6 +13917,15 @@
     {
       "code": "7688203",
       "description": "MGO 5W-30-4 X 3 L",
+      "qty": 48,
+      "transitQty": 0,
+      "uom": "CAR",
+      "plant": "LBP - Asaoti",
+      "plantCode": "1140"
+    },
+    {
+      "code": "7688203",
+      "description": "MGO 5W-30-4 X 3 L",
       "qty": 120,
       "transitQty": 0,
       "uom": "CAR",
@@ -11523,8 +13944,8 @@
     {
       "code": "7688203",
       "description": "MGO 5W-30-4 X 3 L",
-      "qty": 0,
-      "transitQty": 75,
+      "qty": 75,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -11541,7 +13962,7 @@
     {
       "code": "7688203",
       "description": "MGO 5W-30-4 X 3 L",
-      "qty": 1321,
+      "qty": 1162,
       "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA CIP Kolkata",
@@ -11784,8 +14205,8 @@
     {
       "code": "7705327",
       "description": "SERVOGREASE MP 3-6X2 KG",
-      "qty": 0,
-      "transitQty": 10,
+      "qty": 10,
+      "transitQty": 0,
       "uom": "CAR",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -11901,8 +14322,8 @@
     {
       "code": "7705341",
       "description": "SERVOGREASE MP 3 -20 KG BUC",
-      "qty": 0,
-      "transitQty": 50,
+      "qty": 50,
+      "transitQty": 0,
       "uom": "BUC",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -12171,8 +14592,8 @@
     {
       "code": "7727451",
       "description": "SERVO GEM RR 3-182 KG DRM",
-      "qty": 0,
-      "transitQty": 10,
+      "qty": 10,
+      "transitQty": 0,
       "uom": "DRM",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -12261,8 +14682,8 @@
     {
       "code": "7742451",
       "description": "SERVOGEM EP 2-182 KG DRM",
-      "qty": 0,
-      "transitQty": 40,
+      "qty": 18,
+      "transitQty": 0,
       "uom": "DRM",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -12270,7 +14691,7 @@
     {
       "code": "7743451",
       "description": "SERVOGEM HT-182 KG DRM",
-      "qty": 9,
+      "qty": 7,
       "transitQty": 0,
       "uom": "DRM",
       "plant": "CFA-RAJBANDH",
@@ -12666,7 +15087,7 @@
     {
       "code": "7870451",
       "description": "SERVOPLEX LC2(460)-182 KG",
-      "qty": 12,
+      "qty": 10,
       "transitQty": 0,
       "uom": "DRM",
       "plant": "CFA-RAJBANDH",
@@ -12754,6 +15175,15 @@
       "plantCode": "5610"
     },
     {
+      "code": "7888451",
+      "description": "SERVOGEM EP 2X-182 KG DRM",
+      "qty": 22,
+      "transitQty": 0,
+      "uom": "DRM",
+      "plant": "CFA-RAJBANDH",
+      "plantCode": "5611"
+    },
+    {
       "code": "7890451",
       "description": "SERVOGEM EP2 (C) - 182 KG DRM",
       "qty": 5,
@@ -12774,8 +15204,8 @@
     {
       "code": "7890451",
       "description": "SERVOGEM EP2 (C) - 182 KG DRM",
-      "qty": 0,
-      "transitQty": 10,
+      "qty": 8,
+      "transitQty": 0,
       "uom": "DRM",
       "plant": "CFA-RAJBANDH",
       "plantCode": "5611"
@@ -14287,7 +16717,7 @@
       }
     }
   },
-  "stockCaptureDate": "09-11-2026",
-  "stockUploadTime": "10:03:05 am",
-  "lastUpdated": "2026-11-09T04:33:05.341Z"
+  "stockCaptureDate": "10-11-2026",
+  "stockUploadTime": "02:22:45 pm",
+  "lastUpdated": "2026-11-10T08:52:45.509Z"
 }
