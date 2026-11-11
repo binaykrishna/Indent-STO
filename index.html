@@ -3091,7 +3091,7 @@
                 return;
             }
 
-            tbody.innerHTML = filtered.slice(0, 950).map((item) => {
+            tbody.innerHTML = filtered.slice(0, 3950).map((item) => {
                 const master = masterDatabase[item.code] || {};
                 const displayName = master.name || item.description || 'Description Not Available';
                 const hasAvail = item.qty > 0;
